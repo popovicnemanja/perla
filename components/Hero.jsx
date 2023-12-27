@@ -21,7 +21,7 @@ const Hero = () => {
               alt="A woman holds the hand of a man in a wheelchair mobile version"
               width={387}
               height={471}
-              className={`${styles["hero_img-mobile"]}`}
+              className={`${styles["hero__img-mobile"]}`}
             />
             <Image
               src="/assets/images/hero__img-desktop.png"
