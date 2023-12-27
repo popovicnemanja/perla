@@ -24,7 +24,7 @@ const Hero = () => {
               className={`${styles["hero__img-mobile"]}`}
             />
             <Image
-              src="/assets/images/hero__img-desktop.png"
+              src="/assets/images/hero_img-desktop.png"
               alt="A woman holds the hand of a man in a wheelchair desktop version"
               width={540}
               height={563}
