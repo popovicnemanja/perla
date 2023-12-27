@@ -37,7 +37,7 @@
   max-width: 40ch;
 }
 
-.hero__img--desktop {
+.hero__img-desktop {
   display: none;
 }
 
@@ -53,11 +53,11 @@
   }
 
   @media (min-width: 900px) {
-    .hero__img--mobile {
+    .hero__img-mobile {
       display: none;
     }
 
-    .hero__img--desktop {
+    .hero__img-desktop {
       display: block;
     }
   }

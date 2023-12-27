@@ -17,18 +17,18 @@ const Hero = () => {
           </div>
           <div className="hero__img--wrapper">
             <Image
-              src="/assets/images/hero__img--mobile.png"
+              src="/assets/images/hero_img-mobile.png"
               alt="A woman holds the hand of a man in a wheelchair mobile version"
               width={387}
               height={471}
-              className={`${styles["hero__img--mobile"]}`}
+              className={`${styles["hero_img-mobile"]}`}
             />
             <Image
-              src="/assets/images/hero__img--desktop.png"
+              src="/assets/images/hero__img-desktop.png"
               alt="A woman holds the hand of a man in a wheelchair desktop version"
               width={540}
               height={563}
-              className={`${styles["hero__img--desktop"]}`}
+              className={`${styles["hero__img-desktop"]}`}
             />
           </div>
         </div>
