@@ -1,0 +1,22 @@
+.container__products {
+  padding-block: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.products__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+@media (min-width: 991px) {
+  .container__products {
+    padding-block: 8rem;
+  }
+
+  .filter-btn:hover {
+    cursor: pointer;
+  }
+}

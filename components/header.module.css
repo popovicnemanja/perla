@@ -1,0 +1,47 @@
+.__container {
+  padding-block: 2.4rem;
+}
+
+.__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+
+.logo {
+  display: block;
+}
+.logo__desktop {
+  display: none;
+}
+.contact-wrapper {
+  display: none;
+}
+
+.contact-phone {
+  display: flex;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .logo__mobile {
+    display: none;
+  }
+
+  .logo__desktop {
+    display: block;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    gap: 1.6rem;
+  }
+}

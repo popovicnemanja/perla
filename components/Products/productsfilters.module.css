@@ -1,0 +1,22 @@
+.filters__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background: var(--clr-primary);
+  color: white;
+}
+
+.active {
+  background: var(--clr-primary);
+  color: white;
+}
+
+@media (min-width: 991px) {
+  .filter-btn:focus {
+    cursor: pointer;
+  }
+}

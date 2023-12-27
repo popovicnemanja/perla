@@ -1,0 +1,20 @@
+.product {
+  flex-basis: 25rem;
+  padding: 1rem;
+  border: 1px solid var(--clr-accent);
+  border-radius: 1rem;
+}
+
+.product__image--desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .product__image--mobile {
+    display: none;
+  }
+
+  .product__image--desktop {
+    display: block;
+  }
+}

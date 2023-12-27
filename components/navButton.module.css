@@ -1,0 +1,70 @@
+.navButton {
+  height: 4rem;
+  display: block;
+  max-width: 100%;
+  background-color: var(--clr-neutral-100);
+  border: 2px solid var(--clr-accent);
+  border-radius: 5px;
+  z-index: 9999;
+  transition: border 0.5s;
+}
+
+.navButton .active {
+  border-color: var(--clr-primary);
+}
+
+.navButton .line {
+  width: 80%;
+  height: 8%;
+  x: 10;
+  rx: 5;
+  fill: var(--clr-accent);
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transition: y 0.2s ease-in 0.2s, rotate 0.2s ease-in, opacity 0ms 0.2s,
+    fill 0.5s;
+}
+
+.navButton[aria-expanded="true"] {
+  border-color: var(--clr-primary);
+}
+
+.navButton[aria-expanded="true"] .line {
+  fill: var(--clr-primary);
+  transition: y 0.2s ease-in, rotate 0.2s ease-in 0.2s, opacity 0s 0.2s,
+    fill 0.5s;
+}
+
+.navButton[aria-expanded="true"] :is(.line, .bottom) {
+  y: 45;
+}
+
+.navButton[aria-expanded="true"] .top {
+  rotate: 45deg;
+}
+
+.navButton[aria-expanded="true"] .middle {
+  opacity: 0;
+}
+
+.navButton[aria-expanded="true"] .bottom {
+  rotate: -45deg;
+}
+
+.navButton .top {
+  y: 22;
+}
+
+.navButton .middle {
+  y: 47;
+}
+
+.navButton .bottom {
+  y: 72;
+}
+
+@media (min-width: 768px) {
+  .navButton {
+    display: none;
+  }
+}
