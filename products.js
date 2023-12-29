@@ -15,7 +15,13 @@ const products = [
     id: 3,
     title: "Perika",
     image_url: "/assets/images/barbara.jpeg",
-    description: "Perika, plava kratka kosa",
+    description: "Perika kratka braon",
+  },
+  {
+    id: 4,
+    title: "Perika",
+    image_url: "/assets/images/diana.jpeg",
+    description: "Perika kratka plava",
   },
 ];
 
