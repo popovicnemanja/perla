@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
     <Link href="/" className="product__link">
       <li className={styles.product}>
         <div className={`${styles["product__image--wrapper"]}`}>
-          <Image src={product.image_url} fill alt="Steznik mobilna verzija" />
+          <Image src={product.image_url} fill alt={product.description} />
         </div>
       </li>
     </Link>
