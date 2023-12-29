@@ -29,18 +29,10 @@ const Header = () => {
         <div className={styles.__content}>
           <Link href="/" className={styles.logo}>
             <Image
-              src="assets/images/logo_mobile.svg"
-              alt="Perla Logo mobile version"
-              width={120}
-              height={40}
+              src="assets/images/logo.svg"
+              alt="Perla Logo"
+              fill
               className={styles.logo__mobile}
-            />
-            <Image
-              src="assets/images/logo_desktop.svg"
-              alt="Perla Logo desktop version"
-              width={140}
-              height={48}
-              className={styles.logo__desktop}
             />
           </Link>
 
@@ -50,22 +42,24 @@ const Header = () => {
           />
           <div className={`${styles["contact-wrapper"]}`}>
             <div className={`${styles["contact-phone"]}`}>
-              <Image
-                src="assets/icons/icon-phone.svg"
-                alt="phone icon desktop version"
-                width={24}
-                height={24}
-              />
-              <span>+381311513889</span>
+              <div className={styles["contact-phone--img-wrapper"]}>
+                <Image
+                  src="assets/icons/icon-phone.svg"
+                  alt="phone icon"
+                  fill
+                />
+              </div>
+              <span>+38131513889</span>
             </div>
             <div className={styles["contact-phone"]}>
-              <Image
-                src="assets/icons/icon-smartphone.svg"
-                alt="mobile phone icon desktop version"
-                width={24}
-                height={24}
-              />
-              <img />
+              <div className={styles["contact-phone--img-wrapper"]}>
+                <Image
+                  src="assets/icons/icon-smartphone.svg"
+                  alt="mobile phone icon"
+                  fill
+                />
+              </div>
+
               <span>+381641721272</span>
             </div>
           </div>

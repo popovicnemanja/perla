@@ -15,20 +15,11 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="hero__img--wrapper">
+          <div className={`${styles["hero__img--wrapper"]}`}>
             <Image
-              src="/assets/images/hero_img-mobile.png"
+              src="/assets/images/hero_img.png"
               alt="A woman holds the hand of a man in a wheelchair mobile version"
-              width={387}
-              height={471}
-              className={`${styles["hero__img-mobile"]}`}
-            />
-            <Image
-              src="/assets/images/hero_img-desktop.png"
-              alt="A woman holds the hand of a man in a wheelchair desktop version"
-              width={540}
-              height={563}
-              className={`${styles["hero__img-desktop"]}`}
+              fill
             />
           </div>
         </div>

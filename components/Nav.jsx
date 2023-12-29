@@ -37,7 +37,7 @@ const Nav = ({ navVisibility, onChangeNavVisibility }) => {
         <div className={`${styles["mobile__contact-wrapper"]}`}>
           <Link
             className={`${styles["mobile__contact-link"]}`}
-            href="tel:+381311513889"
+            href="tel:+38131513889"
           >
             <Image
               src="assets/icons/icon-phone--lite.svg"
@@ -46,7 +46,7 @@ const Nav = ({ navVisibility, onChangeNavVisibility }) => {
               width={24}
             />
 
-            <span>031 151 3889</span>
+            <span>031 513 889</span>
           </Link>
           <Link
             className={`${styles["mobile__contact-link"]}`}

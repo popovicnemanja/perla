@@ -37,8 +37,10 @@
   max-width: 40ch;
 }
 
-.hero__img-desktop {
-  display: none;
+.hero__img--wrapper {
+  position: relative;
+  width: 38.7rem;
+  height: 47.1rem;
 }
 
 @media (min-width: 768px) {
@@ -53,12 +55,9 @@
   }
 
   @media (min-width: 900px) {
-    .hero__img-mobile {
-      display: none;
-    }
-
-    .hero__img-desktop {
-      display: block;
+    .hero__img--wrapper {
+      width: 54rem;
+      height: 56.3rem;
     }
   }
 }
