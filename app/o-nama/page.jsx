@@ -4,9 +4,11 @@ export const metadata = {
 
 const AboutPage = () => {
   return (
-    <div className="container">
-      <h1 className="section__title">O Nama</h1>
-    </div>
+    <main className="section__main">
+      <div className="container section__container">
+        <h1 className="section__title">O Nama</h1>
+      </div>
+    </main>
   );
 };
 

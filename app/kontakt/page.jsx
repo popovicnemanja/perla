@@ -6,7 +6,7 @@ export const metadata = {
 
 const ContactPage = () => {
   return (
-    <main>
+    <main className="section__main">
       <div className={`container ${styles.form__container}`}>
         <h1 className="section__title">Kontakt</h1>
         <div className="flex__wrapper">

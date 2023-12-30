@@ -1,5 +1,5 @@
-.hero {
-  border-block: 1px solid var(--clr-accent);
+.hero__section {
+  border-bottom: 1px solid var(--clr-accent);
 }
 
 .hero__container {

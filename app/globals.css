@@ -112,6 +112,10 @@ body {
   margin-inline: auto;
 }
 
+.section__container {
+  padding-block: 5rem;
+}
+
 .flex__wrapper {
   display: flex;
   flex-direction: column;
@@ -132,9 +136,21 @@ body {
   transition: 0.3s all;
 }
 
+@media (max-width: 767px) {
+  .section__main {
+    border-top: 1px solid var(--clr-accent);
+  }
+}
+
 @media (min-width: 768px) {
   .flex__wrapper {
     flex-direction: row;
     justify-content: space-around;
+  }
+}
+
+@media (min-width: 991px) {
+  .section__container {
+    padding-block: 8rem;
   }
 }

@@ -3,7 +3,7 @@ import styles from "./hero.module.css";
 
 const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero__section}>
       <div className={`container ${styles.hero__container}`}>
         <div className="flex__wrapper">
           <div className={styles.hero__content}>
