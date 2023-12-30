@@ -37,7 +37,7 @@ const ContactPage = () => {
                 required
               ></textarea>
               <button className={`button ${styles.form__button}`} type="submit">
-                Send
+                Pošalji
               </button>
             </form>
           </div>
