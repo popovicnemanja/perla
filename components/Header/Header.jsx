@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 
-import NavButton from "./NavButton";
-import Nav from "./Nav";
+import NavButton from "../Nav/NavButton";
+import Nav from "../Nav/Nav";
 import SearchInput from "./SearchInput";
 import styles from "./header.module.css";
 import Link from "next/link";
@@ -29,7 +29,7 @@ const Header = () => {
         <div className={styles.__content}>
           <Link href="/" className={styles.logo}>
             <Image
-              src="assets/images/logo.svg"
+              src="./../assets/images/logo.svg"
               alt="Perla Logo"
               fill
               className={styles.logo__mobile}
@@ -44,7 +44,7 @@ const Header = () => {
             <div className={`${styles["contact-phone"]}`}>
               <div className={styles["contact-phone--img-wrapper"]}>
                 <Image
-                  src="assets/icons/icon-phone.svg"
+                  src="./../assets/icons/icon-phone.svg"
                   alt="phone icon"
                   fill
                 />
@@ -54,7 +54,7 @@ const Header = () => {
             <div className={styles["contact-phone"]}>
               <div className={styles["contact-phone--img-wrapper"]}>
                 <Image
-                  src="assets/icons/icon-smartphone.svg"
+                  src="./../assets/icons/icon-smartphone.svg"
                   alt="mobile phone icon"
                   fill
                 />

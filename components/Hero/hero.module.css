@@ -6,13 +6,6 @@
   padding-top: 5rem;
 }
 
-.hero__flex {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  align-items: center;
-}
-
 .hero__content {
   display: flex;
   flex-direction: column;
@@ -56,7 +49,7 @@
 
   @media (min-width: 900px) {
     .hero__img--wrapper {
-      width: 54rem;
+      max-width: 48.5rem;
       height: 56.3rem;
     }
   }

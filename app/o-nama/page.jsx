@@ -2,7 +2,7 @@ export const metadata = {
   title: "Perla | O Nama",
 };
 
-const page = () => {
+const AboutPage = () => {
   return (
     <div className="container">
       <h1 className="section__title">O Nama</h1>
@@ -10,4 +10,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default AboutPage;

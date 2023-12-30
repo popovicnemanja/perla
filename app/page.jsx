@@ -1,7 +1,7 @@
 import Products from "/components/Products/Products";
-import Hero from "/components/Hero";
+import Hero from "/components/Hero/Hero";
 
-const page = () => {
+const HomePage = () => {
   return (
     <main>
       <Hero />
@@ -10,4 +10,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default HomePage;
