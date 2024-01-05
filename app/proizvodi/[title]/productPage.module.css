@@ -1,0 +1,38 @@
+.product__section {
+  padding-block: 5rem;
+}
+
+.product__container {
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+  text-align: center;
+  border: 1px solid var(--clr-accent);
+  border-radius: 1rem;
+}
+
+.product__imgWrapper {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  padding: 2rem;
+}
+
+.product__title {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .product__section {
+    padding-block: 8rem;
+  }
+
+  .product__container {
+    flex-direction: row;
+    padding: 2rem;
+    text-align: left;
+  }
+}

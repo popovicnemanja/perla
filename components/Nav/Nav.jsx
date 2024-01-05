@@ -40,7 +40,7 @@ const Nav = ({ navVisibility, onChangeNavVisibility }) => {
             href="tel:+38131513889"
           >
             <Image
-              src="assets/icons/icon-phone--lite.svg"
+              src="/assets/icons/icon-phone--lite.svg"
               alt="phone icon mobile version"
               height={24}
               width={24}
@@ -53,7 +53,7 @@ const Nav = ({ navVisibility, onChangeNavVisibility }) => {
             href="tel:+381641721272"
           >
             <Image
-              src="assets/icons/icon-smartphone--lite.svg"
+              src="/assets/icons/icon-smartphone--lite.svg"
               alt="phone icon mobile version"
               height={24}
               width={24}

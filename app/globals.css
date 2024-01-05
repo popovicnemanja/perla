@@ -136,16 +136,9 @@ body {
   transition: 0.3s all;
 }
 
-@media (max-width: 767px) {
-  .section__main {
-    border-top: 1px solid var(--clr-accent);
-  }
-}
-
 @media (min-width: 768px) {
   .flex__wrapper {
     flex-direction: row;
-    justify-content: space-around;
   }
 }
 

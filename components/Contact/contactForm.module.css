@@ -1,12 +1,6 @@
-.form__container {
-  padding-block: 8rem;
-  text-align: center;
-}
-
 .form__wrapper {
   width: 100%;
   max-width: 54rem;
-  margin-top: 5rem;
 }
 
 .form {

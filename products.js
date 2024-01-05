@@ -7,22 +7,28 @@ const products = [
   },
   {
     id: 2,
-    title: "Ortoza za vrat",
+    title: "Ortoza-za-vrat",
     image_url: "/assets/images/ortoza-za-vrat.jpeg",
     description: "Ortoza za vrat",
   },
   {
     id: 3,
-    title: "Perika",
+    title: "Kratka-braon-perika",
     image_url: "/assets/images/barbara.jpeg",
     description: "Perika kratka braon",
   },
   {
     id: 4,
-    title: "Perika",
+    title: "kratka-plava-perika",
     image_url: "/assets/images/diana.jpeg",
     description: "Perika kratka plava",
   },
 ];
 
-export default products;
+export const getProducts = async () => {
+  return products;
+};
+
+export const getProduct = async (title) => {
+  return products.find((product) => product.title === title);
+};

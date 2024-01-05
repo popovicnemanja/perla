@@ -24,7 +24,7 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className={styles.header}>
       <div className={`container ${styles.__container}`}>
         <div className={styles.__content}>
           <Link href="/" className={styles.logo}>

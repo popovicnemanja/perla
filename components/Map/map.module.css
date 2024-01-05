@@ -1,0 +1,12 @@
+.map__container {
+  width: 100%;
+  max-width: 60rem;
+  height: 35rem;
+  border: 1px solid var(--clr-accent);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.map__container iframe {
+  border: 0;
+}

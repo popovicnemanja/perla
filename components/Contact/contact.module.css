@@ -1,0 +1,13 @@
+.contact__container {
+  padding-block: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .contact__wrapper {
+    justify-content: space-evenly;
+  }
+}

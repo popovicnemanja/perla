@@ -1,8 +1,9 @@
 import styles from "./productslist.module.css";
 import ProductCard from "./ProductCard";
-import products from "@/products";
+import { getProducts } from "@/products";
 
-const ProductsList = () => {
+const ProductsList = async () => {
+  const products = await getProducts();
   return (
     <ul className={styles.products__list} role="list">
       {products.map((product) => (
