@@ -22,13 +22,8 @@
 
 .contact-phone {
   display: flex;
+  align-items: center;
   gap: 8px;
-}
-
-.contact-phone--img-wrapper {
-  position: relative;
-  width: 24px;
-  height: 24px;
 }
 
 @media (max-width: 767px) {

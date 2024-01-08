@@ -8,19 +8,19 @@ const ContactInfo = () => {
     <div className={styles.contact__info}>
       <div className={styles.info__content}>
         <div className="icon__wrapper">
-          <Image src="/assets/icons/icon-time.png" fill />
+          <Image src="/assets/icons/icon-time.svg" fill />
         </div>
         <span>8:30h - 19h, Subotom 9h - 14h</span>
       </div>
       <div className={styles.info__content}>
         <div className="icon__wrapper">
-          <Image src="/assets/icons/icon-location.png" fill />
+          <Image src="/assets/icons/icon-marker.svg" fill />
         </div>
         <span>Omladinska 50, Užice 31000</span>
       </div>
       <div className={styles.info__content}>
         <div className="icon__wrapper">
-          <Image src="/assets/icons/icon-phone.png" fill />
+          <Image src="/assets/icons/icon-phone.svg" fill />
         </div>
         <span>+381 31 513-889</span>
       </div>
@@ -32,7 +32,7 @@ const ContactInfo = () => {
       </div>
       <div className={styles.info__content}>
         <div className="icon__wrapper">
-          <Image src="/assets/icons/icon-envelope.png" fill />
+          <Image src="/assets/icons/icon-envelope.svg" fill />
         </div>
         <span>mailto@gmal.com</span>
       </div>

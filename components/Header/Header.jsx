@@ -42,7 +42,7 @@ const Header = () => {
           />
           <div className={`${styles["contact-wrapper"]}`}>
             <div className={`${styles["contact-phone"]}`}>
-              <div className={styles["contact-phone--img-wrapper"]}>
+              <div className="icon__wrapper">
                 <Image
                   src="./../assets/icons/icon-phone.svg"
                   alt="phone icon"
