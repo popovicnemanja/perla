@@ -52,7 +52,7 @@ const Header = () => {
               <span>+38131513889</span>
             </div>
             <div className={styles["contact-phone"]}>
-              <div className={styles["contact-phone--img-wrapper"]}>
+              <div className="icon__wrapper">
                 <Image
                   src="./../assets/icons/icon-smartphone.svg"
                   alt="mobile phone icon"

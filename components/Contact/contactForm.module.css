@@ -1,6 +1,5 @@
 .form__wrapper {
   width: 100%;
-  max-width: 54rem;
 }
 
 .form {
@@ -24,6 +23,12 @@
 .form__input:focus {
   border-color: var(--clr-primary);
   outline: none;
+}
+
+@media (min-width: 768px) {
+  .form__wrapper {
+    max-width: 50%;
+  }
 }
 
 @media (min-width: 991px) {

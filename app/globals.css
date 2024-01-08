@@ -136,6 +136,17 @@ body {
   transition: 0.3s all;
 }
 
+.img__wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.icon__wrapper {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
 @media (min-width: 768px) {
   .flex__wrapper {
     flex-direction: row;

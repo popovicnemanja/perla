@@ -27,8 +27,7 @@
 }
 
 .hero__img--wrapper {
-  position: relative;
-  width: 38.7rem;
+  max-width: 38.7rem;
   height: 47.1rem;
 }
 

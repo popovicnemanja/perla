@@ -6,8 +6,8 @@
 
 .product__image--wrapper {
   position: relative;
-  width: 18.4rem;
-  height: 16rem;
+  width: 13rem;
+  height: 13rem;
 }
 
 @media (min-width: 768px) {

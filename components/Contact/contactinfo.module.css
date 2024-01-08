@@ -1,0 +1,11 @@
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.info__content {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}

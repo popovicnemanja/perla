@@ -15,11 +15,12 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className={`${styles["hero__img--wrapper"]}`}>
+          <div className={`img__wrapper ${styles["hero__img--wrapper"]}`}>
             <Image
               src="/assets/images/hero_img.png"
               alt="A woman holds the hand of a man in a wheelchair mobile version"
               fill
+              sizes="(min-width: 900px) 485px, (min-width: 440px) 387px, calc(82.5vw + 41px)"
             />
           </div>
         </div>

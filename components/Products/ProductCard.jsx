@@ -7,7 +7,12 @@ const ProductCard = ({ product }) => {
     <Link href={`/proizvodi/${product.title}`} className="product__link">
       <li className={styles.product}>
         <div className={`${styles["product__image--wrapper"]}`}>
-          <Image src={product.image_url} fill alt={product.description} />
+          <Image
+            src={product.image_url}
+            fill
+            alt={product.description}
+            sizes="(min-width: 780px) 300px, 140px"
+          />
         </div>
       </li>
     </Link>
