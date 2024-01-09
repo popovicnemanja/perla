@@ -14,6 +14,8 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  color: #fff;
+  border: 1px solid var(--clr-accent);
 }
 
 .product__wrapper {
@@ -53,5 +55,12 @@
     flex-direction: row;
     padding: 2rem;
     text-align: left;
+  }
+}
+
+@media (min-width: 991px) {
+  .button__back:hover {
+    border-color: var(--clr-primary);
+    color: var(--clr-primary);
   }
 }
