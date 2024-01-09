@@ -1,9 +1,7 @@
-"use client";
-
 import Link from "next/link";
-import styles from "./nav.module.css";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import styles from "./nav.module.css";
 
 const navLinks = [
   { name: "Početna", href: "/" },

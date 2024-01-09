@@ -16,6 +16,7 @@ const Header = () => {
   const handleNavButtonClick = () => {
     setNavButtonIsOpen(!navButtonIsOpen);
     setNavVisibility(!navVisibility);
+    document.body.classList.toggle("no-scroll");
   };
 
   const handleHideButton = () => {

@@ -106,6 +106,10 @@ body {
   color: var(--clr-neutral-900);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   width: 96%;
   max-width: 144rem;

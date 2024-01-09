@@ -1,3 +1,7 @@
+.hero__section {
+  border-bottom: 1px solid var(--clr-accent);
+}
+
 .hero__container {
   padding-top: 5rem;
 }
