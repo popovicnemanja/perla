@@ -1,8 +1,8 @@
-.__container {
+.header__container {
   padding-block: 2.4rem;
 }
 
-.__content {
+.header__content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -26,6 +26,13 @@
   gap: 8px;
 }
 
+.nav__mobile__bckgWrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 @media (max-width: 767px) {
   .header {
     border-bottom: 1px solid var(--clr-accent);
@@ -33,7 +40,7 @@
 }
 
 @media (min-width: 768px) {
-  .__container {
+  .header__container {
     display: flex;
     flex-direction: column;
     gap: 2rem;

@@ -32,11 +32,8 @@ const Nav = ({ navVisibility, onChangeNavVisibility }) => {
             );
           })}
         </ul>
-        <div className={`${styles["mobile__contact-wrapper"]}`}>
-          <Link
-            className={`${styles["mobile__contact-link"]}`}
-            href="tel:+38131513889"
-          >
+        <ul className={styles.contact__list}>
+          <Link className={styles.contact__link} href="tel:+38131513889">
             <Image
               src="/assets/icons/icon-phone--lite.svg"
               alt="phone icon mobile version"
@@ -46,10 +43,7 @@ const Nav = ({ navVisibility, onChangeNavVisibility }) => {
 
             <span>031 513 889</span>
           </Link>
-          <Link
-            className={`${styles["mobile__contact-link"]}`}
-            href="tel:+381641721272"
-          >
+          <Link className={styles.contact__link} href="tel:+381641721272">
             <Image
               src="/assets/icons/icon-smartphone--lite.svg"
               alt="phone icon mobile version"
@@ -59,7 +53,7 @@ const Nav = ({ navVisibility, onChangeNavVisibility }) => {
 
             <span>064 172 1272</span>
           </Link>
-        </div>
+        </ul>
       </div>
     </nav>
   );

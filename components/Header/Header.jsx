@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 import NavButton from "../Nav/NavButton";
@@ -13,10 +13,22 @@ const Header = () => {
   const [navButtonIsOpen, setNavButtonIsOpen] = useState(false);
   const [navVisibility, setNavVisibility] = useState(false);
 
+  useEffect(() => {
+    if (navVisibility) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    // Clean up the effect when the component unmounts
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [navVisibility]);
+
   const handleNavButtonClick = () => {
     setNavButtonIsOpen(!navButtonIsOpen);
     setNavVisibility(!navVisibility);
-    document.body.classList.toggle("no-scroll");
   };
 
   const handleHideButton = () => {
@@ -26,8 +38,8 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <div className={`container ${styles.__container}`}>
-        <div className={styles.__content}>
+      <div className={`container ${styles.header__container}`}>
+        <div className={styles.header__content}>
           <Link href="/" className={styles.logo}>
             <Image
               src="./../assets/images/logo.svg"
@@ -67,6 +79,13 @@ const Header = () => {
           <SearchInput />
         </div>
       </div>
+
+      {navVisibility && (
+        <div
+          className={styles.nav__mobile__bckgWrapper}
+          onClick={handleHideButton}
+        ></div>
+      )}
       <Nav
         navVisibility={navVisibility}
         onChangeNavVisibility={handleHideButton}
