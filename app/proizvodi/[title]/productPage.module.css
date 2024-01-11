@@ -24,11 +24,17 @@
   padding: 2.4rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.6rem;
   align-items: center;
   text-align: center;
   border: 1px solid var(--clr-accent);
   border-radius: 1rem;
+}
+
+.product__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 .product__imgWrapper {
@@ -39,6 +45,9 @@
 
 .product__title {
   font-size: 2.4rem;
+}
+
+.product__title::first-letter {
   text-transform: uppercase;
 }
 
@@ -55,6 +64,10 @@
     flex-direction: row;
     padding: 2rem;
     text-align: left;
+  }
+
+  .product__content {
+    width: 50%;
   }
 }
 

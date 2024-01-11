@@ -1,19 +1,21 @@
 const products = [
   {
     id: 1,
-    title: "Steznik",
+    title: "steznik",
     image_url: "/assets/images/steznik-za-koleno.png",
-    description: "Steznik za koleno",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
   },
   {
     id: 2,
-    title: "Ortoza-za-vrat",
+    title: "ortoza-za-vrat",
     image_url: "/assets/images/ortoza-za-vrat.jpeg",
-    description: "Ortoza za vrat",
+    description:
+      "Ortoza za vrat je medicinski uređaj dizajniran da pruži podršku i stabilnost vratu. Koristi se u terapeutske svrhe kako bi se smanjila bol, ograničila pokretljivost ili podržao proces ozdravljenja nakon povrede.",
   },
   {
     id: 3,
-    title: "Kratka-braon-perika",
+    title: "kratka-braon-perika",
     image_url: "/assets/images/barbara.jpeg",
     description: "Perika kratka braon",
   },
@@ -31,4 +33,11 @@ export const getProducts = async () => {
 
 export const getProduct = async (title) => {
   return products.find((product) => product.title === title);
+};
+
+export const searchProducts = async (searchValue) => {
+  const filteredProducts = products.filter((product) =>
+    product.title.toLowerCase().includes(searchValue.toLowerCase())
+  );
+  return filteredProducts;
 };

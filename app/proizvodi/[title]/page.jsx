@@ -5,7 +5,9 @@ import Link from "next/link";
 
 const Product = async ({ params }) => {
   const { title } = params;
+  // const decodedTitle = decodeURIComponent(title);
   const product = await getProduct(title);
+  const formattedTitle = title.replace(/-/g, " ");
 
   return (
     <section className={styles.product__section}>
@@ -19,10 +21,15 @@ const Product = async ({ params }) => {
 
         <div className={styles.product__wrapper}>
           <div className={styles.product__imgWrapper}>
-            <Image src={product.image_url} fill alt="product description" />
+            <Image
+              src={product.image_url}
+              fill
+              alt={product.title}
+              sizes="320px"
+            />
           </div>
           <div className={styles.product__content}>
-            <h1 className={styles.product__title}>{product.title}</h1>
+            <h1 className={styles.product__title}>{formattedTitle}</h1>
             <p className={styles.product__description}>{product.description}</p>
           </div>
         </div>
