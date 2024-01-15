@@ -25,7 +25,7 @@ const Footer = () => {
               <li className={`${styles["socials__list-item"]}`}>
                 <Link href="viber://contact?number=%2B381641721272">
                   <Image
-                    src="/assets/icons/icon-viber.png"
+                    src="/assets/icons/icon-viber.svg"
                     alt="viber"
                     width={30}
                     height={30}
@@ -38,7 +38,7 @@ const Footer = () => {
                   target="_blank"
                 >
                   <Image
-                    src="/assets/icons/icon-facebook.png"
+                    src="/assets/icons/icon-facebook.svg"
                     alt="facebook"
                     width={30}
                     height={30}
@@ -48,7 +48,7 @@ const Footer = () => {
               <li className={`${styles["socials__list-item"]}`}>
                 <Link href="https://wa.me/381641721272">
                   <Image
-                    src="/assets/icons/icon-whatsapp.png"
+                    src="/assets/icons/icon-whatsapp.svg"
                     alt="whatsapp"
                     width={30}
                     height={30}

@@ -1,3 +1,6 @@
+.products__section {
+  overflow: hidden;
+}
 .container__products {
   padding-block: 5rem;
   display: flex;

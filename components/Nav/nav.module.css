@@ -21,10 +21,6 @@
 }
 
 @media (max-width: 767px) {
-  .nav[data-visible="true"] {
-    translate: 0;
-  }
-
   .nav {
     height: 100dvh;
     display: flex;
@@ -41,7 +37,9 @@
     translate: 100% 0;
     transition: translate 0.3s ease-in;
   }
-
+  .nav[data-visible="true"] {
+    translate: 0;
+  }
   .nav__container {
     height: 100%;
     display: flex;

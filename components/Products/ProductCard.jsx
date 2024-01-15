@@ -4,8 +4,8 @@ import styles from "./productcard.module.css";
 
 const ProductCard = ({ product }) => {
   return (
-    <Link href={`/proizvodi/${product.title}`} className="product__link">
-      <li className={styles.product}>
+    <li className={styles.product}>
+      <Link href={`/proizvodi/${product.title}`} className="product__link">
         <div className={`${styles["product__image--wrapper"]}`}>
           <Image
             src={product.image_url}
@@ -14,8 +14,8 @@ const ProductCard = ({ product }) => {
             sizes="(min-width: 780px) 300px, 140px"
           />
         </div>
-      </li>
-    </Link>
+      </Link>
+    </li>
   );
 };
 

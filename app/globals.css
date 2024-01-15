@@ -101,6 +101,10 @@ button {
   border: none;
 }
 
+button:focus-visible {
+  outline: 1px solid var(--clr-primary);
+}
+
 body {
   font-size: clamp(14px, 1.3vw, 18px);
   color: var(--clr-neutral-900);
@@ -147,8 +151,9 @@ body {
 
 .icon__wrapper {
   position: relative;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2rem;
+  height: 2rem;
+  transition: 0.3s all;
 }
 
 @media (min-width: 768px) {
@@ -163,7 +168,7 @@ body {
   }
 
   .icon__wrapper {
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 2.4rem;
+    height: 2.4rem;
   }
 }

@@ -1,97 +1,132 @@
 "use client";
 import { useState } from "react";
 import styles from "./productsfilters.module.css";
+import Image from "next/image";
 
 const ProductsFilters = () => {
   const [activeFilter, setActiveFilter] = useState("svi");
+  const [filtersVisibility, setFiltersVisibility] = useState(false);
 
+  const handleFiltersListVisibility = () => {
+    setFiltersVisibility(!filtersVisibility);
+  };
   const handleFilterClick = (filter) => {
     setActiveFilter(filter);
+    setFiltersVisibility(false);
   };
 
   return (
-    <div className="products__filters">
-      <ul className={styles.filters__list} role="list">
-        <li>
-          <button
-            className={`button ${styles["filter-btn"]} ${
+    <div className={styles.products__filters}>
+      <button
+        className={`button ${styles.filter__listBtn}`}
+        onClick={() => handleFiltersListVisibility()}
+      >
+        <div className="icon__wrapper">
+          <Image
+            src="/assets/icons/icon-arrow-left.svg"
+            alt="back to previous page"
+            fill
+          />
+        </div>
+        <span>Filteri</span>
+      </button>
+      <div className={styles.filters__wrapper} data-visible={filtersVisibility}>
+        <button
+          className={`button ${styles["filters__btn--close"]}`}
+          onClick={() => handleFiltersListVisibility()}
+        >
+          <div className="icon__wrapper">
+            <Image src="/assets/icons/icon-close.svg" fill alt="close menu" />
+          </div>
+        </button>
+        <ul className={styles.filters__list} role="list">
+          <li
+            className={`${styles.filter__btn} ${
               activeFilter === "svi" ? `${styles["active"]}` : ""
             }`}
             data="svi"
             onClick={() => handleFilterClick("svi")}
           >
+            {" "}
             Svi
-          </button>
-        </li>
-        <li>
-          <button
-            className={`button ${styles["filter-btn"]} ${
+          </li>
+          <li
+            className={`${styles.filter__btn} ${
               activeFilter === "ortoze, steznici" ? `${styles["active"]}` : ""
             }`}
             data="ortoze, steznici"
             onClick={() => handleFilterClick("ortoze, steznici")}
           >
-            Ortoze, Steznici
-          </button>
-        </li>
-        <li>
-          <button
-            className={`button ${styles["filter-btn"]} ${
+            <span className={styles.filter__title}>Ortoze, Steznici</span>
+            <ul role="list" className={styles.filters__sublist}>
+              <li>
+                <span className={styles.filter__subtitle}>
+                  Steznik za lakat
+                </span>
+              </li>
+              <li>
+                <span className={styles.filter__subtitle}>
+                  Steznik za koleno
+                </span>
+              </li>
+              <li>
+                <span className={styles.filter__subtitle}>
+                  Steznik za zglob
+                </span>
+              </li>
+            </ul>
+          </li>
+          <li
+            className={`${styles.filter__btn} ${
               activeFilter === "obuca" ? `${styles["active"]}` : ""
             }`}
             data="obuca"
             onClick={() => handleFilterClick("obuca")}
           >
+            {" "}
             Obuća
-          </button>
-        </li>
-        <li>
-          <button
-            className={`button ${styles["filter-btn"]} ${
+          </li>
+          <li
+            className={`${styles.filter__btn} ${
               activeFilter === "pojasevi" ? `${styles["active"]}` : ""
             }`}
             data="pojasevi"
             onClick={() => handleFilterClick("pojasevi")}
           >
             Pojasevi
-          </button>
-        </li>
-        <li>
-          <button
-            className={`button ${styles["filter-btn"]} ${
+          </li>
+          <li
+            className={`${styles.filter__btn} ${
               activeFilter === "invalidska kolica" ? `${styles["active"]}` : ""
             }`}
             data="invalidska kolica"
             onClick={() => handleFilterClick("invalidska kolica")}
           >
+            {" "}
             Invalidska kolica
-          </button>
-        </li>
-        <li>
-          <button
-            className={`button ${styles["filter-btn"]} ${
+          </li>
+          <li
+            className={`${styles.filter__btn} ${
               activeFilter === "hodalice, stake" ? `${styles["active"]}` : ""
             }`}
             data="hodalice, stake"
             onClick={() => handleFilterClick("hodalice, stake")}
           >
+            {" "}
             Hodalice, Štake
-          </button>
-        </li>
-        <li>
-          <button
-            className={`button ${styles["filter-btn"]} ${
+          </li>
+          <li
+            className={`${styles.filter__btn} ${
               activeFilter === "toaletni program" ? `${styles["active"]}` : ""
             }`}
             data="toaletni program"
             onClick={() => handleFilterClick("toaletni program")}
           >
+            {" "}
             Toaletni program
-          </button>
-        </li>
-        <li>
-          <button
-            className={`button ${styles["filter-btn"]} ${
+          </li>
+          <li
+            className={`${styles.filter__btn} ${
               activeFilter === "ortopedski grudnjaci"
                 ? `${styles["active"]}`
                 : ""
@@ -100,9 +135,9 @@ const ProductsFilters = () => {
             onClick={() => handleFilterClick("ortopedski grudnjaci")}
           >
             Ortopedski grudnjaci
-          </button>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
