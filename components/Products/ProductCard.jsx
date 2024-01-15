@@ -4,7 +4,7 @@ import styles from "./productcard.module.css";
 
 const ProductCard = ({ product }) => {
   return (
-    <li className={styles.product}>
+    <li role="listitem" className={styles.product}>
       <Link href={`/proizvodi/${product.title}`} className="product__link">
         <div className={`${styles["product__image--wrapper"]}`}>
           <Image

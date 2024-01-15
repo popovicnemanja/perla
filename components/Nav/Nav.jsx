@@ -19,7 +19,11 @@ const Nav = ({ navVisibility, onChangeNavVisibility }) => {
           {navLinks.map((link) => {
             const isActive = pathName === link.href;
             return (
-              <li className={styles["nav__list-item"]} key={link.name}>
+              <li
+                role="listitem"
+                className={styles["nav__list-item"]}
+                key={link.name}
+              >
                 <Link
                   href={link.href}
                   className={styles.nav__link}
@@ -32,27 +36,38 @@ const Nav = ({ navVisibility, onChangeNavVisibility }) => {
             );
           })}
         </ul>
-        <ul className={styles.contact__list}>
-          <Link className={styles.contact__link} href="tel:+38131513889">
-            <Image
-              src="/assets/icons/icon-phone--lite.svg"
-              alt="phone icon mobile version"
-              height={24}
-              width={24}
-            />
+        <ul className={styles.contact__list} role="list">
+          <li
+            role="listitem"
+            className={`${styles["nav__list-item"]} ${styles.contact__item}`}
+          >
+            <Link className={styles.contact__link} href="tel:+38131513889">
+              <Image
+                src="/assets/icons/icon-phone--lite.svg"
+                alt="phone icon mobile version"
+                height={24}
+                width={24}
+              />
 
-            <span>031 513 889</span>
-          </Link>
-          <Link className={styles.contact__link} href="tel:+381641721272">
-            <Image
-              src="/assets/icons/icon-smartphone--lite.svg"
-              alt="phone icon mobile version"
-              height={24}
-              width={24}
-            />
+              <span>031 513 889</span>
+            </Link>
+          </li>
 
-            <span>064 172 1272</span>
-          </Link>
+          <li
+            role="listitem"
+            className={`${styles["nav__list-item"]} ${styles.contact__item}`}
+          >
+            <Link className={styles.contact__link} href="tel:+381641721272">
+              <Image
+                src="/assets/icons/icon-smartphone--lite.svg"
+                alt="phone icon mobile version"
+                height={24}
+                width={24}
+              />
+
+              <span>064 172 1272</span>
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

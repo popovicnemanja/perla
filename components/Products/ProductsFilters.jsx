@@ -41,6 +41,7 @@ const ProductsFilters = () => {
         </button>
         <ul className={styles.filters__list} role="list">
           <li
+            role="listitem"
             className={`${styles.filter__btn} ${
               activeFilter === "svi" ? `${styles["active"]}` : ""
             }`}
@@ -51,6 +52,7 @@ const ProductsFilters = () => {
             Svi
           </li>
           <li
+            role="listitem"
             className={`${styles.filter__btn} ${
               activeFilter === "ortoze, steznici" ? `${styles["active"]}` : ""
             }`}
@@ -59,17 +61,17 @@ const ProductsFilters = () => {
           >
             <span className={styles.filter__title}>Ortoze, Steznici</span>
             <ul role="list" className={styles.filters__sublist}>
-              <li>
+              <li role="listitem">
                 <span className={styles.filter__subtitle}>
                   Steznik za lakat
                 </span>
               </li>
-              <li>
+              <li role="listitem">
                 <span className={styles.filter__subtitle}>
                   Steznik za koleno
                 </span>
               </li>
-              <li>
+              <li role="listitem">
                 <span className={styles.filter__subtitle}>
                   Steznik za zglob
                 </span>
