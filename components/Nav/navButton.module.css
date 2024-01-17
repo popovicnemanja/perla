@@ -3,7 +3,7 @@
   display: block;
   max-width: 100%;
   background-color: var(--clr-neutral-100);
-  border: 2px solid var(--clr-accent);
+  border: 2px solid var(--clr-primary);
   border-radius: 5px;
   z-index: 9999;
   transition: border 0.5s;
@@ -18,7 +18,7 @@
   height: 8%;
   x: 10;
   rx: 5;
-  fill: var(--clr-accent);
+  fill: var(--clr-primary);
   -webkit-transform-origin: center;
   transform-origin: center;
   transition: y 0.2s ease-in 0.2s, rotate 0.2s ease-in, opacity 0ms 0.2s,

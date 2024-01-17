@@ -79,7 +79,7 @@ const ProductsFilters = () => {
           </li>
           <li
             role="listitem"
-            className={`${styles.filter__subItem} ${
+            className={`${styles.filter__btn} ${styles.filter__subItem}  ${
               activeFilter === "ortoze, steznici" ? `${styles["active"]}` : ""
             }`}
             onClick={() => handleSubListVisibility()}

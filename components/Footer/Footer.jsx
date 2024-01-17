@@ -7,10 +7,10 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={`container ${styles.footer__container}`}>
         <div className={styles.footer__content}>
-          <div className={`${styles["footer__content-item"]}`}>
+          <div className={`${styles["footer__content"]}`}>
             <p>Copyright &copy; 2023 Perla. All rights reserved.</p>
           </div>
-          <div className={`${styles["footer__content-item--centered"]}`}>
+          <div className={`${styles["footer__content--centered"]}`}>
             Web development by{" "}
             <Link
               className={styles.developer__link}
