@@ -9,6 +9,7 @@ const Map = () => {
         height="100%"
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
+        title="Perla Location Map"
       />
     </div>
   );

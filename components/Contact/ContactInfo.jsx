@@ -36,7 +36,7 @@ const ContactInfo = () => {
       </div>
       <div className={styles.info__content}>
         <div className="icon__wrapper">
-          <Image src="/assets/icons/icon-envelope.svg" fill />
+          <Image src="/assets/icons/icon-envelope.svg" fill alt="mail adress" />
         </div>
         <span>mailto@gmal.com</span>
       </div>
