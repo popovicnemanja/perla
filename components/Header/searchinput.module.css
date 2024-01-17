@@ -5,11 +5,11 @@
 
 .searchInput__input {
   width: 100%;
-  padding: 10px 0;
+  padding: 1rem 0;
   text-align: center;
   line-height: 1;
   border: 2px solid var(--clr-accent);
-  border-radius: 20px;
+  border-radius: 2rem;
   transition: 0.5s all;
 }
 
@@ -32,8 +32,9 @@
   background-color: white;
   border: 1px solid var(--clr-primary);
   border-top: 0;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+  z-index: 1000;
 }
 
 .search__item {
@@ -44,10 +45,6 @@
 
 .search__item:not(:last-child) {
   border-bottom: 1px solid var(--clr-primary);
-}
-
-.search__item:hover {
-  background-color: whitesmoke;
 }
 
 .search__item--link {
