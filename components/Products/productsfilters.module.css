@@ -49,16 +49,6 @@
   flex-direction: column;
 }
 
-.filter__btn:hover,
-.filter__subItem:hover {
-}
-
-.filter__btn:hover,
-.filter__btn:focus {
-  background: var(--clr-primary);
-  color: white;
-}
-
 .active {
   background: var(--clr-primary);
   color: white;
