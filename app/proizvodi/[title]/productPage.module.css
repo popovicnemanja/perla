@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: #fff;
+  color: var(--clr-primary);
   border: 1px solid var(--clr-accent);
 }
 
@@ -27,7 +27,7 @@
   gap: 1.6rem;
   align-items: center;
   text-align: center;
-  border: 1px solid var(--clr-accent);
+  border: 1px solid var(--clr-primary);
   border-radius: 1rem;
 }
 
@@ -74,6 +74,5 @@
 @media (min-width: 991px) {
   .button__back:hover {
     border-color: var(--clr-primary);
-    color: var(--clr-primary);
   }
 }

@@ -14,7 +14,11 @@ const Product = async ({ params }) => {
       <div className={`container ${styles.productPage__container}`}>
         <Link href="/" className={`button ${styles.button__back}`}>
           <div className="icon__wrapper">
-            <Image src="/assets/icons/icon-arrow-left.svg" fill />
+            <Image
+              src="/assets/icons/icon-arrow-left.svg"
+              fill
+              alt="previous page"
+            />
           </div>
           <span>Početna</span>
         </Link>
