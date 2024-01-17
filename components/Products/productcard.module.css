@@ -1,6 +1,6 @@
 .product {
   padding: 1rem;
-  border: 1px solid var(--clr-accent);
+  border: 1px solid var(--clr-primary);
   border-radius: 1rem;
 }
 
