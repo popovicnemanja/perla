@@ -1,11 +1,12 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./productsfilters.module.css";
 import Image from "next/image";
 
 const ProductsFilters = () => {
   const [activeFilter, setActiveFilter] = useState("svi");
   const [filtersVisibility, setFiltersVisibility] = useState(false);
+  const [subListVisibility, setSubListVisibility] = useState(false);
 
   const handleFiltersListVisibility = () => {
     setFiltersVisibility(!filtersVisibility);
@@ -13,7 +14,25 @@ const ProductsFilters = () => {
   const handleFilterClick = (filter) => {
     setActiveFilter(filter);
     setFiltersVisibility(false);
+    setSubListVisibility(false);
   };
+
+  const handleSubListVisibility = () => {
+    setSubListVisibility(!subListVisibility);
+  };
+
+  useEffect(() => {
+    if (filtersVisibility) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    // Clean up the effect when the component unmounts
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [filtersVisibility]);
 
   return (
     <div className={styles.products__filters}>
@@ -31,12 +50,20 @@ const ProductsFilters = () => {
         <span>Filteri</span>
       </button>
       <div className={styles.filters__wrapper} data-visible={filtersVisibility}>
+        <div
+          className={styles.filters__background}
+          onClick={() => handleFiltersListVisibility()}
+        ></div>
         <button
-          className={`button ${styles["filters__btn--close"]}`}
+          className={styles.filters__btnClose}
           onClick={() => handleFiltersListVisibility()}
         >
           <div className="icon__wrapper">
-            <Image src="/assets/icons/icon-close.svg" fill alt="close menu" />
+            <Image
+              src="/assets/icons/icon-close.svg"
+              alt="filters close button"
+              fill
+            />
           </div>
         </button>
         <ul className={styles.filters__list} role="list">
@@ -48,32 +75,61 @@ const ProductsFilters = () => {
             data="svi"
             onClick={() => handleFilterClick("svi")}
           >
-            {" "}
             Svi
           </li>
           <li
             role="listitem"
-            className={`${styles.filter__btn} ${
+            className={`${styles.filter__subItem} ${
               activeFilter === "ortoze, steznici" ? `${styles["active"]}` : ""
             }`}
-            data="ortoze, steznici"
-            onClick={() => handleFilterClick("ortoze, steznici")}
+            onClick={() => handleSubListVisibility()}
           >
             <span className={styles.filter__title}>Ortoze, Steznici</span>
-            <ul role="list" className={styles.filters__sublist}>
-              <li role="listitem">
+            <ul
+              role="list"
+              className={styles.filters__sublist}
+              data-visible={subListVisibility}
+            >
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${
+                  activeFilter === "steznici za lakat"
+                    ? `${styles["active"]}`
+                    : ""
+                }`}
+                data="steznici za lakat"
+                onClick={() => handleFilterClick("steznici za lakat")}
+              >
                 <span className={styles.filter__subtitle}>
-                  Steznik za lakat
+                  Steznici za lakat
                 </span>
               </li>
-              <li role="listitem">
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${
+                  activeFilter === "steznici za koleno"
+                    ? `${styles["active"]}`
+                    : ""
+                }`}
+                data="steznici za koleno"
+                onClick={() => handleFilterClick("steznici za koleno")}
+              >
                 <span className={styles.filter__subtitle}>
-                  Steznik za koleno
+                  Steznici za koleno
                 </span>
               </li>
-              <li role="listitem">
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${
+                  activeFilter === "steznici za zglob"
+                    ? `${styles["active"]}`
+                    : ""
+                }`}
+                data="steznici za zglob"
+                onClick={() => handleFilterClick("steznici za zglob")}
+              >
                 <span className={styles.filter__subtitle}>
-                  Steznik za zglob
+                  Steznici za zglob
                 </span>
               </li>
             </ul>
@@ -85,7 +141,6 @@ const ProductsFilters = () => {
             data="obuca"
             onClick={() => handleFilterClick("obuca")}
           >
-            {" "}
             Obuća
           </li>
           <li
@@ -104,7 +159,6 @@ const ProductsFilters = () => {
             data="invalidska kolica"
             onClick={() => handleFilterClick("invalidska kolica")}
           >
-            {" "}
             Invalidska kolica
           </li>
           <li
@@ -114,7 +168,6 @@ const ProductsFilters = () => {
             data="hodalice, stake"
             onClick={() => handleFilterClick("hodalice, stake")}
           >
-            {" "}
             Hodalice, Štake
           </li>
           <li
@@ -124,7 +177,6 @@ const ProductsFilters = () => {
             data="toaletni program"
             onClick={() => handleFilterClick("toaletni program")}
           >
-            {" "}
             Toaletni program
           </li>
           <li
