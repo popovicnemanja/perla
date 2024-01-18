@@ -11,7 +11,7 @@ const Footer = () => {
             <p>Copyright &copy; 2024 Perla. All rights reserved.</p>
           </div>
           <div className={`${styles["footer__content--centered"]}`}>
-            Web development by{" "}
+            Web development by
             <Link
               className={styles.developer__link}
               href="https://nemanjapopovic.web.app/"

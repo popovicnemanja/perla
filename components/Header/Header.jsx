@@ -41,12 +41,7 @@ const Header = () => {
       <div className={`container ${styles.header__container}`}>
         <div className={styles.header__content}>
           <Link href="/" className={styles.logo}>
-            <Image
-              src="./../assets/images/logo.svg"
-              alt="Perla Logo"
-              fill
-              className={styles.logo__mobile}
-            />
+            <Image src="./../assets/images/logo.svg" alt="Perla Logo" fill />
           </Link>
 
           <NavButton
