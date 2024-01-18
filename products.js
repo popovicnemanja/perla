@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     title: "steznik",
-    image_url: "/assets/images/steznik-za-koleno.png",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
     description:
       "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
   },
@@ -16,13 +16,13 @@ const products = [
   {
     id: 3,
     title: "kratka-braon-perika",
-    image_url: "/assets/images/barbara1.jpg",
+    image_url: "/assets/images/barbara.jpg",
     description: "Perika kratka braon",
   },
   {
     id: 4,
     title: "kratka-plava-perika",
-    image_url: "/assets/images/diana.jpeg",
+    image_url: "/assets/images/diana.jpg",
     description: "Perika kratka plava",
   },
 ];
