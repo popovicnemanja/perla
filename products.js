@@ -9,14 +9,14 @@ const products = [
   {
     id: 2,
     title: "ortoza-za-vrat",
-    image_url: "/assets/images/ortoza-za-vrat.jpeg",
+    image_url: "/assets/images/ortoza-za-vrat.jpg",
     description:
       "Ortoza za vrat je medicinski uređaj dizajniran da pruži podršku i stabilnost vratu. Koristi se u terapeutske svrhe kako bi se smanjila bol, ograničila pokretljivost ili podržao proces ozdravljenja nakon povrede.",
   },
   {
     id: 3,
     title: "kratka-braon-perika",
-    image_url: "/assets/images/barbara.jpeg",
+    image_url: "/assets/images/barbara1.jpg",
     description: "Perika kratka braon",
   },
   {
