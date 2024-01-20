@@ -7,28 +7,6 @@
   text-align: left;
 }
 
-.filter__listBtn {
-  display: flex;
-  gap: 1rem;
-}
-
-.filter__btn {
-  padding: 1.2rem;
-  transition: 0.3s all;
-  display: flex;
-  gap: 1rem;
-  flex-direction: column;
-}
-
-.active {
-  background: var(--clr-primary);
-  color: white;
-}
-
-.filter__title {
-  font-size: 1.6rem;
-}
-
 .filters__btnClose {
   padding: 1rem 2rem;
   position: relative;
@@ -44,16 +22,41 @@
   justify-content: center;
 }
 
-.filters__sublist {
-  display: none;
+.filter__listBtn {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter__btn {
+  padding: 1.2rem;
   transition: 0.3s all;
+  display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 1rem;
+}
+
+.active {
+  background: var(--clr-primary);
+  color: white;
+}
+
+.filter__title {
+  font-size: 1.6rem;
+}
+
+.filters__sublist {
+  height: 0px;
+  opacity: 0;
+  transition: 0.1s all;
+  flex-direction: column;
+  display: none;
 }
 
 .filters__sublist[data-visible="true"] {
+  height: auto;
+  opacity: 1;
   display: flex;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 @media (max-width: 991px) {
@@ -122,11 +125,12 @@
     border: 1px solid var(--clr-primary);
     border-radius: 100vw;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
   }
 
   .filter__btn {
     white-space: nowrap;
-
     border-radius: 100vw;
   }
 
@@ -136,7 +140,26 @@
     cursor: pointer;
   }
 
-  .filter__subItem {
-    position: relative;
+  .filters__sublist[data-visible="true"] {
+    position: absolute;
+    background: white;
+    z-index: 999;
+    top: 100%;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    border: 1px solid var(--clr-primary);
+  }
+
+  .subFilter__btn {
+    background: white;
+    color: var(--clr-neutral-900);
+  }
+
+  .subFilter__btn.active {
+    color: white;
+    background-color: var(--clr-primary);
+  }
+  .visibleOverflow {
+    overflow: visible;
   }
 }

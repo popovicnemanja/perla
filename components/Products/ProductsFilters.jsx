@@ -3,8 +3,7 @@ import { useState, useEffect } from "react";
 import styles from "./productsfilters.module.css";
 import Image from "next/image";
 
-const ProductsFilters = () => {
-  const [activeFilter, setActiveFilter] = useState("svi");
+const ProductsFilters = ({ activeFilter, setActiveFilter }) => {
   const [filtersVisibility, setFiltersVisibility] = useState(false);
   const [subListVisibility, setSubListVisibility] = useState(false);
 
@@ -66,7 +65,12 @@ const ProductsFilters = () => {
             />
           </div>
         </button>
-        <ul className={styles.filters__list} role="list">
+        <ul
+          className={`${styles.filters__list} ${
+            subListVisibility ? styles.visibleOverflow : ""
+          }`}
+          role="list"
+        >
           <li
             role="listitem"
             className={`${styles.filter__btn} ${
@@ -75,11 +79,11 @@ const ProductsFilters = () => {
             data="svi"
             onClick={() => handleFilterClick("svi")}
           >
-            Svi
+            <span className={styles.filter__title}>Svi</span>
           </li>
           <li
             role="listitem"
-            className={`${styles.filter__btn} ${styles.filter__subItem}  ${
+            className={`${styles.filter__btn}   ${
               activeFilter === "ortoze, steznici" ? `${styles["active"]}` : ""
             }`}
             onClick={() => handleSubListVisibility()}
@@ -92,7 +96,7 @@ const ProductsFilters = () => {
             >
               <li
                 role="listitem"
-                className={`${styles.filter__btn} ${
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
                   activeFilter === "steznici za lakat"
                     ? `${styles["active"]}`
                     : ""
@@ -100,13 +104,21 @@ const ProductsFilters = () => {
                 data="steznici za lakat"
                 onClick={() => handleFilterClick("steznici za lakat")}
               >
-                <span className={styles.filter__subtitle}>
-                  Steznici za lakat
-                </span>
+                <span className={styles.filter__title}>Steznici za lakat</span>
               </li>
               <li
                 role="listitem"
-                className={`${styles.filter__btn} ${
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
+                  activeFilter === "ortoze za vrat" ? `${styles["active"]}` : ""
+                }`}
+                data="ortoze za vrat"
+                onClick={() => handleFilterClick("ortoze za vrat")}
+              >
+                <span className={styles.filter__title}>Ortoze za vrat</span>
+              </li>
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
                   activeFilter === "steznici za koleno"
                     ? `${styles["active"]}`
                     : ""
@@ -114,13 +126,11 @@ const ProductsFilters = () => {
                 data="steznici za koleno"
                 onClick={() => handleFilterClick("steznici za koleno")}
               >
-                <span className={styles.filter__subtitle}>
-                  Steznici za koleno
-                </span>
+                <span className={styles.filter__title}>Steznici za koleno</span>
               </li>
               <li
                 role="listitem"
-                className={`${styles.filter__btn} ${
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
                   activeFilter === "steznici za zglob"
                     ? `${styles["active"]}`
                     : ""
@@ -128,9 +138,7 @@ const ProductsFilters = () => {
                 data="steznici za zglob"
                 onClick={() => handleFilterClick("steznici za zglob")}
               >
-                <span className={styles.filter__subtitle}>
-                  Steznici za zglob
-                </span>
+                <span className={styles.filter__title}>Steznici za zglob</span>
               </li>
             </ul>
           </li>
@@ -141,7 +149,7 @@ const ProductsFilters = () => {
             data="obuca"
             onClick={() => handleFilterClick("obuca")}
           >
-            Obuća
+            <span className={styles.filter__title}>Obuća</span>
           </li>
           <li
             className={`${styles.filter__btn} ${
@@ -150,7 +158,7 @@ const ProductsFilters = () => {
             data="pojasevi"
             onClick={() => handleFilterClick("pojasevi")}
           >
-            Pojasevi
+            <span className={styles.filter__title}>Pojasevi</span>
           </li>
           <li
             className={`${styles.filter__btn} ${
@@ -159,7 +167,7 @@ const ProductsFilters = () => {
             data="invalidska kolica"
             onClick={() => handleFilterClick("invalidska kolica")}
           >
-            Invalidska kolica
+            <span className={styles.filter__title}>Invalidska kolica</span>
           </li>
           <li
             className={`${styles.filter__btn} ${
@@ -168,7 +176,7 @@ const ProductsFilters = () => {
             data="hodalice, stake"
             onClick={() => handleFilterClick("hodalice, stake")}
           >
-            Hodalice, Štake
+            <span className={styles.filter__title}>Hodalice, Štake</span>
           </li>
           <li
             className={`${styles.filter__btn} ${
@@ -177,7 +185,7 @@ const ProductsFilters = () => {
             data="toaletni program"
             onClick={() => handleFilterClick("toaletni program")}
           >
-            Toaletni program
+            <span className={styles.filter__title}>Toaletni program</span>
           </li>
           <li
             className={`${styles.filter__btn} ${
@@ -188,7 +196,7 @@ const ProductsFilters = () => {
             data="ortopedski grudnjaci"
             onClick={() => handleFilterClick("ortopedski grudnjaci")}
           >
-            Ortopedski grudnjaci
+            <span className={styles.filter__title}>Ortopedski grudnjaci</span>
           </li>
         </ul>
       </div>

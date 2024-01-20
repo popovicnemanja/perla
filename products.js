@@ -5,6 +5,7 @@ const products = [
     image_url: "/assets/images/steznik-za-koleno.jpg",
     description:
       "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
   },
   {
     id: 2,
@@ -12,18 +13,21 @@ const products = [
     image_url: "/assets/images/ortoza-za-vrat.jpg",
     description:
       "Ortoza za vrat je medicinski uređaj dizajniran da pruži podršku i stabilnost vratu. Koristi se u terapeutske svrhe kako bi se smanjila bol, ograničila pokretljivost ili podržao proces ozdravljenja nakon povrede.",
+    category: "ortoze za vrat",
   },
   {
     id: 3,
     title: "kratka-braon-perika",
     image_url: "/assets/images/barbara.jpg",
     description: "Perika kratka braon",
+    category: "perike",
   },
   {
     id: 4,
     title: "kratka-plava-perika",
     image_url: "/assets/images/diana.jpg",
     description: "Perika kratka plava",
+    category: "perike",
   },
 ];
 

@@ -1,4 +1,5 @@
 .product {
+  align-self: flex-start;
   padding: 1rem;
   border: 1px solid var(--clr-primary);
   border-radius: 1rem;
