@@ -10,6 +10,12 @@ const ProductsFilters = ({ activeFilter, setActiveFilter }) => {
   const handleFiltersListVisibility = () => {
     setFiltersVisibility(!filtersVisibility);
   };
+
+  const handleCloseFiltersListVisibility = () => {
+    setFiltersVisibility(false);
+    setSubListVisibility(false);
+  };
+
   const handleFilterClick = (filter) => {
     setActiveFilter(filter);
     setFiltersVisibility(false);
@@ -55,7 +61,7 @@ const ProductsFilters = ({ activeFilter, setActiveFilter }) => {
         ></div>
         <button
           className={styles.filters__btnClose}
-          onClick={() => handleFiltersListVisibility()}
+          onClick={() => handleCloseFiltersListVisibility()}
         >
           <div className="icon__wrapper">
             <Image

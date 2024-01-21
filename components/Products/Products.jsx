@@ -1,4 +1,5 @@
 "use client";
+
 import styles from "./products.module.css";
 import ProductsList from "./ProductsList";
 import ProductsFilters from "./ProductsFilters";
