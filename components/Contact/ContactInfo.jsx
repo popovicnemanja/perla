@@ -38,7 +38,7 @@ const ContactInfo = () => {
         <div className="icon__wrapper">
           <Image src="/assets/icons/icon-envelope.svg" fill alt="mail adress" />
         </div>
-        <span>mailto@gmal.com</span>
+        <span>perla.uzice@gmail.com</span>
       </div>
     </div>
   );
