@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import styles from "./productsfilters.module.css";
 import Image from "next/image";
 
-const ProductsFilters = ({ activeFilter, setActiveFilter }) => {
+const ProductsFilters = ({ activeFilter, onFilterChange }) => {
   const [filtersVisibility, setFiltersVisibility] = useState(false);
   const [subListVisibility, setSubListVisibility] = useState(false);
 
@@ -17,7 +17,7 @@ const ProductsFilters = ({ activeFilter, setActiveFilter }) => {
   };
 
   const handleFilterClick = (filter) => {
-    setActiveFilter(filter);
+    onFilterChange(filter);
     setFiltersVisibility(false);
     setSubListVisibility(false);
   };

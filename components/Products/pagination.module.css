@@ -1,0 +1,21 @@
+.pagination__wrapper {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.pagination__btn {
+  padding: 4px;
+  border-radius: 100vw;
+}
+
+.pagination__btn:hover {
+  cursor: pointer;
+}
+
+.disabled {
+  background-color: var(--clr-accent);
+  color: var(--clr-primary);
+  scale: 1.2;
+
+}

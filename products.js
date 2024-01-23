@@ -179,9 +179,90 @@ const products = [
     description: "Perika kratka plava",
     category: "perike",
   },
+  {
+    id: 25,
+    title: "steznik8",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+  {
+    id: 26,
+    title: "steznik9",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+  {
+    id: 27,
+    title: "steznik10",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+  {
+    id: 28,
+    title: "steznik11",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+  {
+    id: 29,
+    title: "steznik12",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+  {
+    id: 30,
+    title: "steznik13",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+  {
+    id: 31,
+    title: "steznik14",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+  {
+    id: 32,
+    title: "steznik15",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+  {
+    id: 33,
+    title: "steznik16",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+  {
+    id: 34,
+    title: "steznik17",
+    image_url: "/assets/images/steznik-za-koleno.jpg",
+    description:
+      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
+    category: "steznici za koleno",
+  },
+
 ];
 
-export const getProducts = async () => {
+export const getProducts = () => {
   return products;
 };
 
