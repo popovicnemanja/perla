@@ -40,15 +40,24 @@
     justify-content: space-around;
   }
 
+  
   .hero__content {
     align-items: flex-start;
     text-align: left;
   }
+  .hero__title {
+    font-size: 6.4rem;
+  }
 
+  .hero__desc-wrapper {
+    font-size: 2.4rem;
+  }
+  
   @media (min-width: 900px) {
     .hero__img--wrapper {
       max-width: 48.5rem;
       height: 56.3rem;
     }
   }
+
 }

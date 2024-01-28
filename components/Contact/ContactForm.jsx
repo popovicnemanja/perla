@@ -43,7 +43,7 @@ const ContactForm = () => {
           type="text"
           value={name}
           className={styles.form__input}
-          placeholder="Ime i Prezime"
+          placeholder="Ime"
           required
           onChange={(e) => setName(e.target.value)}
         />
@@ -59,7 +59,7 @@ const ContactForm = () => {
           type="text"
           value={phoneNumber}
           className={styles.form__input}
-          placeholder="Broj Telefona (opciono)"
+          placeholder="Broj telefona (opciono)"
           onChange={(e) => setPhoneNumber(e.target.value)}
         />
         <textarea

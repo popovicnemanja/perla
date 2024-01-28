@@ -1,12 +1,13 @@
 const products = [
   {
     id: 1,
-    title: "steznik",
-    image_url: "/assets/images/steznik-za-koleno.jpg",
+    title: "aktivna-invalidska-kolica",
+    image_url: "/assets/images/aktivna-invalidska-kolica.webp",
     description:
-      "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",
-    category: "steznici za koleno",
+      "Lagana aluminijumska Aktivna kolica",
+    category: "invalidska kolica",
   },
+  
   {
     id: 2,
     title: "ortoza-za-vrat",
@@ -30,8 +31,8 @@ const products = [
     category: "perike",
   },
   {
-    id: 5,
-    title: "steznik2",
+    id: 1,
+    title: "steznik",
     image_url: "/assets/images/steznik-za-koleno.jpg",
     description:
       "Steznik za koleno je medicinski uređaj koji se koristi za pružanje podrške, stabilnosti i kompresije zglobu koljena.",

@@ -22,7 +22,7 @@ const ContactInfo = () => {
         <div className="icon__wrapper">
           <Image src="/assets/icons/icon-phone.svg" fill alt="phone number" />
         </div>
-        <span>+381 31 513-889</span>
+        <span>+381 (031) 513-889</span>
       </div>
       <div className={styles.info__content}>
         <div className="icon__wrapper">
@@ -32,7 +32,7 @@ const ContactInfo = () => {
             alt="mobile phone number"
           />
         </div>
-        <span>+381641721272</span>
+        <span>+381 (64) 172-1272</span>
       </div>
       <div className={styles.info__content}>
         <div className="icon__wrapper">
