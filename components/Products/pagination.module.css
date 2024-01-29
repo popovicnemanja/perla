@@ -5,8 +5,14 @@
 }
 
 .pagination__btn {
-  padding: 4px;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
   border-radius: 100vw;
+  border: 2px solid var(--clr-primary);
+  color: var(--clr-primary);
+  background-color: white;
+  transition: .3s all;
 }
 
 .pagination__btn:hover {
@@ -14,8 +20,7 @@
 }
 
 .disabled {
-  background-color: var(--clr-accent);
-  color: var(--clr-primary);
-  scale: 1.2;
+  background-color: var(--clr-primary);
+  color: white;
 
 }

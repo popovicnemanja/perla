@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     title: "aktivna-invalidska-kolica",
-    image_url: "/assets/images/aktivna-invalidska-kolica.webp",
+    image_url: "/assets/images/kolica/aktivna-invalidska-kolica.webp",
     description:
       "Lagana aluminijumska Aktivna kolica",
     category: "invalidska kolica",
@@ -10,11 +10,11 @@ const products = [
   
   {
     id: 2,
-    title: "ortoza-za-vrat",
-    image_url: "/assets/images/ortoza-za-vrat.jpg",
+    title: "hodalica-podlaktna",
+    image_url: "/assets/images/stake-hodalice/hodalica-podlaktna.webp",
     description:
-      "Ortoza za vrat je medicinski uređaj dizajniran da pruži podršku i stabilnost vratu. Koristi se u terapeutske svrhe kako bi se smanjila bol, ograničila pokretljivost ili podržao proces ozdravljenja nakon povrede.",
-    category: "ortoze za vrat",
+      "Hodalica podlaktna predstavlja idealno pomagalo za osobe koje se suočavaju sa smanjenom pokretljivošću. Ova sofisticirana pruža stabilnost i podršku korisnicima tokom hodanja, posebno fokusirajući se na podršku područja podlaktice. ",
+    category: "hodalice, stake",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const products = [
     category: "perike",
   },
   {
-    id: 1,
+    id: 5,
     title: "steznik",
     image_url: "/assets/images/steznik-za-koleno.jpg",
     description:
