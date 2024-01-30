@@ -41,7 +41,7 @@ const SearchInput = () => {
                   className={`${styles["search__item--link"]}`}
                 >
                   <div className={`${styles["search__item--thumbnail"]}`}>
-                    <Image src={product.image_url} alt={product.title} fill />
+                    <Image src={product.image_url} alt={product.title} fill className={styles.thumbnail__img}/>
                   </div>
                   <p className={`${styles["search__item--title"]}`}>
                     {product.title.replace(/-/g, " ")}

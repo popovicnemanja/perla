@@ -11,6 +11,11 @@
   height: 13rem;
 }
 
+.product__img {
+object-fit: contain;
+
+}
+
 @media (min-width: 768px) {
   .product__image--wrapper {
     width: 30rem;

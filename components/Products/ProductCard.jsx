@@ -12,6 +12,7 @@ const ProductCard = ({ product }) => {
             fill
             alt={product.description}
             sizes="(min-width: 780px) 300px, 140px"
+            className={styles.product__img}
           />
         </div>
       </Link>

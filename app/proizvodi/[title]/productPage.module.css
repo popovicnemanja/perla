@@ -43,6 +43,10 @@
   height: 280px;
 }
 
+.product__img {
+  object-fit: contain;
+}
+
 .product__title {
   font-size: 2.4rem;
 }

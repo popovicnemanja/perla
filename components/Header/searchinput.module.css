@@ -54,9 +54,13 @@
 }
 
 .search__item--thumbnail {
-  width: 6rem;
-  height: 6rem;
+  width: 7rem;
+  height: 7rem;
   position: relative;
+}
+
+.thumbnail__img {
+  object-fit: contain;
 }
 
 .search__item--title {

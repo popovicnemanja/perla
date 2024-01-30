@@ -90,28 +90,17 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
           <li
             role="listitem"
             className={`${styles.filter__btn}   ${
-              activeFilter === "ortoze, steznici" ? `${styles["active"]}` : ""
+              activeFilter === "ortoze, steznici, mideri" ? `${styles["active"]}` : ""
             }`}
             onClick={() => handleSubListVisibility()}
           >
-            <span className={styles.filter__title}>Ortoze, Steznici</span>
+            <span className={styles.filter__title}>Ortoze, Pojasevi, Mideri</span>
             <ul
               role="list"
               className={styles.filters__sublist}
               data-visible={subListVisibility}
             >
-              <li
-                role="listitem"
-                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
-                  activeFilter === "steznici za lakat"
-                    ? `${styles["active"]}`
-                    : ""
-                }`}
-                data="steznici za lakat"
-                onClick={() => handleFilterClick("steznici za lakat")}
-              >
-                <span className={styles.filter__title}>Steznici za lakat</span>
-              </li>
+              
               <li
                 role="listitem"
                 className={`${styles.filter__btn} ${styles.subFilter__btn} ${
@@ -125,26 +114,62 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
               <li
                 role="listitem"
                 className={`${styles.filter__btn} ${styles.subFilter__btn} ${
-                  activeFilter === "steznici za koleno"
+                  activeFilter === "ortoze za kičmu"
                     ? `${styles["active"]}`
                     : ""
                 }`}
-                data="steznici za koleno"
-                onClick={() => handleFilterClick("steznici za koleno")}
+                data="ortoze za kičmu"
+                onClick={() => handleFilterClick("ortoze za kičmu")}
               >
-                <span className={styles.filter__title}>Steznici za koleno</span>
+                <span className={styles.filter__title}>Ortoze za kičmu</span>
               </li>
               <li
                 role="listitem"
                 className={`${styles.filter__btn} ${styles.subFilter__btn} ${
-                  activeFilter === "steznici za zglob"
+                  activeFilter === "ortoze za rame, lakat, ručni zglob"
                     ? `${styles["active"]}`
                     : ""
                 }`}
-                data="steznici za zglob"
-                onClick={() => handleFilterClick("steznici za zglob")}
+                data="ortoze za rame, lakat, ručni zglob"
+                onClick={() => handleFilterClick("ortoze za rame, lakat, ručni zglob")}
               >
-                <span className={styles.filter__title}>Steznici za zglob</span>
+                <span className={styles.filter__title}>Ortoze za rame, lakat, ručni zglob</span>
+              </li>
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
+                  activeFilter === "ortoze za koleno, zglob, stopalo"
+                    ? `${styles["active"]}`
+                    : ""
+                }`}
+                data="ortoze za koleno, zglob, stopalo"
+                onClick={() => handleFilterClick("ortoze za koleno, zglob, stopalo")}
+              >
+                <span className={styles.filter__title}>Ortoze za koleno, zglob, stopalo</span>
+              </li>
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
+                  activeFilter === "mideri"
+                    ? `${styles["active"]}`
+                    : ""
+                }`}
+                data="mideri"
+                onClick={() => handleFilterClick("mideri")}
+              >
+                <span className={styles.filter__title}>Mideri</span>
+              </li>
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
+                  activeFilter === "pojasevi"
+                    ? `${styles["active"]}`
+                    : ""
+                }`}
+                data="pojasevi"
+                onClick={() => handleFilterClick("pojasevi")}
+              >
+                <span className={styles.filter__title}>Pojasevi</span>
               </li>
             </ul>
           </li>
@@ -168,12 +193,12 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
           </li>
           <li
             className={`${styles.filter__btn} ${
-              activeFilter === "invalidska kolica" ? `${styles["active"]}` : ""
+              activeFilter === "kolica" ? `${styles["active"]}` : ""
             }`}
-            data="invalidska kolica"
-            onClick={() => handleFilterClick("invalidska kolica")}
+            data="kolica"
+            onClick={() => handleFilterClick("kolica")}
           >
-            <span className={styles.filter__title}>Invalidska kolica</span>
+            <span className={styles.filter__title}>Kolica</span>
           </li>
           <li
             className={`${styles.filter__btn} ${
