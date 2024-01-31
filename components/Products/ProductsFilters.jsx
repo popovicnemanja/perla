@@ -202,10 +202,10 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
           </li>
           <li
             className={`${styles.filter__btn} ${
-              activeFilter === "hodalice, stake" ? `${styles["active"]}` : ""
+              activeFilter === "hodalice, štake" ? `${styles["active"]}` : ""
             }`}
-            data="hodalice, stake"
-            onClick={() => handleFilterClick("hodalice, stake")}
+            data="hodalice, štake"
+            onClick={() => handleFilterClick("hodalice, štake")}
           >
             <span className={styles.filter__title}>Hodalice, Štake</span>
           </li>
