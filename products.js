@@ -95,7 +95,7 @@ const products = [
   {
     id: 14,
     title: "Okovratnik",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/okovratnik.png",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/okovratnik.png",
     description: "Okovratnik",
     category: "ortoze za vrat",
   },
