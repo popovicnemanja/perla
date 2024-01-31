@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     title: "Štitnik nosa",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/stitnik-nosa.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/štitnik-nosa.png",
     description: "Štitnik nosa",
     category: "kolica",
   },
@@ -16,7 +16,7 @@ const products = [
   {
     id: 3,
     title: "Trudnički pojas",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/trudnicki-pojas.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/trudnički-pojas.png",
     description: "Trudnički pojas",
     category: "mideri",
   },
@@ -176,7 +176,7 @@ const products = [
   {
     id: 25,
     title: "Dečija-kolica",
-    image_url: "/assets/images/kolica/decija-kolica.png",
+    image_url: "/assets/images/kolica/dečija-kolica.png",
     description: "Dečija kolica",
     category: "kolica",
   },
