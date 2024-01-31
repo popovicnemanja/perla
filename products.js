@@ -16,7 +16,7 @@ const products = [
   {
     id: 3,
     title: "trudnički-pojas",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/trudnicki-pojas.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/trudnički-pojas.png",
     description: "Trudnički pojas",
     category: "mideri",
   },
