@@ -15,7 +15,7 @@ const products = [
   },
   {
     id: 3,
-    title: "Trudnički pojas",
+    title: "trudnički-pojas",
     image_url: "/assets/images/ortoze-pojasevi-mideri/trudnicki-pojas.png",
     description: "Trudnički pojas",
     category: "mideri",
@@ -80,8 +80,7 @@ const products = [
   {
     id: 12,
     title: "Noćna-ortoza-za-čukljeve",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/nocna-ortoza-za-cukljeve.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/nocna-ortoza-za-cukljeve.png",
     description: "Noćna ortoza za čukljeve",
     category: "ortoze za koleno, zglob, stopalo",
   },
