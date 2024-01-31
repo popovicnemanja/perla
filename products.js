@@ -79,9 +79,9 @@ const products = [
   },
   {
     id: 12,
-    title: "Noćna ortoza-za-čukljeve",
+    title: "Noćna-ortoza-za-čukljeve",
     image_url:
-      "/assets/images/ortoze-pojasevi-mideri/noćna-ortoza-za-čukljeve.png",
+      "/assets/images/ortoze-pojasevi-mideri/nocna-ortoza-za-cukljeve.png",
     description: "Noćna ortoza za čukljeve",
     category: "ortoze za koleno, zglob, stopalo",
   },
@@ -103,7 +103,7 @@ const products = [
     id: 15,
     title: "Ortoza-ručnog-zgloba",
     image_url:
-      "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
+      "/assets/images/ortoze-pojasevi-mideri/ortoza-rucnog-zgloba.png",
     description: "Ortoza-ručnog-zgloba",
     category: "ortoza za rame, lakat, ručni zglob",
   },
@@ -124,8 +124,7 @@ const products = [
   {
     id: 18,
     title: "Postoperativni-mider",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/postoperativni-mider.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/postoperativni-mider.png",
     description: "Postoperativni mider",
     category: "mideri",
   },
@@ -139,8 +138,7 @@ const products = [
   {
     id: 20,
     title: "Steznik-za-grudni-koš",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-kos.png",
     description: "Elektromotorna Kolica",
     category: "ortoze za kičmu",
   },
@@ -148,7 +146,7 @@ const products = [
     id: 21,
     title: "Steznik-za-pravilno-držanje-ramena",
     image_url:
-      "/assets/images/ortoze-pojasevi-mideri/steznik-za-pravilno-držanje-ramena.png",
+      "/assets/images/ortoze-pojasevi-mideri/steznik-za-pravilno-drzanje-ramena.png",
     description: "Steznik za pravilno držanje ramena",
     category: "ortoze za rame, lakat, ručni zglob",
   },
@@ -178,7 +176,7 @@ const products = [
   {
     id: 25,
     title: "Dečija-kolica",
-    image_url: "/assets/images/kolica/dečija-kolica.png",
+    image_url: "/assets/images/kolica/decija-kolica.png",
     description: "Dečija kolica",
     category: "kolica",
   },
@@ -192,7 +190,7 @@ const products = [
   {
     id: 27,
     title: "hodalica-sa-dva-točka",
-    image_url: "/assets/images/štake-hodalice/hodalica-sa-dva-točka.png",
+    image_url: "/assets/images/štake-hodalice/hodalica-sa-dva-tocka.png",
     description: "Hodalica sa dva točka",
     category: "hodalice, stake",
   },
@@ -213,7 +211,7 @@ const products = [
   {
     id: 30,
     title: "Štake-podpazusne",
-    image_url: "/assets/images/štake-hodalice/štake-podpazusne.png",
+    image_url: "/assets/images/štake-hodalice/stake-podpazusne.png",
     description: "Štake podpazusne",
     category: "hodalice, stake",
   },
@@ -255,7 +253,7 @@ const products = [
   {
     id: 36,
     title: "Toaletna-stolica-sa-točkićima",
-    image_url: "/assets/images/toaletni-program/toaletna-stolica-sa-točkićima.png",
+    image_url: "/assets/images/toaletni-program/toaletna-stolica-sa-tockicima.png",
     description: "Toaletna stolica sa točkićima",
     category: "toaletni program",
   },
@@ -266,7 +264,146 @@ const products = [
     description: "Sedište za kadu",
     category: "toaletni program",
   },
-  
+  {
+    id: 38,
+    title: "perika-alexandra",
+    image_url: "/assets/images/perike/perika-alexandra.png",
+    description: "Perika Alexandra",
+    category: "perike",
+  },
+  {
+    id: 39,
+    title: "perika-angelica",
+    image_url: "/assets/images/perike/perika-angelica.png",
+    description: "Perika Angelica",
+    category: "perike",
+  },
+  {
+    id: 40,
+    title: "perika-april",
+    image_url: "/assets/images/perike/perika-april.png",
+    description: "Perika April",
+    category: "perike",
+  },
+  {
+    id: 41,
+    title: "perika-arabella",
+    image_url: "/assets/images/perike/perika-arabella.png",
+    description: "Perika Alexandra",
+    category: "perike",
+  },
+  {
+    id: 42,
+    title: "perika-catherina",
+    image_url: "/assets/images/perike/perika-catherina.png",
+    description: "Perika Catherina",
+    category: "perike",
+  },
+  {
+    id: 43,
+    title: "perika-christina",
+    image_url: "/assets/images/perike/perika-christina.png",
+    description: "Perika Christina",
+    category: "perike",
+  },
+  {
+    id: 44,
+    title: "perika-claire-life",
+    image_url: "/assets/images/perike/perika-claire-life.png",
+    description: "Perika Claire Life",
+    category: "perike",
+  },
+  {
+    id: 45,
+    title: "perika-evie",
+    image_url: "/assets/images/perike/perika-evie.png",
+    description: "Perika Evie",
+    category: "perike",
+  },
+  {
+    id: 46,
+    title: "perika-gabi",
+    image_url: "/assets/images/perike/perika-gabi.png",
+    description: "Perika Gabi",
+    category: "perike",
+  },
+  {
+    id: 47,
+    title: "perika-honora",
+    image_url: "/assets/images/perike/perika-honora.png",
+    description: "Perika Honora",
+    category: "perike",
+  },
+  {
+    id: 48,
+    title: "perika-jenifer",
+    image_url: "/assets/images/perike/perika-jenifer.png",
+    description: "Perika Jenifer",
+    category: "perike",
+  },
+  {
+    id: 49,
+    title: "perika-megan",
+    image_url: "/assets/images/perike/perika-megan.png",
+    description: "Perika Megan",
+    category: "perike",
+  },
+  {
+    id: 50,
+    title: "perika-montgomery",
+    image_url: "/assets/images/perike/perika-montgomery.png",
+    description: "Perika Montgomery",
+    category: "perike",
+  },
+  {
+    id: 51,
+    title: "perika-poppy",
+    image_url: "/assets/images/perike/perika-poppy.png",
+    description: "Perika Poppy",
+    category: "perike",
+  },
+  {
+    id: 52,
+    title: "perika-sandra",
+    image_url: "/assets/images/perike/perika-sandra.png",
+    description: "Perika Sandra",
+    category: "perike",
+  },
+  {
+    id: 53,
+    title: "perika-sonya-life",
+    image_url: "/assets/images/perike/perika-sonya-life.png",
+    description: "Perika Sonya Life",
+    category: "perike",
+  },
+  {
+    id: 54,
+    title: "perika-tamsin",
+    image_url: "/assets/images/perike/perika-tamsin.png",
+    description: "Perika Tamsin",
+    category: "perike",
+  },
+  {
+    id: 55,
+    title: "perika-tilly",
+    image_url: "/assets/images/perike/perika-tilly.png",
+    description: "Perika Tilly",
+    category: "perike",
+  },
+  {
+    id: 56,
+    title: "perika-tony-life",
+    image_url: "/assets/images/perike/perika-tony-life.png",
+    description: "Perika Tony Life",
+    category: "perike",
+  },
+  {
+    id: 57,
+    title: "perika-winter",
+    image_url: "/assets/images/perike/perika-winter.png",
+    description: "Perika Winter",
+    category: "perike",
+  },
 ];
 
 export const getProducts = () => {
