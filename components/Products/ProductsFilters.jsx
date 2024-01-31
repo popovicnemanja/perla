@@ -184,12 +184,12 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
           </li>
           <li
             className={`${styles.filter__btn} ${
-              activeFilter === "pojasevi" ? `${styles["active"]}` : ""
+              activeFilter === "perike" ? `${styles["active"]}` : ""
             }`}
-            data="pojasevi"
-            onClick={() => handleFilterClick("pojasevi")}
+            data="perike"
+            onClick={() => handleFilterClick("perike")}
           >
-            <span className={styles.filter__title}>Pojasevi</span>
+            <span className={styles.filter__title}>Perike</span>
           </li>
           <li
             className={`${styles.filter__btn} ${
