@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     title: "štitnik-nosa",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/stitnik-nosa.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/štitnik-nosa.png",
     description: "Štitnik nosa",
     category: "kolica",
   },
