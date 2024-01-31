@@ -1,10 +1,10 @@
 const products = [
   {
     id: 1,
-    title: "štitnik-nosa",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/štitnik-nosa.png",
-    description: "Štitnik nosa",
-    category: "kolica",
+    title: "štitnik-za-nos",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/štitnik-za-nos.png",
+    description: "Štitnik za nos",
+    category: "ortoze za vrat",
   },
   {
     id: 2,
