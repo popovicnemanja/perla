@@ -29,6 +29,13 @@ const products = [
     category: "kolica",
   },
   {
+    id: 3,
+    title: "trudnički-pojas",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/trudnicki-pojas.png",
+    description: "Trudnički pojas",
+    category: "mideri",
+  },
+  {
     id: 5,
     title: "elektromotorna-kolica2",
     image_url: "/assets/images/kolica/elektromotorna-kolica2.png",
@@ -64,6 +71,13 @@ const products = [
     category: "mideri",
   },
   {
+    id: 8,
+    title: "longeta-za-koleno",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/longeta-za-koleno.png",
+    description: "Longeta za koleno",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
     id: 10,
     title: "Meka-kragna",
     image_url: "/assets/images/ortoze-pojasevi-mideri/meka-kragna.png",
@@ -77,6 +91,7 @@ const products = [
     description: "Mitela",
     category: "ortoze za rame, lakat, ručni zglob",
   },
+
   {
     id: 12,
     title: "Noćna-ortoza-za-čukljeve",
