@@ -88,15 +88,15 @@ const products = [
   {
     id: 13,
     title: "Okovratnik-Tomas",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/okovratnik-tomas.png",
-    description: "Okovratnik",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/okovratnik-tomas.png",
+    description: "Okovratnik Tomas",
     category: "ortoze za vrat",
   },
   {
     id: 14,
     title: "Okovratnik",
     image_url: "/assets/images/ortoze-pojasevi-mideri/okovratnik.png",
-    description: "Elektromotorna Kolica",
+    description: "Okovratnik",
     category: "ortoze za vrat",
   },
   {
@@ -110,28 +110,28 @@ const products = [
   {
     id: 16,
     title: "Ortoza-za-palac",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-za-palac.png",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/ortoza-za-palac.png",
     description: "Ortoza za palac",
     category: "ortoza za rame, lakat, ručni zglob",
   },
   {
     id: 17,
     title: "Peronalna-ortoza",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/peronalna-ortoza.png",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/peronalna-ortoza.png",
     description: "Peronalna ortoza",
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
     id: 18,
     title: "Postoperativni-mider",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/postoperativni-mider.png",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/postoperativni-mider.png",
     description: "Postoperativni mider",
     category: "mideri",
   },
   {
     id: 19,
     title: "Rehab-kolena",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/rehab-kolena.png",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/rehab-kolena.png",
     description: "Rehab kolena",
     category: "ortoze za koleno, zglob, stopalo",
   },
@@ -153,9 +153,9 @@ const products = [
   {
     id: 22,
     title: "Steznik-za-ruku",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-ruku.png",
-    description: "Elektromotorna Kolica",
-    category: "kolica",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/steznik-za-ruku.png",
+    description: "Steznik za ruku",
+    category: "ortoze za rame, lakat, ručni zglob",
   },
   {
     id: 23,
@@ -168,8 +168,7 @@ const products = [
   {
     id: 24,
     title: "torakolumbalni-mider",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/torakolumbalni-mider.png",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/torakolumbalni-mider.png",
     description: "Torakolumbalni mider",
     category: "mideri",
   },
