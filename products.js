@@ -51,14 +51,14 @@ const products = [
   },
   {
     id: 8,
-    title: "Longeta za koleno",
+    title: "longeta-za-koleno",
     image_url: "/assets/images/ortoze-pojasevi-mideri/longeta-za-koleno.png",
     description: "Longeta za koleno",
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
     id: 9,
-    title: "Lumbalni-mider",
+    title: "lumbalni-mider",
     image_url: "/assets/images/ortoze-pojasevi-mideri/lumbalni-mider.png",
     description: "Lumbalni mider",
     category: "mideri",
@@ -167,7 +167,7 @@ const products = [
 
   {
     id: 24,
-    title: "Torakolumbalni-mider",
+    title: "torakolumbalni-mider",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/torakolumbalni-mider.png",
     description: "Torakolumbalni mider",
@@ -175,7 +175,7 @@ const products = [
   },
   {
     id: 25,
-    title: "Dečija-kolica",
+    title: "dečija-kolica",
     image_url: "/assets/images/kolica/dečija-kolica.png",
     description: "Dečija kolica",
     category: "kolica",
@@ -203,22 +203,22 @@ const products = [
   },
   {
     id: 29,
-    title: "Štake-podlaktne",
+    title: "štake-podlaktne",
     image_url: "/assets/images/stake-hodalice/stake-podlaktne.png",
     description: "Štake podlaktne",
     category: "hodalice, stake",
   },
   {
     id: 30,
-    title: "Štake-podpazusne",
+    title: "štake-podpazusne",
     image_url: "/assets/images/stake-hodalice/stake-podpazusne.png",
     description: "Štake podpazusne",
     category: "hodalice, stake",
   },
   {
     id: 31,
-    title: "Štap sklopivi",
-    image_url: "/assets/images/stake-hodalice/sstap-sklopivi.png",
+    title: "štap-sklopivi",
+    image_url: "/assets/images/stake-hodalice/stap-sklopivi.png",
     description: "Štap sklopivi",
     category: "hodalice, stake",
   },
@@ -238,9 +238,9 @@ const products = [
   },
   {
     id: 34,
-    title: "Sedište-za-kadu2",
-    image_url: "/assets/images/toaletni-program/sediste-za-kadu2.png",
-    description: "Sedište za kadu",
+    title: "sediste-za-kadu-sa-naslonom",
+    image_url: "/assets/images/toaletni-program/sediste-za-kadu-sa-naslonom.png",
+    description: "Sedište za kadu sa naslonom",
     category: "toaletni program",
   },
   {
