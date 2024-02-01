@@ -5,16 +5,7 @@ const products = [
     image_url: "/assets/images/ortoze-pojasevi-mideri/štitnik-za-nos.png",
     description:
       "Ortoza za nos je medicinski uređaj koji se koristi za podršku, stabilizaciju ili poboljšanje strukture nosa. Oblikovan je prema potrebama pacijenta i može se koristiti u terapeutske svrhe, poput ispravljanja devijacija nosnog septuma ili olakšavanja disanja nakon povrede ili operacije. Ove ortoze su lagane i udobne za nošenje te se koriste prema preporukama stručnjaka za postizanje optimalnih rezultata.",
-    category: "ortoze za vrat",
-  },
-  {
-    id: 2,
-    title: "Steznik-za-grudni-koš",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
-    description:
-      "Steznik za grudni koš je medicinski uređaj dizajniran da pruži podršku i stabilnost grudnom košu. Koristi se u terapeutske svrhe, poput smanjenja pokreta tokom ozdravljenja nakon povreda ili operacija na grudnom području. Ovi steznici obično imaju prilagodljiv dizajn i čvrstu konstrukciju kako bi održali stabilnost i podršku tokom procesa ozdravljenja. Važno je koristiti ih prema preporukama medicinskog stručnjaka radi optimalnih terapijskih rezultata.",
-    category: "ortoze za kičmu",
+    category: "ortoze za vrat i glavu",
   },
   {
     id: 13,
@@ -22,7 +13,7 @@ const products = [
     image_url: "/assets/images/Ortoze-Pojasevi-Mideri/okovratnik-tomas.png",
     description:
       "Okovratnik je ortopedski uređaj koji pruža podršku vratnoj kičmi. Izrađen od tvrdog materijala poput plastike ili metala, postavlja se oko vrata radi imobilizacije i stabilizacije. Koristi se nakon ozljeda vrata, u liječenju problema s vratnom kičmom ili nakon operacija kako bi ograničio pokrete i pružio podršku tijekom rehabilitacije. Važno je koristiti okovratnik prema uputama stručnjaka za postizanje najboljih terapijskih rezultata.",
-    category: "ortoze za vrat",
+    category: "ortoze za vrat i glavu",
   },
 
   {
@@ -31,28 +22,40 @@ const products = [
     image_url: "/assets/images/Ortoze-Pojasevi-Mideri/okovratnik.png",
     description:
       "Okovratnik je specijalizovani ortopedski uređaj namenjen pružanju potpore vratnoj kičmi. Napravljen od čvrstog materijala poput plastike ili metala, postavlja se oko vrata radi imobilizacije i stabilizacije. Često se koristi posle povreda vrata ili operacija kako bi ograničio pokrete i doprineo bržem oporavku. Pravilna upotreba okovratnika, prema preporukama stručnjaka, ključna je za postizanje optimalnih terapijskih rezultata.",
-    category: "ortoze za vrat",
+    category: "ortoze za vrat i glavu",
   },
   {
     id: 10,
     title: "Meka-kragna",
     image_url: "/assets/images/Ortoze-Pojasevi-Mideri/meka-kragna.png",
-    description: "Meka kragna za vrat je lagani ortopedski uređaj izrađen od mekih materijala poput pene ili pamuka. Namenjena je pružanju blage potpore i udobnosti vratu. Ova vrsta kragni često se koristi kod blažih bolova u vratu ili napetosti mišića. Nudi nežnu podršku i može se koristiti za ublažavanje nelagodnosti bez potrebe za potpunom imobilizacijom. Važno je koristiti meku kragnu prema preporukama stručnjaka radi postizanja najboljih rezultata.",
-    category: "ortoze za vrat",
+    description:
+      "Meka kragna za vrat je lagani ortopedski uređaj izrađen od mekih materijala poput pene ili pamuka. Namenjena je pružanju blage potpore i udobnosti vratu. Ova vrsta kragni često se koristi kod blažih bolova u vratu ili napetosti mišića. Nudi nežnu podršku i može se koristiti za ublažavanje nelagodnosti bez potrebe za potpunom imobilizacijom. Važno je koristiti meku kragnu prema preporukama stručnjaka radi postizanja najboljih rezultata.",
+    category: "ortoze za vrat i glavu",
   },
 
   {
     id: 3,
     title: "trudnički-pojas",
     image_url: "/assets/images/ortoze-pojasevi-mideri/trudnički-pojas.png",
-    description: "Trudnički pojas",
+    description:
+      "Trudnički pojas predstavlja ortopedski dodatak namenjen trudnicama za pružanje podrške tokom trudnoće. Izrađen od elastičnih materijala prilagodljivih rastućem stomaku, ovaj pojas ima zadatak ublažavanja pritiska na donjem delu leđa, pružanja potpore trbušnim mišićima i poboljšanja opšteg komfora. Njegova pravilna upotreba, prema preporukama stručnjaka, može značajno doprineti smanjenju nelagodnosti tokom trudničkih meseci.",
     category: "pojasevi",
+  },
+  {
+    id: 2,
+    title: "Steznik-za-grudni-koš",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
+    description:
+      "Steznik za grudni koš je medicinski uređaj dizajniran da pruži podršku i stabilnost grudnom košu. Koristi se u terapeutske svrhe, poput smanjenja pokreta tokom ozdravljenja nakon povreda ili operacija na grudnom području. Ovi steznici obično imaju prilagodljiv dizajn i čvrstu konstrukciju kako bi održali stabilnost i podršku tokom procesa ozdravljenja. Važno je koristiti ih prema preporukama medicinskog stručnjaka radi optimalnih terapijskih rezultata.",
+    category: "mideri",
   },
   {
     id: 9,
     title: "lumbalni-mider",
     image_url: "/assets/images/Ortoze-Pojasevi-Mideri/lumbalni-mider.png",
-    description: "Lumbalni mider",
+    description:
+      "Lumbalni mider je ortopedski uređaj dizajniran za pružanje podrške i stabilnosti u donjem delu leđa. Ovaj pojasevi se obično nose oko struka i pružaju kompresiju kako bi smanjili opterećenje na lumbalnom delu kičme. Koriste se radi olakšavanja bolova, podrške pri rehabilitaciji ili održavanja pravilnog položaja kičme. Važno je koristiti lumbalni mider prema uputama stručnjaka za postizanje najboljih terapijskih rezultata.",
     category: "mideri",
   },
   {

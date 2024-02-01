@@ -107,24 +107,12 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
               <li
                 role="listitem"
                 className={`${styles.filter__btn} ${styles.subFilter__btn} ${
-                  activeFilter === "ortoze za vrat" ? `${styles["active"]}` : ""
+                  activeFilter === "ortoze za vrat i glavu" ? `${styles["active"]}` : ""
                 }`}
-                data="ortoze za vrat"
-                onClick={() => handleFilterClick("ortoze za vrat")}
+                data="ortoze za vrat i glavu"
+                onClick={() => handleFilterClick("ortoze za vrat i glavu")}
               >
-                <span className={styles.filter__title}>Ortoze za vrat</span>
-              </li>
-              <li
-                role="listitem"
-                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
-                  activeFilter === "ortoze za kičmu"
-                    ? `${styles["active"]}`
-                    : ""
-                }`}
-                data="ortoze za kičmu"
-                onClick={() => handleFilterClick("ortoze za kičmu")}
-              >
-                <span className={styles.filter__title}>Ortoze za kičmu</span>
+                <span className={styles.filter__title}>Ortoze za vrat i glavu</span>
               </li>
               <li
                 role="listitem"
@@ -234,14 +222,14 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
           <li
             role="listitem"
             className={`${styles.filter__btn} ${
-              activeFilter === "ortopedski grudnjaci"
+              activeFilter === "proteze dojke i ortopedski grudnjaci"
                 ? `${styles["active"]}`
                 : ""
             }`}
-            data="ortopedski grudnjaci"
-            onClick={() => handleFilterClick("ortopedski grudnjaci")}
+            data="proteze dojke i ortopedski grudnjaci"
+            onClick={() => handleFilterClick("proteze dojke i ortopedski grudnjaci")}
           >
-            <span className={styles.filter__title}>Ortopedski grudnjaci</span>
+            <span className={styles.filter__title}>Proteze dojke i ortopedski grudnjaci</span>
           </li>
         </ul>
       </div>
