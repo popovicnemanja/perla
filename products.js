@@ -3,16 +3,44 @@ const products = [
     id: 1,
     title: "štitnik-za-nos",
     image_url: "/assets/images/ortoze-pojasevi-mideri/štitnik-za-nos.png",
-    description: "Štitnik za nos",
+    description:
+      "Ortoza za nos je medicinski uređaj koji se koristi za podršku, stabilizaciju ili poboljšanje strukture nosa. Oblikovan je prema potrebama pacijenta i može se koristiti u terapeutske svrhe, poput ispravljanja devijacija nosnog septuma ili olakšavanja disanja nakon povrede ili operacije. Ove ortoze su lagane i udobne za nošenje te se koriste prema preporukama stručnjaka za postizanje optimalnih rezultata.",
     category: "ortoze za vrat",
   },
   {
     id: 2,
-    title: "mehanička-kolica",
-    image_url: "/assets/images/kolica/mehanička-kolica.png",
-    description: "Štitnik nosa",
-    category: "kolica",
+    title: "Steznik-za-grudni-koš",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
+    description:
+      "Steznik za grudni koš je medicinski uređaj dizajniran da pruži podršku i stabilnost grudnom košu. Koristi se u terapeutske svrhe, poput smanjenja pokreta tokom ozdravljenja nakon povreda ili operacija na grudnom području. Ovi steznici obično imaju prilagodljiv dizajn i čvrstu konstrukciju kako bi održali stabilnost i podršku tokom procesa ozdravljenja. Važno je koristiti ih prema preporukama medicinskog stručnjaka radi optimalnih terapijskih rezultata.",
+    category: "ortoze za kičmu",
   },
+  {
+    id: 13,
+    title: "Okovratnik-Tomas",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/okovratnik-tomas.png",
+    description:
+      "Okovratnik je ortopedski uređaj koji pruža podršku vratnoj kičmi. Izrađen od tvrdog materijala poput plastike ili metala, postavlja se oko vrata radi imobilizacije i stabilizacije. Koristi se nakon ozljeda vrata, u liječenju problema s vratnom kičmom ili nakon operacija kako bi ograničio pokrete i pružio podršku tijekom rehabilitacije. Važno je koristiti okovratnik prema uputama stručnjaka za postizanje najboljih terapijskih rezultata.",
+    category: "ortoze za vrat",
+  },
+
+  {
+    id: 14,
+    title: "Okovratnik",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/okovratnik.png",
+    description:
+      "Okovratnik je specijalizovani ortopedski uređaj namenjen pružanju potpore vratnoj kičmi. Napravljen od čvrstog materijala poput plastike ili metala, postavlja se oko vrata radi imobilizacije i stabilizacije. Često se koristi posle povreda vrata ili operacija kako bi ograničio pokrete i doprineo bržem oporavku. Pravilna upotreba okovratnika, prema preporukama stručnjaka, ključna je za postizanje optimalnih terapijskih rezultata.",
+    category: "ortoze za vrat",
+  },
+  {
+    id: 10,
+    title: "Meka-kragna",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/meka-kragna.png",
+    description: "Meka kragna za vrat je lagani ortopedski uređaj izrađen od mekih materijala poput pene ili pamuka. Namenjena je pružanju blage potpore i udobnosti vratu. Ova vrsta kragni često se koristi kod blažih bolova u vratu ili napetosti mišića. Nudi nežnu podršku i može se koristiti za ublažavanje nelagodnosti bez potrebe za potpunom imobilizacijom. Važno je koristiti meku kragnu prema preporukama stručnjaka radi postizanja najboljih rezultata.",
+    category: "ortoze za vrat",
+  },
+
   {
     id: 3,
     title: "trudnički-pojas",
@@ -20,12 +48,107 @@ const products = [
     description: "Trudnički pojas",
     category: "pojasevi",
   },
+  {
+    id: 9,
+    title: "lumbalni-mider",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/lumbalni-mider.png",
+    description: "Lumbalni mider",
+    category: "mideri",
+  },
+  {
+    id: 18,
+    title: "Postoperativni-mider",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/postoperativni-mider.png",
+    description: "Postoperativni mider",
+    category: "mideri",
+  },
+  {
+    id: 24,
+    title: "torakolumbalni-mider",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/torakolumbalni-mider.png",
+    description: "Torakolumbalni mider",
+    category: "mideri",
+  },
+  {
+    id: 8,
+    title: "longeta-za-koleno",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/longeta-za-koleno.png",
+    description: "Longeta za koleno",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 12,
+    title: "Noćna-ortoza-za-čukljeve",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/noćna-ortoza-za-čukljeve.png",
+    description: "Noćna ortoza za čukljeve",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 17,
+    title: "Peronalna-ortoza",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/peronalna-ortoza.png",
+    description: "Peronalna ortoza",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+
+  {
+    id: 19,
+    title: "Rehab-kolena",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/rehab-kolena.png",
+    description: "Rehab kolena",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 11,
+    title: "Mitela",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/mitela.png",
+    description: "Mitela",
+    category: "ortoze za rame, lakat, ručni zglob",
+  },
+  {
+    id: 15,
+    title: "Ortoza-ručnog-zgloba",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
+    description: "Ortoza-ručnog-zgloba",
+    category: "ortoza za rame, lakat, ručni zglob",
+  },
+  {
+    id: 16,
+    title: "Ortoza-za-palac",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/ortoza-za-palac.png",
+    description: "Ortoza za palac",
+    category: "ortoza za rame, lakat, ručni zglob",
+  },
+
+  {
+    id: 21,
+    title: "Steznik-za-pravilno-držanje-ramena",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/steznik-za-pravilno-držanje-ramena.png",
+    description: "Steznik za pravilno držanje ramena",
+    category: "ortoze za rame, lakat, ručni zglob",
+  },
+  {
+    id: 22,
+    title: "Steznik-za-ruku",
+    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/steznik-za-ruku.png",
+    description: "Steznik za ruku",
+    category: "ortoze za rame, lakat, ručni zglob",
+  },
 
   {
     id: 4,
     title: "elektromotorna-kolica",
     image_url: "/assets/images/kolica/elektromotorna-kolica.png",
     description: "Elektromotorna Kolica",
+    category: "kolica",
+  },
+  {
+    id: 2,
+    title: "mehanička-kolica",
+    image_url: "/assets/images/kolica/mehanička-kolica.png",
+    description: "Štitnik nosa",
     category: "kolica",
   },
   {
@@ -49,114 +172,7 @@ const products = [
     description: "Elektromotorna Kolica",
     category: "kolica",
   },
-  {
-    id: 8,
-    title: "longeta-za-koleno",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/longeta-za-koleno.png",
-    description: "Longeta za koleno",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 9,
-    title: "lumbalni-mider",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/lumbalni-mider.png",
-    description: "Lumbalni mider",
-    category: "mideri",
-  },
-  {
-    id: 10,
-    title: "Meka-kragna",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/meka-kragna.png",
-    description: "Meka kragna za vrat",
-    category: "ortoze za vrat",
-  },
-  {
-    id: 11,
-    title: "Mitela",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/mitela.png",
-    description: "Mitela",
-    category: "ortoze za rame, lakat, ručni zglob",
-  },
 
-  {
-    id: 12,
-    title: "Noćna-ortoza-za-čukljeve",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/noćna-ortoza-za-čukljeve.png",
-    description: "Noćna ortoza za čukljeve",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 13,
-    title: "Okovratnik-Tomas",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/okovratnik-tomas.png",
-    description: "Okovratnik Tomas",
-    category: "ortoze za vrat",
-  },
-  {
-    id: 14,
-    title: "Okovratnik",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/okovratnik.png",
-    description: "Okovratnik",
-    category: "ortoze za vrat",
-  },
-  {
-    id: 15,
-    title: "Ortoza-ručnog-zgloba",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
-    description: "Ortoza-ručnog-zgloba",
-    category: "ortoza za rame, lakat, ručni zglob",
-  },
-  {
-    id: 16,
-    title: "Ortoza-za-palac",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/ortoza-za-palac.png",
-    description: "Ortoza za palac",
-    category: "ortoza za rame, lakat, ručni zglob",
-  },
-  {
-    id: 17,
-    title: "Peronalna-ortoza",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/peronalna-ortoza.png",
-    description: "Peronalna ortoza",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 18,
-    title: "Postoperativni-mider",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/postoperativni-mider.png",
-    description: "Postoperativni mider",
-    category: "mideri",
-  },
-  {
-    id: 19,
-    title: "Rehab-kolena",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/rehab-kolena.png",
-    description: "Rehab kolena",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 20,
-    title: "Steznik-za-grudni-koš",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
-    description: "Elektromotorna Kolica",
-    category: "ortoze za kičmu",
-  },
-  {
-    id: 21,
-    title: "Steznik-za-pravilno-držanje-ramena",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/steznik-za-pravilno-držanje-ramena.png",
-    description: "Steznik za pravilno držanje ramena",
-    category: "ortoze za rame, lakat, ručni zglob",
-  },
-  {
-    id: 22,
-    title: "Steznik-za-ruku",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/steznik-za-ruku.png",
-    description: "Steznik za ruku",
-    category: "ortoze za rame, lakat, ručni zglob",
-  },
   {
     id: 23,
     title: "Aktivna-invalidska-kolica",
@@ -165,13 +181,6 @@ const products = [
     category: "kolica",
   },
 
-  {
-    id: 24,
-    title: "torakolumbalni-mider",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/torakolumbalni-mider.png",
-    description: "Torakolumbalni mider",
-    category: "mideri",
-  },
   {
     id: 25,
     title: "dečija-kolica",
@@ -238,7 +247,8 @@ const products = [
   {
     id: 34,
     title: "sediste-za-kadu-sa-naslonom",
-    image_url: "/assets/images/toaletni-program/sedište-za-kadu-sa-naslonom.png",
+    image_url:
+      "/assets/images/toaletni-program/sedište-za-kadu-sa-naslonom.png",
     description: "Sedište za kadu sa naslonom",
     category: "toaletni program",
   },
@@ -252,7 +262,8 @@ const products = [
   {
     id: 36,
     title: "Toaletna-stolica-sa-točkićima",
-    image_url: "/assets/images/toaletni-program/toaletna-stolica-sa-točkićima.png",
+    image_url:
+      "/assets/images/toaletni-program/toaletna-stolica-sa-točkićima.png",
     description: "Toaletna stolica sa točkićima",
     category: "toaletni program",
   },
