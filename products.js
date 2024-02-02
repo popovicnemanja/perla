@@ -93,8 +93,8 @@ const products = [
   },
   {
     id: 12,
-    title: "Peronalna-ortoza",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/peronalna-ortoza.png",
+    title: "Peronealna-ortoza",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/peronealna-ortoza.png",
     description:
       'Peronealna ortoza je plastično pomagalo namenjen podršci osobama sa "palim stopalom" uzrokovanom oštećenjem peronealnog nerva, često posledicom moždanog udara. Održava stopalo pod pravim uglom od 90 stepeni u odnosu na potkolenicu, sprečavajući nekontrolisano padanje stopala pri hodanju. Veličina ortoze se prilagođava veličini cipela korisnika i preporučuje se nošenje u čvršćoj i dubljoj obući.',
     category: "ortoze za koleno, zglob, stopalo",
