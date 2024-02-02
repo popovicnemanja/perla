@@ -10,7 +10,7 @@ const products = [
   {
     id: 2,
     title: "kragna-Tomas",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/kragna-tomas.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/kragna-tomas.png",
     description:
       "Ortoza za vrat je ortopedsko pomagalo koje pruža podršku vratnoj kičmi. Izrađena je od tvrdog materijala poput plastike ili metala, postavlja se oko vrata radi imobilizacije i stabilizacije. Koristi se nakon povreda vrata, u lečenju problema s vratnom kičmom ili nakon operacija kako bi ograničila pokrete i pružilo podršku tokom rehabilitacije. Važno je koristiti ortozu prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
     category: "ortoze za vrat i glavu",
@@ -19,7 +19,7 @@ const products = [
   {
     id: 3,
     title: "Kragna",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/kragna.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/kragna.png",
     description:
       "Ortoza za vrat je specijalizovano ortopedsko pomagalo namenjeno pružanju potpore vratnoj kičmi. Napravljena od čvrstog materijala poput plastike ili metala, postavlja se oko vrata radi imobilizacije i stabilizacije. Često se koristi posle povreda vrata ili operacija kako bi ograničila pokrete i doprinelo bržem oporavku. Pravilna upotreba kragne, prema preporukama stručnjaka, ključna je za postizanje optimalnih terapijskih rezultata.",
     category: "ortoze za vrat i glavu",
@@ -153,8 +153,8 @@ const products = [
 
   {
     id: 19,
-    title: "elektromotorna-kolica",
-    image_url: "/assets/images/kolica/elektromotorna-kolica.png",
+    title: "3223-elektromotorna-kolica",
+    image_url: "/assets/images/kolica/3223-elektromotorna-kolica.png",
     description:
       "Elektromotorna kolica su prevozna sredstva koja koriste električni pogon za kretanje. Ova kolica su opremljena elektromotornim sistemom koji omogućava korisniku da ih pokreće pomoću kontrolnih dugmadi ili ručica. Elektromotorna kolica pružaju mobilnost osobama s otežanim kretanjem ili invaliditetom, omogućavajući im samostalnost i nezavisnost u svakodnevnim aktivnostima.",
     category: "kolica",
@@ -169,8 +169,8 @@ const products = [
   },
   {
     id: 21,
-    title: "elektromotorna-kolica2",
-    image_url: "/assets/images/kolica/elektromotorna-kolica2.png",
+    title: "1033-elektromotorna-kolica",
+    image_url: "/assets/images/kolica/1033-elektromotorna-kolica.png",
     description:
       "Elektromotorna kolica su prevozna sredstva koja koriste električni motor za kretanje. Ova kolica omogućavaju korisnicima da se kreću uz pomoć električnog pogona, često upravljajući ih preko ručica ili drugih električnih kontrola. Elektromotorna kolica pružaju samostalnost i olakšavaju mobilnost osobama s otežanom pokretljivošću ili invaliditetom.",
     category: "kolica",
