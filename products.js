@@ -27,7 +27,7 @@ const products = [
   {
     id: 4,
     title: "Meka-kragna",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/meka-kragna.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/meka-kragna.png",
     description:
       "Meka kragna za vrat je lagano ortopedsko pomagalo izrađeno od mekih materijala poput pene ili pamuka. Namenjena je pružanju blage potpore i udobnosti vratu. Ova vrsta kragni često se koristi kod blažih bolova u vratu ili napetosti mišića. Nudi nežnu podršku i može se koristiti za ublažavanje nelagodnosti bez potrebe za potpunom imobilizacijom. Važno je koristiti meku kragnu prema preporukama stručnjaka radi postizanja najboljih rezultata.",
     category: "ortoze za vrat i glavu",
@@ -53,7 +53,7 @@ const products = [
   {
     id: 7,
     title: "lumbalni-mider",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/lumbalni-mider.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/lumbalni-mider.png",
     description:
       "Lumbalni mider je ortopedsko pomagalo dizajnirano za pružanje podrške i stabilnosti u donjem delu leđa. Ovi pojasevi se obično nose oko struka i pružaju kompresiju kako bi smanjili opterećenje na lumbalnom delu kičme. Koriste se radi olakšavanja bolova, podrške pri rehabilitaciji ili održavanja pravilnog položaja kičme. Važno je koristiti lumbalni mider prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
     category: "mideri",
@@ -61,7 +61,7 @@ const products = [
   {
     id: 8,
     title: "Postoperativni-mider",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/postoperativni-mider.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/postoperativni-mider.png",
     description:
       "Postoperativni mider je ortopedsko pomagalo koje pruža podršku, kompresiju i stabilnost nakon operacije. Nosite ga oko trbuha ili leđa kako biste ublažili otok i održali potrebnu podršku tokom procesa oporavka. Važno je koristiti mider prema preporukama stručnjaka radi optimalnog oporavka.",
     category: "mideri",
@@ -69,7 +69,7 @@ const products = [
   {
     id: 9,
     title: "torakolumbalni-mider",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/torakolumbalni-mider.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/torakolumbalni-mider.png",
     description:
       "Torakolumbalni mider je ortopedsko pomagalo za podršku i stabilnost srednjeg i donjeg dela leđa. Nosite ga oko tela radi smanjenja bolova, olakšavanja rehabilitacije ili održavanja pravilnog položaja kičme. Važno je koristiti ga prema preporukama stručnjaka za optimalne terapijske rezultate.",
     category: "mideri",
@@ -77,7 +77,7 @@ const products = [
   {
     id: 10,
     title: "longeta-za-koleno",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/longeta-za-koleno.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/longeta-za-koleno.png",
     description:
       "Longeta za koleno je ortopedsko pomagalo koje pruža podršku i imobilizaciju kolena. Nosite je oko kolena kako biste ograničili pokrete, smanjili opterećenje ili stabilizovali zglob tokom oporavka nakon povreda ili operacije. Longeta pomaže u ublažavanju bolova, podržava pravilan položaj kolena i olakšava proces rehabilitacije. Važno je koristiti longetu prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
     category: "ortoze za koleno, zglob, stopalo",
@@ -94,7 +94,7 @@ const products = [
   {
     id: 12,
     title: "Peronalna-ortoza",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/peronalna-ortoza.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/peronalna-ortoza.png",
     description:
       'Peronealna ortoza je plastično pomagalo namenjen podršci osobama sa "palim stopalom" uzrokovanom oštećenjem peronealnog nerva, često posledicom moždanog udara. Održava stopalo pod pravim uglom od 90 stepeni u odnosu na potkolenicu, sprečavajući nekontrolisano padanje stopala pri hodanju. Veličina ortoze se prilagođava veličini cipela korisnika i preporučuje se nošenje u čvršćoj i dubljoj obući.',
     category: "ortoze za koleno, zglob, stopalo",
@@ -103,7 +103,7 @@ const products = [
   {
     id: 13,
     title: "Ortoza-za-koleno-sa-podesivim-zglobovima",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/rehab-kolena.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/rehab-kolena.png",
     description:
       "Ortoza za koleno sa podesivim zglobovima pruža podršku i stabilnost uz mogućnost prilagođavanja pokreta prema potrebama. Pomaže u ograničavanju neprirodnih pokreta, podržava rehabilitaciju i smanjuje rizik od povreda koljena.",
     category: "ortoze za koleno, zglob, stopalo",
@@ -111,7 +111,7 @@ const products = [
   {
     id: 14,
     title: "Mitela",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/mitela.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/mitela.png",
     description:
       "Mitela je ortopedsko pomagalo koji imobilizuje i pruža podršku šaci, ručnom zglobu i delu podlaktice nakon povreda ili operacija radi bržeg ozdravljenja.",
     category: "ortoze za rame, lakat, ručni zglob",
@@ -127,7 +127,7 @@ const products = [
   {
     id: 16,
     title: "Ortoza-za-palac",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/ortoza-za-palac.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-za-palac.png",
     description:
       "Ortoza za palac je ortopedsko pomagalo koje pruža podršku, stabilnost i imobilizaciju palca. Koristi se nakon povreda, operacija ili kod određenih medicinskih stanja kako bi se ograničila pokretljivost palca i olakšao proces ozdravljenja.",
     category: "ortoza za rame, lakat, ručni zglob",
@@ -145,7 +145,7 @@ const products = [
   {
     id: 18,
     title: "Steznik-za-ruku",
-    image_url: "/assets/images/Ortoze-Pojasevi-Mideri/steznik-za-ruku.png",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-ruku.png",
     description:
       "Steznik za ruku je ortopedsko pomagalo koje pruža potporu i kompresiju za ruku. Koristi se u rehabilitaciji, nakon povreda ili operacija, kako bi se smanjio otok, stabilizovala ruka i olakšao proces ozdravljenja. Steznik je obično napravljen od elastičnih materijala i često ima podesive trake radi prilagođavanja individualnim potrebama pacijenta.",
     category: "ortoze za rame, lakat, ručni zglob",
