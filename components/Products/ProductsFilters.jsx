@@ -171,12 +171,12 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
           <li
             role="listitem"
             className={`${styles.filter__btn} ${
-              activeFilter === "obuca" ? `${styles["active"]}` : ""
+              activeFilter === "ulošci i obuca" ? `${styles["active"]}` : ""
             }`}
-            data="obuca"
-            onClick={() => handleFilterClick("obuca")}
+            data="ulošci i obuca"
+            onClick={() => handleFilterClick("ulošci i obuca")}
           >
-            <span className={styles.filter__title}>Obuća</span>
+            <span className={styles.filter__title}>Ulošci i Obuća</span>
           </li>
           <li
             role="listitem"

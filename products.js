@@ -9,7 +9,7 @@ const products = [
   },
   {
     id: 2,
-    title: "Kragna-Tomas",
+    title: "kragna-Tomas",
     image_url: "/assets/images/Ortoze-Pojasevi-Mideri/kragna-tomas.png",
     description:
       "Ortoza za vrat je ortopedsko pomagalo koje pruža podršku vratnoj kičmi. Izrađena je od tvrdog materijala poput plastike ili metala, postavlja se oko vrata radi imobilizacije i stabilizacije. Koristi se nakon povreda vrata, u lečenju problema s vratnom kičmom ili nakon operacija kako bi ograničila pokrete i pružilo podršku tokom rehabilitacije. Važno je koristiti ortozu prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
