@@ -117,6 +117,16 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
               <li
                 role="listitem"
                 className={`${styles.filter__btn} ${styles.subFilter__btn} ${
+                  activeFilter === "ortoze za kičmu" ? `${styles["active"]}` : ""
+                }`}
+                data="ortoze za kičmu"
+                onClick={() => handleFilterClick("ortoze za kičmu")}
+              >
+                <span className={styles.filter__title}>Ortoze za kičmu</span>
+              </li>
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
                   activeFilter === "ortoze za rame, lakat, ručni zglob"
                     ? `${styles["active"]}`
                     : ""
@@ -171,10 +181,10 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
           <li
             role="listitem"
             className={`${styles.filter__btn} ${
-              activeFilter === "ulošci i obuca" ? `${styles["active"]}` : ""
+              activeFilter === "ulošci i obuća" ? `${styles["active"]}` : ""
             }`}
-            data="ulošci i obuca"
-            onClick={() => handleFilterClick("ulošci i obuca")}
+            data="ulošci i obuća"
+            onClick={() => handleFilterClick("ulošci i obuća")}
           >
             <span className={styles.filter__title}>Ulošci i Obuća</span>
           </li>
