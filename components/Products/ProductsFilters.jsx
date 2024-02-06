@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import styles from "./productsfilters.module.css";
 import Image from "next/image";
 
+
 const ProductsFilters = ({ activeFilter, onFilterChange }) => {
   const [filtersVisibility, setFiltersVisibility] = useState(false);
   const [subListVisibility, setSubListVisibility] = useState(false);
@@ -175,6 +176,16 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
                 onClick={() => handleFilterClick("pojasevi")}
               >
                 <span className={styles.filter__title}>Pojasevi</span>
+              </li>
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
+                  activeFilter === "okm sistem" ? `${styles["active"]}` : ""
+                }`}
+                data="okm sistem"
+                onClick={() => handleFilterClick("okm sistem")}
+              >
+                <span className={styles.filter__title}>OKM Sistem</span>
               </li>
             </ul>
           </li>

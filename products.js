@@ -18,7 +18,7 @@ const products = [
 
   {
     id: 3,
-    title: "Kragna",
+    title: "Kragna Filadelfija",
     image_url: "/assets/images/ortoze-pojasevi-mideri/kragna.png",
     description:
       "Ortoza za vrat je specijalizovano ortopedsko pomagalo namenjeno pružanju potpore vratnoj kičmi. Napravljena od čvrstog materijala poput plastike ili metala, postavlja se oko vrata radi imobilizacije i stabilizacije. Često se koristi posle povreda vrata ili operacija kako bi ograničila pokrete i doprinelo bržem oporavku. Pravilna upotreba kragne, prema preporukama stručnjaka, ključna je za postizanje optimalnih terapijskih rezultata.",
@@ -79,21 +79,24 @@ const products = [
     id: 10,
     title: "Ortoza-za-stabilizaciju-lumbalne-kičme-AO-62",
     image_url: "/assets/images/ortoze-pojasevi-mideri/AO-62.png",
-    description: "Ortoza za lumbalnu kičmu pruža podršku i stabilnost u donjem delu leđa. Namenjena je održavanju pravilnog položaja kičme, smanjenju pokreta i olakšavanju bola. Korisna je kod problema s leđima i povreda, pomažući u poboljšanju držanja tela.",
+    description:
+      "Ortoza za lumbalnu kičmu pruža podršku i stabilnost u donjem delu leđa. Namenjena je održavanju pravilnog položaja kičme, smanjenju pokreta i olakšavanju bola. Korisna je kod problema s leđima i povreda, pomažući u poboljšanju držanja tela.",
     category: "ortoze za kičmu",
   },
   {
     id: 11,
     title: "Ortoza-za-stabilizaciju-lumbalne-kičme-AO-63",
     image_url: "/assets/images/ortoze-pojasevi-mideri/AO-63.png",
-    description: "Ortoza za lumbalnu kičmu pruža stabilnost donjem delu leđa. Održava pravilan položaj, smanjuje pokrete i ublažava bol. Korisna je kod problema s kičmom, pomažući u očuvanju držanja tela.",
+    description:
+      "Ortoza za lumbalnu kičmu pruža stabilnost donjem delu leđa. Održava pravilan položaj, smanjuje pokrete i ublažava bol. Korisna je kod problema s kičmom, pomažući u očuvanju držanja tela.",
     category: "ortoze za kičmu",
   },
   {
     id: 12,
     title: "TLS-ortoza-za-stabilizaciju-kičme-A091A",
     image_url: "/assets/images/ortoze-pojasevi-mideri/AO-91A.png",
-    description: "TLS ortoza je ortopedsko pomagalo koje pruža podršku i stabilnost kičmi. Namenjena je održavanju pravilnog položaja, smanjenju pokreta i ublažavanju bola. Idealna je za situacije kada je potrebna dodatna podrška i stabilizacija kičme tokom oporavka od povreda ili kod problema sa držanjem tela.",
+    description:
+      "TLS ortoza je ortopedsko pomagalo koje pruža podršku i stabilnost kičmi. Namenjena je održavanju pravilnog položaja, smanjenju pokreta i ublažavanju bola. Idealna je za situacije kada je potrebna dodatna podrška i stabilizacija kičme tokom oporavka od povreda ili kod problema sa držanjem tela.",
     category: "ortoze za kičmu",
   },
   {
@@ -181,11 +184,56 @@ const products = [
     id: 23,
     title: "Silikonski-ulošci-za-obuću",
     image_url: "/assets/images/ortopedski-ulosci-obuca/806.png",
-    description: "Silikonski ulošci za obuću pružaju dodatnu udobnost i podršku stopalu. Izrađeni od mekanog silikonskog materijala, apsorbuju udarce i ublažavaju pritisak na stopalu, čineći hodanje ugodnijim. Namenjeni su poboljšanju udobnosti i smanjenju nelagodnosti pri nošenju obuće.",
+    description:
+      "Silikonski ulošci za obuću pružaju dodatnu udobnost i podršku stopalu. Izrađeni od mekanog silikonskog materijala, apsorbuju udarce i ublažavaju pritisak na stopalu, čineći hodanje ugodnijim. Namenjeni su poboljšanju udobnosti i smanjenju nelagodnosti pri nošenju obuće.",
     category: "ulošci i obuća",
   },
   {
     id: 24,
+    title: "Silikonski-ulošci-za-decu",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/dečiji-silikonski-ulošci.png",
+    description:
+      "Silikonski ulošci za decu su anatomski oblikovani ulošci od silikonskog materijala, namenjeni za udobnost i podršku stopalima. Pružaju podršku lukovima stopala, ublažavaju pritisak tokom hodanja i smanjuju umor stopala. Ulošci su lagani, fleksibilni i izdržljivi, čineći ih idealnim za svakodnevnu upotrebu. Korisni su za decu s problemima kao što su ravna stopala ili bolovi u stopalima.",
+    category: "ulošci i obuća",
+  },
+  {
+    id: 25,
+    title: "Perforirani-petni-podmetač",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetač.png",
+    description:
+      "Perforirani petni podmetači su lagani ulošci za obuću, obično od silikona ili gela, koji pružaju udobnost i podršku petama. Omogućavaju bolju cirkulaciju vazduha, sprečavajući znojenje stopala, i ublažavaju pritisak na petama. Idealni su za ljude koji imaju bolove u petama ili druge probleme sa stopalima.",
+    category: "ulošci i obuća",
+  },
+  {
+    id: 26,
+    title: "Petni-podmetači",
+    image_url: "/assets/images/ortopedski-ulosci-obuca/petni-podmetači.png",
+    description:
+      "Petni podmetači od silikona ili gela su mali ulošci za obuću koji se postavljaju ispod pete radi dodatne udobnosti i podrške stopalima. Pružaju olakšanje od pritiska na peti, smanjujući nelagodnost i poboljšavajući udobnost tokom hodanja ili stajanja. Ovi podmetači su korisni za osobe koje imaju bolove u petama ili druge probleme sa stopalima.",
+    category: "ulošci i obuća",
+  },
+  {
+    id: 27,
+    title: "Silikonski-ulošci-za-odrasle",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/silikonski-ulošci-za-odrasle.png",
+    description:
+      "Silikonski ulošci za odrasle su anatomski oblikovani ulošci od silikonskog materijala, dizajnirani za dodatnu udobnost i podršku stopalima, smanjujući pritisak i olakšavajući hodanje.",
+    category: "ulošci i obuća",
+  },
+  {
+    id: 28,
+    title: "Tročetvrtinski-ulošci",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/tročetvrtinski-ulošci.png",
+    description:
+      "Tročetvrtinski ulošci za obuću pokrivaju petu i deo stopala do oko tri četvrtine dužine stopala. Namenjeni su pružanju podrške, udobnosti i stabilnosti tokom hodanja ili stajanja. Pomažu u ublažavanju pritiska na peti i prednjem delu stopala, čineći ih idealnim za osobe koje traže dodatnu amortizaciju u tim delovima stopala ili imaju problema s bolovima u tim oblastima.",
+    category: "ulošci i obuća",
+  },
+  {
+    id: 29,
     title: "Mitela",
     image_url: "/assets/images/ortoze-pojasevi-mideri/mitela.png",
     description:
@@ -193,7 +241,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 25,
+    id: 30,
     title: "Ortoza-za-ručni-zgloba",
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
     description:
@@ -201,7 +249,7 @@ const products = [
     category: "ortoza za rame, lakat, ručni zglob",
   },
   {
-    id: 26,
+    id: 31,
     title: "Ortoza-za-palac",
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-za-palac.png",
     description:
@@ -210,7 +258,7 @@ const products = [
   },
 
   {
-    id: 27,
+    id: 32,
     title: "Steznik-za-pravilno-držanje-ramena",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/steznik-za-pravilno-držanje-ramena.png",
@@ -220,16 +268,15 @@ const products = [
   },
 
   {
-    id: 28,
+    id: 33,
     title: "Ortoza-za-teniski-lakat",
     image_url: "/assets/images/ortoze-pojasevi-mideri/308.png",
     description:
       "Ortoza za teniski lakat je medicinski uređaj dizajniran za podršku i smanjenje stresa na području lakta. Postavljena oko podlaktice, ova ortoza pruža kompresiju i stabilnost, pomažući u ublažavanju bola i smanjenju rizika od povreda tetiva. Posebno je korisna kod teniskog lakta, pružajući podršku tokom aktivnosti koje mogu uzrokovati prekomernu napetost u tom području.",
     category: "ortoze za rame, lakat, ručni zglob",
   },
-
   {
-    id: 29,
+    id: 34,
     title: "Steznik-za-ruku",
     image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-ruku.png",
     description:
@@ -237,7 +284,48 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 30,
+    id: 35,
+    title: "OKM-ortoza-podkoleno-nadkolena",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-podkoleno-nadkolena.jpeg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
+  },
+  {
+    id: 36,
+    title: "OKM-LSO-mider",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-lso-mider.jpg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
+  },
+
+  {
+    id: 37,
+    title: "OKM-ortoza-nadlaktice",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-nadlaktice.jpg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
+  },
+  {
+    id: 38,
+    title: "OKM-ortoza-ručnog-zgloba",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-ručnog-zgloba.jpg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
+  },
+  {
+    id: 39,
+    title: "OKM-TLSO-mider",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-tlso-mider.jpg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
+  },
+  {
+    id: 40,
     title: "3223-elektromotorna-kolica",
     image_url: "/assets/images/kolica/3223-elektromotorna-kolica.png",
     description:
@@ -245,7 +333,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 31,
+    id: 41,
     title: "mehanička-kolica",
     image_url: "/assets/images/kolica/mehanička-kolica.png",
     description:
@@ -253,7 +341,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 32,
+    id: 42,
     title: "1033-elektromotorna-kolica",
     image_url: "/assets/images/kolica/1033-elektromotorna-kolica.png",
     description:
@@ -261,7 +349,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 33,
+    id: 43,
     title: "kolica",
     image_url: "/assets/images/kolica/kolica.png",
     description:
@@ -269,7 +357,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 34,
+    id: 44,
     title: "aktivna-kolica",
     image_url: "/assets/images/kolica/laka-aktivna-kolica.png",
     description:
@@ -277,7 +365,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 35,
+    id: 45,
     title: "Aktivna-invalidska-kolica",
     image_url: "/assets/images/kolica/aktivna-invalidska-kolica.png",
     description:
@@ -285,7 +373,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 36,
+    id: 46,
     title: "dečija-kolica",
     image_url: "/assets/images/kolica/dečija-kolica.png",
     description:
@@ -293,7 +381,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 37,
+    id: 47,
     title: "hodalica-podlaktna",
     image_url: "/assets/images/stake-hodalice/hodalica-podlaktna.png",
     description:
@@ -301,7 +389,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 38,
+    id: 48,
     title: "hodalica-sa-dva-točka",
     image_url: "/assets/images/stake-hodalice/hodalica-sa-dva-točka.png",
     description:
@@ -309,7 +397,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 39,
+    id: 49,
     title: "hodalica",
     image_url: "/assets/images/stake-hodalice/hodalica.png",
     description:
@@ -317,7 +405,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 40,
+    id: 50,
     title: "štake-podlaktne",
     image_url: "/assets/images/stake-hodalice/štake-podlaktne.png",
     description:
@@ -325,7 +413,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 41,
+    id: 51,
     title: "štake-podpazušne",
     image_url: "/assets/images/stake-hodalice/štake-podpazusne.png",
     description:
@@ -333,7 +421,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 42,
+    id: 52,
     title: "štap-na-rasklapanje",
     image_url: "/assets/images/stake-hodalice/štap-sklopivi.png",
     description:
@@ -341,7 +429,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 43,
+    id: 53,
     title: "Nastavak-za-WC-sa-poklopcem",
     image_url: "/assets/images/toaletni-program/nastavak-sa-poklopcem.png",
     description:
@@ -349,7 +437,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 44,
+    id: 54,
     title: "Nastavak-za-wc",
     image_url: "/assets/images/toaletni-program/nastavak-za-wc.png",
     description:
@@ -357,7 +445,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 45,
+    id: 55,
     title: "sedište-za-kadu-sa-naslonom",
     image_url:
       "/assets/images/toaletni-program/sedište-za-kadu-sa-naslonom.png",
@@ -366,7 +454,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 46,
+    id: 56,
     title: "Toaletna-kolica",
     image_url: "/assets/images/toaletni-program/toaletna-kolica.png",
     description:
@@ -374,7 +462,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 47,
+    id: 57,
     title: "Toaletna-stolica-sa-točkićima",
     image_url:
       "/assets/images/toaletni-program/toaletna-stolica-sa-točkićima.png",
@@ -383,7 +471,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 48,
+    id: 58,
     title: "Sedište-za-kadu",
     image_url: "/assets/images/toaletni-program/sedište-za-kadu.png",
     description:
@@ -391,241 +479,251 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 49,
+    id: 59,
     title: "perika-Alexandra",
     image_url: "/assets/images/perike/perika-alexandra.png",
-    description: "Perika Alexandra",
-    category: "perike",
-  },
-  {
-    id: 50,
-    title: "perika-Angelica",
-    image_url: "/assets/images/perike/perika-angelica.png",
-    description: "Perika Angelica",
-    category: "perike",
-  },
-  {
-    id: 51,
-    title: "perika-April",
-    image_url: "/assets/images/perike/perika-april.png",
-    description: "Perika April",
-    category: "perike",
-  },
-  {
-    id: 52,
-    title: "perika-Arabella",
-    image_url: "/assets/images/perike/perika-arabella.png",
-    description: "Perika Alexandra",
-    category: "perike",
-  },
-  {
-    id: 53,
-    title: "perika-Catherina",
-    image_url: "/assets/images/perike/perika-catherina.png",
-    description: "Perika Catherina",
-    category: "perike",
-  },
-  {
-    id: 54,
-    title: "perika-Christina",
-    image_url: "/assets/images/perike/perika-christina.png",
-    description: "Perika Christina",
-    category: "perike",
-  },
-  {
-    id: 55,
-    title: "perika-Claire-life",
-    image_url: "/assets/images/perike/perika-claire-life.png",
-    description: "Perika Claire Life",
-    category: "perike",
-  },
-  {
-    id: 56,
-    title: "perika-Evie",
-    image_url: "/assets/images/perike/perika-evie.png",
-    description: "Perika Evie",
-    category: "perike",
-  },
-  {
-    id: 57,
-    title: "perika-Gabi",
-    image_url: "/assets/images/perike/perika-gabi.png",
-    description: "Perika Gabi",
-    category: "perike",
-  },
-  {
-    id: 58,
-    title: "perika-Honora",
-    image_url: "/assets/images/perike/perika-honora.png",
-    description: "Perika Honora",
-    category: "perike",
-  },
-  {
-    id: 59,
-    title: "perika-Jenifer",
-    image_url: "/assets/images/perike/perika-jenifer.png",
-    description: "Perika Jenifer",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 60,
-    title: "perika-Megan",
-    image_url: "/assets/images/perike/perika-megan.png",
-    description: "Perika Megan",
+    title: "perika-Angelica",
+    image_url: "/assets/images/perike/perika-angelica.png",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 61,
-    title: "perika-Montgomery",
-    image_url: "/assets/images/perike/perika-montgomery.png",
-    description: "Perika Montgomery",
+    title: "perika-April",
+    image_url: "/assets/images/perike/perika-april.png",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 62,
-    title: "perika-Poppy",
-    image_url: "/assets/images/perike/perika-poppy.png",
-    description: "Perika Poppy",
+    title: "perika-Arabella",
+    image_url: "/assets/images/perike/perika-arabella.png",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 63,
-    title: "perika-Sandra",
-    image_url: "/assets/images/perike/perika-sandra.png",
-    description: "Perika Sandra",
+    title: "perika-Catherina",
+    image_url: "/assets/images/perike/perika-catherina.png",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 64,
-    title: "perika-Sonya-Life",
-    image_url: "/assets/images/perike/perika-sonya-life.png",
-    description: "Perika Sonya Life",
+    title: "perika-Christina",
+    image_url: "/assets/images/perike/perika-christina.png",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 65,
-    title: "perika-Tamsin",
-    image_url: "/assets/images/perike/perika-tamsin.png",
-    description: "Perika Tamsin",
+    title: "perika-Claire-life",
+    image_url: "/assets/images/perike/perika-claire-life.png",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 66,
-    title: "perika-tilly",
-    image_url: "/assets/images/perike/perika-tilly.png",
-    description: "Perika Tilly",
+    title: "perika-Evie",
+    image_url: "/assets/images/perike/perika-evie.png",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 67,
-    title: "perika-Tony-Life",
-    image_url: "/assets/images/perike/perika-tony-life.png",
-    description: "Perika Tony Life",
+    title: "perika-Gabi",
+    image_url: "/assets/images/perike/perika-gabi.png",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 68,
-    title: "perika-Winter",
-    image_url: "/assets/images/perike/perika-winter.png",
-    description: "Perika Winter",
+    title: "perika-Honora",
+    image_url: "/assets/images/perike/perika-honora.png",
+    description: "Medicinska perika",
     category: "perike",
   },
   {
     id: 69,
-    title: "ritasb-2004",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/ritasb-2004.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-Jenifer",
+    image_url: "/assets/images/perike/perika-jenifer.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 70,
-    title: "1151-nancy-sb-light-sand",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/1151-nancy-sb-light-sand.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-Megan",
+    image_url: "/assets/images/perike/perika-megan.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 71,
-    title: "2004-rita-sb-black",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/2004-rita-sb-black.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-Montgomery",
+    image_url: "/assets/images/perike/perika-montgomery.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 72,
-    title: "2004-rita-sb-sand",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/2004-rita-sb-sand.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-Poppy",
+    image_url: "/assets/images/perike/perika-poppy.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 73,
-    title: "2128-frances-sb-FC-black",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/2128-frances-sb-FC-black.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-Sandra",
+    image_url: "/assets/images/perike/perika-sandra.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 74,
-    title: "44480-1151-44807-44417-44024-nancy-SB",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/44480-1151-44807-44417-44024-nancy-SB.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-Sonya-Life",
+    image_url: "/assets/images/perike/perika-sonya-life.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 75,
-    title: "44534-mara-sbp-off-white",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/44534-mara-sbp-off-white.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-Tamsin",
+    image_url: "/assets/images/perike/perika-tamsin.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 76,
-    title: "44801-tessa-sb-blush",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/44801-tessa-sb-blush.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-tilly",
+    image_url: "/assets/images/perike/perika-tilly.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 77,
-    title: "frances-sb-2128-white",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/frances-sb-2128-white.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-Tony-Life",
+    image_url: "/assets/images/perike/perika-tony-life.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 78,
-    title: "frances-sb-2128",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/frances-sb-2128.png",
-    description: "Perika Winter",
-    category: "proteze dojke i ortopedski grudnjaci",
+    title: "perika-Winter",
+    image_url: "/assets/images/perike/perika-winter.png",
+    description: "Medicinska perika",
+    category: "perike",
   },
   {
     id: 79,
-    title: "isabelsb-beli-ortopedski-grudnjak-za-karcinom-dojke",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/isabelsb-beli-ortopedski-grudnjak-za-karcinom-dojke.png",
-    description: "Perika Winter",
+    title: "ritasb-2004",
+    image_url: "/assets/images/grudnjaci-proteze-dojke/ritasb-2004.png",
+    description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
     id: 80,
-    title: "Isabelsb-crni_ortopedski-grudnjak-za-karcinom-dojke",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/Isabelsb-crni_ortopedski-grudnjak-za-karcinom-dojke.png",
-    description: "Perika Winter",
+    title: "1151-nancy-sb-light-sand",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/1151-nancy-sb-light-sand.png",
+    description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
     id: 81,
-    title: "nancy-1151-lightnude",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/nancy-1151-lightnude.png",
-    description: "Perika Winter",
+    title: "2004-rita-sb-black",
+    image_url: "/assets/images/grudnjaci-proteze-dojke/2004-rita-sb-black.png",
+    description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
     id: 82,
+    title: "2004-rita-sb-sand",
+    image_url: "/assets/images/grudnjaci-proteze-dojke/2004-rita-sb-sand.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 83,
+    title: "2128-frances-sb-FC-black",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/2128-frances-sb-FC-black.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 84,
+    title: "44480-1151-44807-44417-44024-nancy-SB",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/44480-1151-44807-44417-44024-nancy-SB.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 85,
+    title: "44534-mara-sbp-off-white",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/44534-mara-sbp-off-white.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 86,
+    title: "44801-tessa-sb-blush",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/44801-tessa-sb-blush.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 87,
+    title: "frances-sb-2128-white",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/frances-sb-2128-white.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 88,
+    title: "frances-sb-2128",
+    image_url: "/assets/images/grudnjaci-proteze-dojke/frances-sb-2128.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 89,
+    title: "isabel-sb-beli-ortopedski-grudnjak-za-karcinom-dojke",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/isabelsb-beli-ortopedski-grudnjak-za-karcinom-dojke.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 90,
+    title: "Isabelsb-crni_ortopedski-grudnjak-za-karcinom-dojke",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/Isabelsb-crni_ortopedski-grudnjak-za-karcinom-dojke.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 91,
+    title: "nancy-1151-lightnude",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/nancy-1151-lightnude.png",
+    description: "Ortopedski grudnjak",
+    category: "proteze dojke i ortopedski grudnjaci",
+  },
+  {
+    id: 92,
     title: "nancy-sb-black-44870",
-    image_url: "/assets/images/grudnjaci-proteze-dojke/nancy-sb-black-44870.png",
-    description: "Perika Winter",
+    image_url:
+      "/assets/images/grudnjaci-proteze-dojke/nancy-sb-black-44870.png",
+    description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
 ];

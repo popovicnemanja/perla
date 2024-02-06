@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect } from "react";
 import styles from "./products.module.css";
 import ProductsList from "./ProductsList";
@@ -12,7 +11,7 @@ const Products = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [products, setProducts] = useState([]);
   const [totalPages, setTotalPages] = useState(1);
-
+  
   useEffect(() => {
     const fetchProducts = async () => {
       const allProducts = await getProducts();
@@ -21,7 +20,7 @@ const Products = () => {
 
     fetchProducts();
   }, []);
-
+ 
   const itemsPerPage =
     activeFilter === "svi"
       ? 12

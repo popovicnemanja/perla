@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Product = async ({ params }) => {
+
   const { title } = params;
   const product = await getProduct(title);
   const decodedTitle = decodeURIComponent(title);
@@ -12,7 +13,7 @@ const Product = async ({ params }) => {
   return (
     <section className={styles.product__section}>
       <div className={`container ${styles.productPage__container}`}>
-        <Link href="/" className={`button ${styles.button__back}`}>
+        <Link href="/#products__list" className={`button ${styles.button__back}`}>
           <div className="icon__wrapper">
             <Image
               src="/assets/icons/icon-arrow-left.svg"
@@ -20,7 +21,7 @@ const Product = async ({ params }) => {
               alt="previous page"
             />
           </div>
-          <span>Početna</span>
+          <span>Prethodna</span>
         </Link>
 
         <div className={styles.product__wrapper}>

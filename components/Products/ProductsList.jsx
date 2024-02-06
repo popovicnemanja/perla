@@ -29,7 +29,7 @@ const ProductsList = ({ activeFilter, currentPage, itemsPerPage }) => {
   }, [activeFilter, products, currentPage, itemsPerPage]);
 
   return (
-    <ul className={styles.products__list} role="list">
+    <ul id="products__list" className={styles.products__list} role="list">
       {displayedProducts.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}
