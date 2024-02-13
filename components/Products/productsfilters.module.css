@@ -84,7 +84,6 @@
   .filters__list {
     height: 100%;
     width: 80%;
-    padding-top: 2rem;
     z-index: 999;
     background: white;
     border: 1px solid var(--clr-primary);
