@@ -10,9 +10,9 @@ const ContactPage = () => {
   };
 
   return (
-    <main>
+    <section className="main">
       <Contact />
-    </main>
+    </section>
   );
 };
 

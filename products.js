@@ -737,9 +737,18 @@ export const getProduct = async (title) => {
   return products.find((product) => product.title === decodedTitle);
 };
 
+// export const searchProducts = async (searchValue) => {
+//   const filteredProducts = products.filter((product) =>
+//     product.title.toLowerCase().includes(searchValue.toLowerCase())
+//   );
+//   return filteredProducts;
+// };
+
 export const searchProducts = async (searchValue) => {
+  const searchWords = searchValue.toLowerCase().split(" ");
   const filteredProducts = products.filter((product) =>
-    product.title.toLowerCase().includes(searchValue.toLowerCase())
+    searchWords.every(word => product.title.toLowerCase().includes(word))
   );
   return filteredProducts;
 };
+

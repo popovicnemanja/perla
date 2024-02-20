@@ -11,7 +11,7 @@ const Product = async ({ params }) => {
   const formattedTitle = decodedTitle.replace(/-/g, " ");
 
   return (
-    <section className={styles.product__section}>
+    <section className={`main ${styles.product__section}`}>
       <div className={`container ${styles.productPage__container}`}>
         <Link href="/#products__list" className={`button ${styles.button__back}`}>
           <div className="icon__wrapper">

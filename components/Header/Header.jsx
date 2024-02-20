@@ -5,7 +5,8 @@ import Image from "next/image";
 
 import NavButton from "../Nav/NavButton";
 import Nav from "../Nav/Nav";
-import SearchInput from "./SearchInput";
+import DesktopSearchInput from "./DesktopSearchInput";
+import MobileSearchInput from "./MobileSearchInput";
 import styles from "./header.module.css";
 import Link from "next/link";
 
@@ -44,34 +45,20 @@ const Header = () => {
             <Image src="./../assets/images/logo.svg" alt="Perla Logo" fill />
           </Link>
 
+          <Nav
+            navVisibility={navVisibility}
+            onChangeNavVisibility={handleHideButton}
+          />
+          
+          <DesktopSearchInput />
+
           <NavButton
             handleNavVisibility={handleNavButtonClick}
             navButton={navButtonIsOpen}
           />
-          <div className={`${styles["contact-wrapper"]}`}>
-            <div className={`${styles["contact-phone"]}`}>
-              <div className="icon__wrapper">
-                <Image
-                  src="./../assets/icons/icon-phone.svg"
-                  alt="phone icon"
-                  fill
-                />
-              </div>
-              <span>+38131513889</span>
-            </div>
-            <div className={styles["contact-phone"]}>
-              <div className="icon__wrapper">
-                <Image
-                  src="./../assets/icons/icon-smartphone.svg"
-                  alt="mobile phone icon"
-                  fill
-                />
-              </div>
 
-              <span>+381641721272</span>
-            </div>
-          </div>
-          <SearchInput />
+          <MobileSearchInput />
+
         </div>
       </div>
 
@@ -81,10 +68,6 @@ const Header = () => {
           onClick={handleHideButton}
         ></div>
       )}
-      <Nav
-        navVisibility={navVisibility}
-        onChangeNavVisibility={handleHideButton}
-      />
     </header>
   );
 };

@@ -19,6 +19,10 @@
     padding-block: 8rem;
   }
 
+.products__content {
+  gap: 4rem;
+}
+
   .filter-btn:hover {
     cursor: pointer;
   }
