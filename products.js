@@ -182,58 +182,52 @@ const products = [
   },
   {
     id: 23,
-    title: "Silikonski-ulošci-za-obuću",
-    image_url: "/assets/images/ortopedski-ulosci-obuca/806.png",
+    title: "OKM-ortoza-podkoleno-nadkolena",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-podkoleno-nadkolena.jpeg",
     description:
-      "Silikonski ulošci za obuću pružaju dodatnu udobnost i podršku stopalu. Izrađeni od mekanog silikonskog materijala, apsorbuju udarce i ublažavaju pritisak na stopalu, čineći hodanje ugodnijim. Namenjeni su poboljšanju udobnosti i smanjenju nelagodnosti pri nošenju obuće.",
-    category: "ulošci i obuća",
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
   },
   {
     id: 24,
-    title: "Silikonski-ulošci-za-decu",
+    title: "OKM-LSO-mider",
     image_url:
-      "/assets/images/ortopedski-ulosci-obuca/dečiji-silikonski-ulošci.png",
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-lso-mider.jpg",
     description:
-      "Silikonski ulošci za decu su anatomski oblikovani ulošci od silikonskog materijala, namenjeni za udobnost i podršku stopalima. Pružaju podršku lukovima stopala, ublažavaju pritisak tokom hodanja i smanjuju umor stopala. Ulošci su lagani, fleksibilni i izdržljivi, čineći ih idealnim za svakodnevnu upotrebu. Korisni su za decu s problemima kao što su ravna stopala ili bolovi u stopalima.",
-    category: "ulošci i obuća",
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
   },
+
   {
     id: 25,
-    title: "Perforirani-petni-podmetač",
+    title: "OKM-ortoza-nadlaktice",
     image_url:
-      "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetač.png",
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-nadlaktice.jpg",
     description:
-      "Perforirani petni podmetači su lagani ulošci za obuću, obično od silikona ili gela, koji pružaju udobnost i podršku petama. Omogućavaju bolju cirkulaciju vazduha, sprečavajući znojenje stopala, i ublažavaju pritisak na petama. Idealni su za ljude koji imaju bolove u petama ili druge probleme sa stopalima.",
-    category: "ulošci i obuća",
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
   },
   {
     id: 26,
-    title: "Petni-podmetači",
-    image_url: "/assets/images/ortopedski-ulosci-obuca/petni-podmetači.png",
+    title: "OKM-ortoza-ručnog-zgloba",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-ručnog-zgloba.jpg",
     description:
-      "Petni podmetači od silikona ili gela su mali ulošci za obuću koji se postavljaju ispod pete radi dodatne udobnosti i podrške stopalima. Pružaju olakšanje od pritiska na peti, smanjujući nelagodnost i poboljšavajući udobnost tokom hodanja ili stajanja. Ovi podmetači su korisni za osobe koje imaju bolove u petama ili druge probleme sa stopalima.",
-    category: "ulošci i obuća",
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
   },
   {
     id: 27,
-    title: "Silikonski-ulošci-za-odrasle",
+    title: "OKM-TLSO-mider",
     image_url:
-      "/assets/images/ortopedski-ulosci-obuca/silikonski-ulošci-za-odrasle.png",
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-tlso-mider.jpg",
     description:
-      "Silikonski ulošci za odrasle su anatomski oblikovani ulošci od silikonskog materijala, dizajnirani za dodatnu udobnost i podršku stopalima, smanjujući pritisak i olakšavajući hodanje.",
-    category: "ulošci i obuća",
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
   },
   {
     id: 28,
-    title: "Tročetvrtinski-ulošci",
-    image_url:
-      "/assets/images/ortopedski-ulosci-obuca/tročetvrtinski-ulošci.png",
-    description:
-      "Tročetvrtinski ulošci za obuću pokrivaju petu i deo stopala do oko tri četvrtine dužine stopala. Namenjeni su pružanju podrške, udobnosti i stabilnosti tokom hodanja ili stajanja. Pomažu u ublažavanju pritiska na peti i prednjem delu stopala, čineći ih idealnim za osobe koje traže dodatnu amortizaciju u tim delovima stopala ili imaju problema s bolovima u tim oblastima.",
-    category: "ulošci i obuća",
-  },
-  {
-    id: 29,
     title: "Mitela",
     image_url: "/assets/images/ortoze-pojasevi-mideri/mitela.png",
     description:
@@ -241,7 +235,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 30,
+    id: 29,
     title: "Ortoza-za-ručni-zgloba",
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
     description:
@@ -249,7 +243,7 @@ const products = [
     category: "ortoza za rame, lakat, ručni zglob",
   },
   {
-    id: 31,
+    id: 30,
     title: "Ortoza-za-palac",
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-za-palac.png",
     description:
@@ -258,7 +252,7 @@ const products = [
   },
 
   {
-    id: 32,
+    id: 31,
     title: "Steznik-za-pravilno-držanje-ramena",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/steznik-za-pravilno-držanje-ramena.png",
@@ -268,7 +262,7 @@ const products = [
   },
 
   {
-    id: 33,
+    id: 32,
     title: "Ortoza-za-teniski-lakat",
     image_url: "/assets/images/ortoze-pojasevi-mideri/308.png",
     description:
@@ -276,7 +270,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 34,
+    id: 33,
     title: "Steznik-za-ruku",
     image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-ruku.png",
     description:
@@ -284,48 +278,199 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 35,
-    title: "OKM-ortoza-podkoleno-nadkolena",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-podkoleno-nadkolena.jpeg",
+    id: 34,
+    title: "Silikonski-ulošci-za-obuću",
+    image_url: "/assets/images/ortopedski-ulosci-obuca/806.png",
     description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
+      "Silikonski ulošci za obuću pružaju dodatnu udobnost i podršku stopalu. Izrađeni od mekanog silikonskog materijala, apsorbuju udarce i ublažavaju pritisak na stopalu, čineći hodanje ugodnijim. Namenjeni su poboljšanju udobnosti i smanjenju nelagodnosti pri nošenju obuće.",
+    category: "ulošci i obuća",
+  },
+  {
+    id: 35,
+    title: "Silikonski-ulošci-za-decu",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/dečiji-silikonski-ulošci.png",
+    description:
+      "Silikonski ulošci za decu su anatomski oblikovani ulošci od silikonskog materijala, namenjeni za udobnost i podršku stopalima. Pružaju podršku lukovima stopala, ublažavaju pritisak tokom hodanja i smanjuju umor stopala. Ulošci su lagani, fleksibilni i izdržljivi, čineći ih idealnim za svakodnevnu upotrebu. Korisni su za decu s problemima kao što su ravna stopala ili bolovi u stopalima.",
+    category: "ulošci i obuća",
   },
   {
     id: 36,
-    title: "OKM-LSO-mider",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-lso-mider.jpg",
+    title: "Perforirani-petni-podmetač",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetač.png",
     description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
+      "Perforirani petni podmetači su lagani ulošci za obuću, obično od silikona ili gela, koji pružaju udobnost i podršku petama. Omogućavaju bolju cirkulaciju vazduha, sprečavajući znojenje stopala, i ublažavaju pritisak na petama. Idealni su za ljude koji imaju bolove u petama ili druge probleme sa stopalima.",
+    category: "ulošci i obuća",
   },
-
   {
     id: 37,
-    title: "OKM-ortoza-nadlaktice",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-nadlaktice.jpg",
+    title: "Petni-podmetači",
+    image_url: "/assets/images/ortopedski-ulosci-obuca/petni-podmetači.png",
     description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
+      "Petni podmetači od silikona ili gela su mali ulošci za obuću koji se postavljaju ispod pete radi dodatne udobnosti i podrške stopalima. Pružaju olakšanje od pritiska na peti, smanjujući nelagodnost i poboljšavajući udobnost tokom hodanja ili stajanja. Ovi podmetači su korisni za osobe koje imaju bolove u petama ili druge probleme sa stopalima.",
+    category: "ulošci i obuća",
   },
   {
     id: 38,
-    title: "OKM-ortoza-ručnog-zgloba",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-ručnog-zgloba.jpg",
+    title: "Silikonski-ulošci-za-odrasle",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/silikonski-ulošci-za-odrasle.png",
     description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
+      "Silikonski ulošci za odrasle su anatomski oblikovani ulošci od silikonskog materijala, dizajnirani za dodatnu udobnost i podršku stopalima, smanjujući pritisak i olakšavajući hodanje.",
+    category: "ulošci i obuća",
   },
   {
     id: 39,
-    title: "OKM-TLSO-mider",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-tlso-mider.jpg",
+    title: "Tročetvrtinski-ulošci",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/tročetvrtinski-ulošci.png",
     description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
+      "Tročetvrtinski ulošci za obuću pokrivaju petu i deo stopala do oko tri četvrtine dužine stopala. Namenjeni su pružanju podrške, udobnosti i stabilnosti tokom hodanja ili stajanja. Pomažu u ublažavanju pritiska na peti i prednjem delu stopala, čineći ih idealnim za osobe koje traže dodatnu amortizaciju u tim delovima stopala ili imaju problema s bolovima u tim oblastima.",
+    category: "ulošci i obuća",
   },
   {
     id: 40,
+    title: "perika-Alexandra",
+    image_url: "/assets/images/perike/perika-alexandra.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 41,
+    title: "perika-Angelica",
+    image_url: "/assets/images/perike/perika-angelica.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 42,
+    title: "perika-April",
+    image_url: "/assets/images/perike/perika-april.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 43,
+    title: "perika-Arabella",
+    image_url: "/assets/images/perike/perika-arabella.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 44,
+    title: "perika-Catherina",
+    image_url: "/assets/images/perike/perika-catherina.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 45,
+    title: "perika-Christina",
+    image_url: "/assets/images/perike/perika-christina.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 46,
+    title: "perika-Claire-life",
+    image_url: "/assets/images/perike/perika-claire-life.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 47,
+    title: "perika-Evie",
+    image_url: "/assets/images/perike/perika-evie.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 48,
+    title: "perika-Gabi",
+    image_url: "/assets/images/perike/perika-gabi.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 49,
+    title: "perika-Honora",
+    image_url: "/assets/images/perike/perika-honora.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 50,
+    title: "perika-Jenifer",
+    image_url: "/assets/images/perike/perika-jenifer.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 51,
+    title: "perika-Megan",
+    image_url: "/assets/images/perike/perika-megan.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 52,
+    title: "perika-Montgomery",
+    image_url: "/assets/images/perike/perika-montgomery.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 53,
+    title: "perika-Poppy",
+    image_url: "/assets/images/perike/perika-poppy.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 54,
+    title: "perika-Sandra",
+    image_url: "/assets/images/perike/perika-sandra.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 55,
+    title: "perika-Sonya-Life",
+    image_url: "/assets/images/perike/perika-sonya-life.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 56,
+    title: "perika-Tamsin",
+    image_url: "/assets/images/perike/perika-tamsin.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 57,
+    title: "perika-tilly",
+    image_url: "/assets/images/perike/perika-tilly.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 58,
+    title: "perika-Tony-Life",
+    image_url: "/assets/images/perike/perika-tony-life.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 59,
+    title: "perika-Winter",
+    image_url: "/assets/images/perike/perika-winter.png",
+    description: "Medicinska perika",
+    category: "perike",
+  },
+  {
+    id: 60,
     title: "3223-elektromotorna-kolica",
     image_url: "/assets/images/kolica/3223-elektromotorna-kolica.png",
     description:
@@ -333,7 +478,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 41,
+    id: 61,
     title: "mehanička-kolica",
     image_url: "/assets/images/kolica/mehanička-kolica.png",
     description:
@@ -341,7 +486,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 42,
+    id: 62,
     title: "1033-elektromotorna-kolica",
     image_url: "/assets/images/kolica/1033-elektromotorna-kolica.png",
     description:
@@ -349,7 +494,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 43,
+    id: 63,
     title: "kolica",
     image_url: "/assets/images/kolica/kolica.png",
     description:
@@ -357,7 +502,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 44,
+    id: 64,
     title: "aktivna-kolica",
     image_url: "/assets/images/kolica/laka-aktivna-kolica.png",
     description:
@@ -365,7 +510,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 45,
+    id: 65,
     title: "Aktivna-invalidska-kolica",
     image_url: "/assets/images/kolica/aktivna-invalidska-kolica.png",
     description:
@@ -373,7 +518,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 46,
+    id: 66,
     title: "dečija-kolica",
     image_url: "/assets/images/kolica/dečija-kolica.png",
     description:
@@ -381,7 +526,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 47,
+    id: 67,
     title: "hodalica-podlaktna",
     image_url: "/assets/images/stake-hodalice/hodalica-podlaktna.png",
     description:
@@ -389,7 +534,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 48,
+    id: 68,
     title: "hodalica-sa-dva-točka",
     image_url: "/assets/images/stake-hodalice/hodalica-sa-dva-točka.png",
     description:
@@ -397,7 +542,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 49,
+    id: 69,
     title: "hodalica",
     image_url: "/assets/images/stake-hodalice/hodalica.png",
     description:
@@ -405,7 +550,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 50,
+    id: 70,
     title: "štake-podlaktne",
     image_url: "/assets/images/stake-hodalice/štake-podlaktne.png",
     description:
@@ -413,7 +558,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 51,
+    id: 71,
     title: "štake-podpazušne",
     image_url: "/assets/images/stake-hodalice/štake-podpazusne.png",
     description:
@@ -421,7 +566,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 52,
+    id: 72,
     title: "štap-na-rasklapanje",
     image_url: "/assets/images/stake-hodalice/štap-sklopivi.png",
     description:
@@ -429,7 +574,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 53,
+    id: 73,
     title: "Nastavak-za-WC-sa-poklopcem",
     image_url: "/assets/images/toaletni-program/nastavak-sa-poklopcem.png",
     description:
@@ -437,7 +582,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 54,
+    id: 74,
     title: "Nastavak-za-wc",
     image_url: "/assets/images/toaletni-program/nastavak-za-wc.png",
     description:
@@ -445,7 +590,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 55,
+    id: 75,
     title: "sedište-za-kadu-sa-naslonom",
     image_url:
       "/assets/images/toaletni-program/sedište-za-kadu-sa-naslonom.png",
@@ -454,7 +599,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 56,
+    id: 76,
     title: "Toaletna-kolica",
     image_url: "/assets/images/toaletni-program/toaletna-kolica.png",
     description:
@@ -462,7 +607,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 57,
+    id: 77,
     title: "Toaletna-stolica-sa-točkićima",
     image_url:
       "/assets/images/toaletni-program/toaletna-stolica-sa-točkićima.png",
@@ -471,152 +616,12 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 58,
+    id: 78,
     title: "Sedište-za-kadu",
     image_url: "/assets/images/toaletni-program/sedište-za-kadu.png",
     description:
       "Sedište za kadu je praktičan dodatak koji se postavlja na kadu kako bi omogućio udobno i sigurno sedenje tokom kupanja. Ovaj ortopedski uređaj pruža korisnicima podršku i olakšava higijenske aktivnosti u kadi. Namenjen je osobama smanjene pokretljivosti, čineći kupanje udobnijim i pristupačnijim. Jednostavan je za instalaciju i doprinosi povećanoj sigurnosti tokom boravka u kadi.",
     category: "toaletni program",
-  },
-  {
-    id: 59,
-    title: "perika-Alexandra",
-    image_url: "/assets/images/perike/perika-alexandra.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 60,
-    title: "perika-Angelica",
-    image_url: "/assets/images/perike/perika-angelica.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 61,
-    title: "perika-April",
-    image_url: "/assets/images/perike/perika-april.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 62,
-    title: "perika-Arabella",
-    image_url: "/assets/images/perike/perika-arabella.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 63,
-    title: "perika-Catherina",
-    image_url: "/assets/images/perike/perika-catherina.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 64,
-    title: "perika-Christina",
-    image_url: "/assets/images/perike/perika-christina.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 65,
-    title: "perika-Claire-life",
-    image_url: "/assets/images/perike/perika-claire-life.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 66,
-    title: "perika-Evie",
-    image_url: "/assets/images/perike/perika-evie.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 67,
-    title: "perika-Gabi",
-    image_url: "/assets/images/perike/perika-gabi.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 68,
-    title: "perika-Honora",
-    image_url: "/assets/images/perike/perika-honora.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 69,
-    title: "perika-Jenifer",
-    image_url: "/assets/images/perike/perika-jenifer.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 70,
-    title: "perika-Megan",
-    image_url: "/assets/images/perike/perika-megan.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 71,
-    title: "perika-Montgomery",
-    image_url: "/assets/images/perike/perika-montgomery.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 72,
-    title: "perika-Poppy",
-    image_url: "/assets/images/perike/perika-poppy.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 73,
-    title: "perika-Sandra",
-    image_url: "/assets/images/perike/perika-sandra.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 74,
-    title: "perika-Sonya-Life",
-    image_url: "/assets/images/perike/perika-sonya-life.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 75,
-    title: "perika-Tamsin",
-    image_url: "/assets/images/perike/perika-tamsin.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 76,
-    title: "perika-tilly",
-    image_url: "/assets/images/perike/perika-tilly.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 77,
-    title: "perika-Tony-Life",
-    image_url: "/assets/images/perike/perika-tony-life.png",
-    description: "Medicinska perika",
-    category: "perike",
-  },
-  {
-    id: 78,
-    title: "perika-Winter",
-    image_url: "/assets/images/perike/perika-winter.png",
-    description: "Medicinska perika",
-    category: "perike",
   },
   {
     id: 79,
@@ -737,18 +742,10 @@ export const getProduct = async (title) => {
   return products.find((product) => product.title === decodedTitle);
 };
 
-// export const searchProducts = async (searchValue) => {
-//   const filteredProducts = products.filter((product) =>
-//     product.title.toLowerCase().includes(searchValue.toLowerCase())
-//   );
-//   return filteredProducts;
-// };
-
 export const searchProducts = async (searchValue) => {
   const searchWords = searchValue.toLowerCase().split(" ");
   const filteredProducts = products.filter((product) =>
-    searchWords.every(word => product.title.toLowerCase().includes(word))
+    searchWords.every((word) => product.title.toLowerCase().includes(word))
   );
   return filteredProducts;
 };
-
