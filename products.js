@@ -297,8 +297,7 @@ const products = [
   {
     id: 36,
     title: "Perforirani-petni-podmetač",
-    image_url:
-      "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetač.png",
+    image_url: "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetač.png",
     description:
       "Perforirani petni podmetači su lagani ulošci za obuću, obično od silikona ili gela, koji pružaju udobnost i podršku petama. Omogućavaju bolju cirkulaciju vazduha, sprečavajući znojenje stopala, i ublažavaju pritisak na petama. Idealni su za ljude koji imaju bolove u petama ili druge probleme sa stopalima.",
     category: "ulošci i obuća",
