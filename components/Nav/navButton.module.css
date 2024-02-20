@@ -1,7 +1,7 @@
 .navButton {
   height: 4rem;
-  display: block;
   max-width: 100%;
+  display: block;
   background-color: var(--clr-neutral-100);
   border: 2px solid var(--clr-primary);
   border-radius: 5px;
@@ -63,7 +63,7 @@
   y: 72;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .navButton {
     display: none;
   }

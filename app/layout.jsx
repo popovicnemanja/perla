@@ -2,6 +2,8 @@ import Header from "@/components/Header/Header";
 import { Roboto } from "next/font/google";
 import styles from "./globals.css";
 import Footer from "@/components/Footer/Footer";
+import Image from "next/image";
+
 
 const roboto = Roboto({
   weight: ["400", "700"],

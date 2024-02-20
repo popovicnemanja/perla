@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./contactinfo.module.css";
-import Map from "../Map/Map";
+import Link from "next/link";
 
 const ContactInfo = () => {
   return (
@@ -22,7 +22,9 @@ const ContactInfo = () => {
         <div className="icon__wrapper">
           <Image src="/assets/icons/icon-phone.svg" fill alt="phone number" />
         </div>
-        <span>+381 (031) 513-889</span>
+        <Link href="tel:+38131513889">
+          +381 (031) 513-889
+        </Link>
       </div>
       <div className={styles.info__content}>
         <div className="icon__wrapper">
@@ -32,13 +34,15 @@ const ContactInfo = () => {
             alt="mobile phone number"
           />
         </div>
-        <span>+381 (64) 172-1272</span>
+        <Link href="tel:+381641721272">
+          +381 (64) 172-1272
+        </Link>
       </div>
       <div className={styles.info__content}>
         <div className="icon__wrapper">
           <Image src="/assets/icons/icon-envelope.svg" fill alt="mail adress" />
         </div>
-        <span>perla.uzice@gmail.com</span>
+        <Link href="mailto:perla.uzice@gmail.com">perla.uzice@gmail.com</Link>
       </div>
     </div>
   );

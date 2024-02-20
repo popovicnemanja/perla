@@ -4,7 +4,7 @@ import { searchProducts } from "@/products.js";
 import Link from "next/link";
 import Image from "next/image";
 
-const SearchInput = () => {
+const MobileSearchInput = () => {
   const [searchValue, setSearchValue] = useState("");
   const [filteredProducts, setFilteredProducts] = useState([]);
 
@@ -20,8 +20,9 @@ const SearchInput = () => {
     }
   };
 
+
   return (
-    <div className={styles.searchInput__wrapper}>
+    <div className={`${styles.searchInput__wrapper} ${styles['searchInput__wrapper--mobile']}`}>
       <input
         type="text"
         name="search"
@@ -60,4 +61,4 @@ const SearchInput = () => {
   );
 };
 
-export default SearchInput;
+export default MobileSearchInput;
