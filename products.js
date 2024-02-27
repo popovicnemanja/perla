@@ -288,15 +288,14 @@ const products = [
   {
     id: 35,
     title: "Silikonski-ulošci-za-decu",
-    image_url:
-      "/assets/images/ortopedski-ulosci-obuca/dečiji-silikonski-ulošci.png",
+    image_url: "/assets/images/ortopedski-ulosci-obuca/dečiji-silikonski-ulošci.png",
     description:
       "Silikonski ulošci za decu su anatomski oblikovani ulošci od silikonskog materijala, namenjeni za udobnost i podršku stopalima. Pružaju podršku lukovima stopala, ublažavaju pritisak tokom hodanja i smanjuju umor stopala. Ulošci su lagani, fleksibilni i izdržljivi, čineći ih idealnim za svakodnevnu upotrebu. Korisni su za decu s problemima kao što su ravna stopala ili bolovi u stopalima.",
     category: "ulošci i obuća",
   },
   {
     id: 36,
-    title: "Perforirani-petni-podmetač",
+    title: "Perforirani-petni-podmetac",
     image_url: "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetač.png",
     description:
       "Perforirani petni podmetači su lagani ulošci za obuću, obično od silikona ili gela, koji pružaju udobnost i podršku petama. Omogućavaju bolju cirkulaciju vazduha, sprečavajući znojenje stopala, i ublažavaju pritisak na petama. Idealni su za ljude koji imaju bolove u petama ili druge probleme sa stopalima.",
