@@ -56,7 +56,7 @@ const products = [
     description:
       "Elastični pojas za korekciju držanja je ortopedsko pomagalo koji se nosi oko tela radi poboljšanja držanja tela. Napravljen je od elastičnih materijala sa plastičnim ojačanjima i koristi se kako bi podržao kičmu i održavao pravilno držanje, smanjujući napetost i nelagodnost u leđima. Ovaj pojas podstiče pravilan položaj tela i pomaže u prevenciji lošeg držanja i problema sa leđima.",
     category: "pojasevi",
-  }
+  },
 
   {
     id: 8,
