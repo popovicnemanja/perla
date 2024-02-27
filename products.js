@@ -304,7 +304,7 @@ const products = [
   {
     id: 37,
     title: "Petni-podmetači",
-    image_url: "/assets/images/ortopedski-ulosci-obuca/petni-podmetači.png",
+    image_url: "/assets/images/ortopedski-ulosci-obuca/petni-podmetaci.png",
     description:
       "Petni podmetači od silikona ili gela su mali ulošci za obuću koji se postavljaju ispod pete radi dodatne udobnosti i podrške stopalima. Pružaju olakšanje od pritiska na peti, smanjujući nelagodnost i poboljšavajući udobnost tokom hodanja ili stajanja. Ovi podmetači su korisni za osobe koje imaju bolove u petama ili druge probleme sa stopalima.",
     category: "ulošci i obuća",
@@ -313,7 +313,7 @@ const products = [
     id: 38,
     title: "Silikonski-ulošci-za-odrasle",
     image_url:
-      "/assets/images/ortopedski-ulosci-obuca/silikonski-ulošci-za-odrasle.png",
+      "/assets/images/ortopedski-ulosci-obuca/silikonski-ulosci-za-odrasle.png",
     description:
       "Silikonski ulošci za odrasle su anatomski oblikovani ulošci od silikonskog materijala, dizajnirani za dodatnu udobnost i podršku stopalima, smanjujući pritisak i olakšavajući hodanje.",
     category: "ulošci i obuća",
@@ -322,7 +322,7 @@ const products = [
     id: 39,
     title: "Tročetvrtinski-ulošci",
     image_url:
-      "/assets/images/ortopedski-ulosci-obuca/tročetvrtinski-ulošci.png",
+      "/assets/images/ortopedski-ulosci-obuca/trocetvrtinski-ulosci.png",
     description:
       "Tročetvrtinski ulošci za obuću pokrivaju petu i deo stopala do oko tri četvrtine dužine stopala. Namenjeni su pružanju podrške, udobnosti i stabilnosti tokom hodanja ili stajanja. Pomažu u ublažavanju pritiska na peti i prednjem delu stopala, čineći ih idealnim za osobe koje traže dodatnu amortizaciju u tim delovima stopala ili imaju problema s bolovima u tim oblastima.",
     category: "ulošci i obuća",
