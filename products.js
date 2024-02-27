@@ -41,9 +41,25 @@ const products = [
       "Trudnički pojas predstavlja ortopedski dodatak namenjen trudnicama za pružanje podrške tokom trudnoće. Izrađen od elastičnih materijala prilagodljivih rastućem stomaku, ovaj pojas ima zadatak ublažavanja pritiska na donjem delu leđa, pružanja potpore trbušnim mišićima i poboljšanja opšteg komfora. Njegova pravilna upotreba, prema preporukama stručnjaka, može značajno doprineti smanjenju nelagodnosti tokom trudničkih meseci.",
     category: "pojasevi",
   },
-
   {
     id: 6,
+    title: "protect-abdominal-support-front",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/protect-abdominal-support-front.jpeg",
+    description:
+      "Abdominalni pojas je ortopedsko pomagalo koji pruža podršku i stabilnost trbušnom ili grudnom delu tela. Koristi se radi ublažavanja bolova, poboljšanja držanja tela i olakšavanja svakodnevnih aktivnosti. Ovi uređaji mogu biti izrađeni od različitih materijala i oblika, prilagođeni individualnim potrebama korisnika kako bi im pružili optimalnu podršku i udobnost.",
+    category: "pojasevi",
+  },
+  {
+    id: 7,
+    title: "HB-pojas-za-kičmu",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-pojas-za-kičmu.jpeg",
+    description:
+      "Elastični pojas za korekciju držanja je ortopedsko pomagalo koji se nosi oko tela radi poboljšanja držanja tela. Napravljen je od elastičnih materijala sa plastičnim ojačanjima i koristi se kako bi podržao kičmu i održavao pravilno držanje, smanjujući napetost i nelagodnost u leđima. Ovaj pojas podstiče pravilan položaj tela i pomaže u prevenciji lošeg držanja i problema sa leđima.",
+    category: "pojasevi",
+  }
+
+  {
+    id: 8,
     title: "Steznik-za-grudni-koš",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
@@ -52,7 +68,7 @@ const products = [
     category: "mideri",
   },
   {
-    id: 7,
+    id: 9,
     title: "lumbalni-mider",
     image_url: "/assets/images/ortoze-pojasevi-mideri/lumbalni-mider.png",
     description:
@@ -60,7 +76,7 @@ const products = [
     category: "mideri",
   },
   {
-    id: 8,
+    id: 10,
     title: "Postoperativni-mider",
     image_url: "/assets/images/ortoze-pojasevi-mideri/postoperativni-mider.png",
     description:
@@ -68,7 +84,7 @@ const products = [
     category: "mideri",
   },
   {
-    id: 9,
+    id: 11,
     title: "torakolumbalni-mider",
     image_url: "/assets/images/ortoze-pojasevi-mideri/torakolumbalni-mider.png",
     description:
@@ -76,7 +92,7 @@ const products = [
     category: "mideri",
   },
   {
-    id: 10,
+    id: 12,
     title: "Ortoza-za-stabilizaciju-lumbalne-kičme-AO-62",
     image_url: "/assets/images/ortoze-pojasevi-mideri/AO-62.png",
     description:
@@ -84,7 +100,7 @@ const products = [
     category: "ortoze za kičmu",
   },
   {
-    id: 11,
+    id: 13,
     title: "Ortoza-za-stabilizaciju-lumbalne-kičme-AO-63",
     image_url: "/assets/images/ortoze-pojasevi-mideri/AO-63.png",
     description:
@@ -92,7 +108,7 @@ const products = [
     category: "ortoze za kičmu",
   },
   {
-    id: 12,
+    id: 14,
     title: "TLS-ortoza-za-stabilizaciju-kičme-A091A",
     image_url: "/assets/images/ortoze-pojasevi-mideri/AO-91A.png",
     description:
@@ -100,7 +116,7 @@ const products = [
     category: "ortoze za kičmu",
   },
   {
-    id: 13,
+    id: 15,
     title: "longeta-za-koleno",
     image_url: "/assets/images/ortoze-pojasevi-mideri/longeta-za-koleno.png",
     description:
@@ -108,7 +124,47 @@ const products = [
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
-    id: 14,
+    id: 16,
+    title: "genu-steznik-za-koleno",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/genu-steznik-za-koleno.jpeg",
+    description:
+      "Steznik za koleno je ortopedski uređaj koji se nosi oko kolena radi podrške, stabilizacije i zaštite. Napravljen je od elastičnih materijala koji pružaju čvrsto prijanjanje uz koleno. Koristi se za smanjenje bolova, ublažavanje upale, ograničavanje pokreta radi oporavka od povrede ili rehabilitacije, kao i za sprečavanje novih povreda tokom aktivnosti koje opterećuju koleno. Steznik za koleno je često korišćen kod povreda ligamenata, mišića ili hrskavice, kao i kod stanja kao što su artritis ili nestabilnost kolena.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 17,
+    title: "genumedi-steznik-kolena",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/genumedi-steznik-kolena.jpeg",
+    description:
+      "Genumedi steznik za koleno je ortopedsko pomagalo koje se koristi za podršku, stabilizaciju i zaštitu kolena. Namenjen je smanjenju bolova, olakšavanju kretanja i sprečavanju daljih povreda. Ovaj steznik se obično nosi tokom aktivnosti koje opterećuju koleno ili tokom oporavka od povrede.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 18,
+    title: "HB-5106-traka-za-koleno",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-5106-traka-za-koleno.jpeg",
+    description:
+      "Traka za koleno je ortopedsko pomagalo koje se koristi za podršku i stabilizaciju kolena. Obično se sastoji od elastične trake koja se nosi oko kolena radi smanjenja pritiska, ublažavanja bolova i poboljšanja stabilnosti zgloba. Ova traka pruža dodatnu podršku tokom aktivnosti koje opterećuju koleno, poput trčanja ili skakanja, te pomaže u održavanju pravilnog položaja zgloba.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 19,
+    title: "medi-classic-tutor-za-koleno",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/medi-classic-tutor-za-koleno.jpeg",
+    description:
+      "Tutor ortoza za imobilizaciju kolena je ortopedsko pomagalo koje se koristi za stabilizaciju i ograničavanje pokreta kolena. Ova ortoza se obično sastoji od čvrste konstrukcije koja se postavlja oko kolena kako bi ga imobilizovala i pružila podršku tokom oporavka od povrede ili operacije. Glavna svrha tutor ortoze za imobilizaciju kolena je da smanji pokrete, olakša ozdravljenje i spreči dodatne povrede tokom perioda oporavka.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 20,
+    title: "steznik-za-ahilovu-tetivu",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-ahilovu-tetivu.jpeg",
+    description:
+      "Steznik za Ahilovu tetivu je ortopedsko pomagalo koje se koristi za podršku i stabilizaciju Ahilove tetive, koja se nalazi na zadnjoj strani potkolenice. Ovaj steznik obično obuhvata petu i donji deo potkolenice, pružajući kompresiju i podršku tetivi. Koristi se za smanjenje bola, olakšavanje pokreta i ubrzavanje procesa oporavka nakon povrede Ahilove tetive.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 21,
     title: "Steznik-za-koleno-100",
     image_url: "/assets/images/ortoze-pojasevi-mideri/100.png",
     description:
@@ -116,7 +172,7 @@ const products = [
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
-    id: 15,
+    id: 22,
     title: "Patelarna-traka-110A",
     image_url: "/assets/images/ortoze-pojasevi-mideri/110A.png",
     description:
@@ -124,7 +180,7 @@ const products = [
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
-    id: 16,
+    id: 23,
     title: "Aktivni-steznik-114U",
     image_url: "/assets/images/ortoze-pojasevi-mideri/114U.png",
     description:
@@ -132,7 +188,7 @@ const products = [
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
-    id: 17,
+    id: 24,
     title: "Aktivni-steznik-116U",
     image_url: "/assets/images/ortoze-pojasevi-mideri/116U.png",
     description:
@@ -140,14 +196,14 @@ const products = [
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
-    id: 18,
+    id: 25,
     title: "Aktivni-steznik-120",
     image_url: "/assets/images/ortoze-pojasevi-mideri/120.png",
     description:
       "Aktivni steznik za koleno pruža dinamičku podršku i stabilnost tokom aktivnosti. Namenjen je očuvanju optimalnog položaja kolena, smanjenju rizika od povreda i olakšavanju oporavka.",
   },
   {
-    id: 19,
+    id: 26,
     title: "Noćna-ortoza-za-čukljeve",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/noćna-ortoza-za-čukljeve.png",
@@ -156,7 +212,7 @@ const products = [
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
-    id: 20,
+    id: 27,
     title: "Peronealna-ortoza",
     image_url: "/assets/images/ortoze-pojasevi-mideri/peronealna-ortoza.png",
     description:
@@ -165,7 +221,7 @@ const products = [
   },
 
   {
-    id: 21,
+    id: 28,
     title: "Ortoza-za-koleno-sa-podesivim-zglobovima",
     image_url: "/assets/images/ortoze-pojasevi-mideri/rehab-kolena.png",
     description:
@@ -173,7 +229,7 @@ const products = [
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
-    id: 22,
+    id: 29,
     title: "Traka-bandaža-za-skočni-zglob-406 ",
     image_url: "/assets/images/ortoze-pojasevi-mideri/406.png",
     description:
@@ -181,7 +237,7 @@ const products = [
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
-    id: 23,
+    id: 30,
     title: "OKM-ortoza-podkoleno-nadkolena",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-podkoleno-nadkolena.jpeg",
@@ -190,7 +246,7 @@ const products = [
     category: "okm sistem",
   },
   {
-    id: 24,
+    id: 31,
     title: "OKM-LSO-mider",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-lso-mider.jpg",
@@ -200,7 +256,7 @@ const products = [
   },
 
   {
-    id: 25,
+    id: 32,
     title: "OKM-ortoza-nadlaktice",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-nadlaktice.jpg",
@@ -209,7 +265,7 @@ const products = [
     category: "okm sistem",
   },
   {
-    id: 26,
+    id: 33,
     title: "OKM-ortoza-ručnog-zgloba",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-ručnog-zgloba.jpg",
@@ -218,7 +274,7 @@ const products = [
     category: "okm sistem",
   },
   {
-    id: 27,
+    id: 34,
     title: "OKM-TLSO-mider",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-tlso-mider.jpg",
@@ -227,7 +283,7 @@ const products = [
     category: "okm sistem",
   },
   {
-    id: 28,
+    id: 35,
     title: "Mitela",
     image_url: "/assets/images/ortoze-pojasevi-mideri/mitela.png",
     description:
@@ -235,7 +291,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 29,
+    id: 36,
     title: "Ortoza-za-ručni-zgloba",
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
     description:
@@ -243,7 +299,7 @@ const products = [
     category: "ortoza za rame, lakat, ručni zglob",
   },
   {
-    id: 30,
+    id: 37,
     title: "Ortoza-za-palac",
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-za-palac.png",
     description:
@@ -252,7 +308,7 @@ const products = [
   },
 
   {
-    id: 31,
+    id: 38,
     title: "Steznik-za-pravilno-držanje-ramena",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/steznik-za-pravilno-držanje-ramena.png",
@@ -262,7 +318,7 @@ const products = [
   },
 
   {
-    id: 32,
+    id: 39,
     title: "Ortoza-za-teniski-lakat",
     image_url: "/assets/images/ortoze-pojasevi-mideri/308.png",
     description:
@@ -270,7 +326,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 33,
+    id: 40,
     title: "Steznik-za-ruku",
     image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-ruku.png",
     description:
@@ -278,7 +334,39 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 34,
+    id: 41,
+    title: "bandazer-za-palac",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/bandazer-za-palac.jpeg",
+    description:
+      "Bandžer za palac je ortopedsko pomagalo koji se stavlja na palac radi podrške, stabilizacije i zaštite. Napravljen od elastičnih materijala koji pružaju udobno prijanjanje uz palac. Koristi se za smanjenje bolova, ublažavanje upale, kao i za sprečavanje povreda tokom aktivnosti koje opterećuju palac. Bandžeri za palac su često korišćeni kod povreda tetiva ili zglobova palca, kao i kod stanja poput artritisa ili prekomernog opterećenja tokom sportskih aktivnosti.",
+    category: "ortoze za rame, lakat, ručni zglob",
+  },
+  {
+    id: 42,
+    title: "HB-5324-ortoza-za-ruku",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-5324-ortoza-za-ruku.jpeg",
+    description:
+      "Ortoza za ručni zglob je ortopedsko pomagalo koje se koristi za podršku, stabilizaciju i zaštitu ručnog zgloba. Obično je napravljena od čvrstih materijala poput plastike ili metala, a postavlja se oko ručnog zgloba radi smanjenja pokreta i ublažavanja bolova. Ova ortoza pomaže u održavanju stabilnosti i pravilnog položaja zgloba tokom aktivnosti, što može biti posebno korisno kod povreda, preopterećenja ili stanja poput artritisa.",
+    category: "ortoze za rame, lakat, ručni zglob",
+  },
+  {
+    id: 43,
+    title: "ortoza-za-humerus-humeral-fracture-brace",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/medi-humeral-fracture-brace.jpeg",
+    description:
+      "Ortoza za humerus je ortopedsko pomagalo koje se koristi za podršku, stabilizaciju i zaštitu nadlaktične kosti (humerusa). Ova ortoza se obično postavlja oko nadlaktice i ramenog zgloba kako bi ograničila pokrete i pružila potporu tokom oporavka od povrede ili operacije na humerusu. Cilj ortoze za humerus je smanjenje bola, sprečavanje daljih povreda i olakšavanje procesa ozdravljenja.",
+    category: "ortoze za rame, lakat, ručni zglob",
+  },
+  {
+    id: 44,
+    title: "HB-5410-mitela",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-5410-mitela.jpeg",
+    description:
+      "Mitela je ortopedsko pomagalo koji se koristi za imobilizaciju i podršku povređene ili oslabljene šake, ručnog zgloba i podlaktice. Obično je napravljen od čvrstih materijala poput plastike ili metala, a postavlja se oko ruke i podlaktice. Mitele ograničava pokrete šake i podlaktice kako bi se omogućilo oporavak nakon povrede, operacije ili drugih medicinskih stanja. Takođe može služiti za smanjenje bola i sprečavanje dodatnih povreda tokom procesa oporavka.",
+    category: "ortoze za rame, lakat, ručni zglob",
+  },
+  {
+    id: 45,
     title: "Silikonski-ulošci-za-obuću",
     image_url: "/assets/images/ortopedski-ulosci-obuca/806.png",
     description:
@@ -286,7 +374,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 35,
+    id: 46,
     title: "Silikonski-ulošci-za-decu",
     image_url: "/assets/images/ortopedski-ulosci-obuca/dečiji-silikonski-ulošci.png",
     description:
@@ -294,7 +382,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 36,
+    id: 47,
     title: "Perforirani-petni-podmetač",
     image_url: "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetac.png",
     description:
@@ -302,7 +390,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 37,
+    id: 48,
     title: "Petni-podmetači",
     image_url: "/assets/images/ortopedski-ulosci-obuca/petni-podmetaci.png",
     description:
@@ -310,7 +398,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 38,
+    id: 49,
     title: "Silikonski-ulošci-za-odrasle",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/silikonski-ulosci-za-odrasle.png",
@@ -319,7 +407,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 39,
+    id: 50,
     title: "Tročetvrtinski-ulošci",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/trocetvrtinski-ulosci.png",
@@ -328,147 +416,147 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 40,
+    id: 51,
     title: "perika-Alexandra",
     image_url: "/assets/images/perike/perika-alexandra.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 41,
+    id: 52,
     title: "perika-Angelica",
     image_url: "/assets/images/perike/perika-angelica.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 42,
+    id: 53,
     title: "perika-April",
     image_url: "/assets/images/perike/perika-april.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 43,
+    id: 54,
     title: "perika-Arabella",
     image_url: "/assets/images/perike/perika-arabella.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 44,
+    id: 55,
     title: "perika-Catherina",
     image_url: "/assets/images/perike/perika-catherina.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 45,
+    id: 56,
     title: "perika-Christina",
     image_url: "/assets/images/perike/perika-christina.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 46,
+    id: 57,
     title: "perika-Claire-life",
     image_url: "/assets/images/perike/perika-claire-life.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 47,
+    id: 58,
     title: "perika-Evie",
     image_url: "/assets/images/perike/perika-evie.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 48,
+    id: 59,
     title: "perika-Gabi",
     image_url: "/assets/images/perike/perika-gabi.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 49,
+    id: 60,
     title: "perika-Honora",
     image_url: "/assets/images/perike/perika-honora.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 50,
+    id: 61,
     title: "perika-Jenifer",
     image_url: "/assets/images/perike/perika-jenifer.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 51,
+    id: 62,
     title: "perika-Megan",
     image_url: "/assets/images/perike/perika-megan.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 52,
+    id: 63,
     title: "perika-Montgomery",
     image_url: "/assets/images/perike/perika-montgomery.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 53,
+    id: 64,
     title: "perika-Poppy",
     image_url: "/assets/images/perike/perika-poppy.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 54,
+    id: 65,
     title: "perika-Sandra",
     image_url: "/assets/images/perike/perika-sandra.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 55,
+    id: 66,
     title: "perika-Sonya-Life",
     image_url: "/assets/images/perike/perika-sonya-life.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 56,
+    id: 67,
     title: "perika-Tamsin",
     image_url: "/assets/images/perike/perika-tamsin.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 57,
+    id: 68,
     title: "perika-tilly",
     image_url: "/assets/images/perike/perika-tilly.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 58,
+    id: 69,
     title: "perika-Tony-Life",
     image_url: "/assets/images/perike/perika-tony-life.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 59,
+    id: 70,
     title: "perika-Winter",
     image_url: "/assets/images/perike/perika-winter.png",
     description: "Medicinska perika",
     category: "perike",
   },
   {
-    id: 60,
+    id: 71,
     title: "3223-elektromotorna-kolica",
     image_url: "/assets/images/kolica/3223-elektromotorna-kolica.png",
     description:
@@ -476,7 +564,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 61,
+    id: 72,
     title: "mehanička-kolica",
     image_url: "/assets/images/kolica/mehanička-kolica.png",
     description:
@@ -484,7 +572,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 62,
+    id: 73,
     title: "1033-elektromotorna-kolica",
     image_url: "/assets/images/kolica/1033-elektromotorna-kolica.png",
     description:
@@ -492,7 +580,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 63,
+    id: 74,
     title: "kolica",
     image_url: "/assets/images/kolica/kolica.png",
     description:
@@ -500,7 +588,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 64,
+    id: 75,
     title: "aktivna-kolica",
     image_url: "/assets/images/kolica/laka-aktivna-kolica.png",
     description:
@@ -508,7 +596,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 65,
+    id: 76,
     title: "Aktivna-invalidska-kolica",
     image_url: "/assets/images/kolica/aktivna-invalidska-kolica.png",
     description:
@@ -516,7 +604,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 66,
+    id: 77,
     title: "dečija-kolica",
     image_url: "/assets/images/kolica/dečija-kolica.png",
     description:
@@ -524,7 +612,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 67,
+    id: 78,
     title: "hodalica-podlaktna",
     image_url: "/assets/images/stake-hodalice/hodalica-podlaktna.png",
     description:
@@ -532,7 +620,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 68,
+    id: 79,
     title: "hodalica-sa-dva-točka",
     image_url: "/assets/images/stake-hodalice/hodalica-sa-dva-točka.png",
     description:
@@ -540,7 +628,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 69,
+    id: 80,
     title: "hodalica",
     image_url: "/assets/images/stake-hodalice/hodalica.png",
     description:
@@ -548,7 +636,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 70,
+    id: 81,
     title: "štake-podlaktne",
     image_url: "/assets/images/stake-hodalice/štake-podlaktne.png",
     description:
@@ -556,7 +644,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 71,
+    id: 82,
     title: "štake-podpazušne",
     image_url: "/assets/images/stake-hodalice/štake-podpazusne.png",
     description:
@@ -564,7 +652,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 72,
+    id: 83,
     title: "štap-na-rasklapanje",
     image_url: "/assets/images/stake-hodalice/štap-sklopivi.png",
     description:
@@ -572,7 +660,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 73,
+    id: 84,
     title: "Nastavak-za-WC-sa-poklopcem",
     image_url: "/assets/images/toaletni-program/nastavak-sa-poklopcem.png",
     description:
@@ -580,7 +668,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 74,
+    id: 85,
     title: "Nastavak-za-wc",
     image_url: "/assets/images/toaletni-program/nastavak-za-wc.png",
     description:
@@ -588,7 +676,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 75,
+    id: 86,
     title: "sedište-za-kadu-sa-naslonom",
     image_url:
       "/assets/images/toaletni-program/sedište-za-kadu-sa-naslonom.png",
@@ -597,7 +685,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 76,
+    id: 87,
     title: "Toaletna-kolica",
     image_url: "/assets/images/toaletni-program/toaletna-kolica.png",
     description:
@@ -605,7 +693,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 77,
+    id: 88,
     title: "Toaletna-stolica-sa-točkićima",
     image_url:
       "/assets/images/toaletni-program/toaletna-stolica-sa-točkićima.png",
@@ -614,7 +702,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 78,
+    id: 89,
     title: "Sedište-za-kadu",
     image_url: "/assets/images/toaletni-program/sedište-za-kadu.png",
     description:
@@ -622,14 +710,14 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 79,
+    id: 90,
     title: "ritasb-2004",
     image_url: "/assets/images/grudnjaci-proteze-dojke/ritasb-2004.png",
     description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 80,
+    id: 91,
     title: "1151-nancy-sb-light-sand",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/1151-nancy-sb-light-sand.png",
@@ -637,21 +725,21 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 81,
+    id: 92,
     title: "2004-rita-sb-black",
     image_url: "/assets/images/grudnjaci-proteze-dojke/2004-rita-sb-black.png",
     description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 82,
+    id: 93,
     title: "2004-rita-sb-sand",
     image_url: "/assets/images/grudnjaci-proteze-dojke/2004-rita-sb-sand.png",
     description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 83,
+    id: 94,
     title: "2128-frances-sb-FC-black",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/2128-frances-sb-FC-black.png",
@@ -659,7 +747,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 84,
+    id: 95,
     title: "44480-1151-44807-44417-44024-nancy-SB",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/44480-1151-44807-44417-44024-nancy-SB.png",
@@ -667,7 +755,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 85,
+    id: 96,
     title: "44534-mara-sbp-off-white",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/44534-mara-sbp-off-white.png",
@@ -675,7 +763,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 86,
+    id: 97,
     title: "44801-tessa-sb-blush",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/44801-tessa-sb-blush.png",
@@ -683,7 +771,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 87,
+    id: 98,
     title: "frances-sb-2128-white",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/frances-sb-2128-white.png",
@@ -691,14 +779,14 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 88,
+    id: 99,
     title: "frances-sb-2128",
     image_url: "/assets/images/grudnjaci-proteze-dojke/frances-sb-2128.png",
     description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 89,
+    id: 100,
     title: "isabel-sb-beli-ortopedski-grudnjak-za-karcinom-dojke",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/isabelsb-beli-ortopedski-grudnjak-za-karcinom-dojke.png",
@@ -706,7 +794,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 90,
+    id: 101,
     title: "Isabelsb-crni_ortopedski-grudnjak-za-karcinom-dojke",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/Isabelsb-crni_ortopedski-grudnjak-za-karcinom-dojke.png",
@@ -714,7 +802,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 91,
+    id: 102,
     title: "nancy-1151-lightnude",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/nancy-1151-lightnude.png",
@@ -722,7 +810,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 92,
+    id: 103,
     title: "nancy-sb-black-44870",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/nancy-sb-black-44870.png",
