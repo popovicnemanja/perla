@@ -370,7 +370,7 @@ const products = [
     title: "HB-5410-mitela",
     image_url: "/assets/images/ortoze-pojasevi-mideri/HB-5410-mitela.jpeg",
     description:
-      "Mitela je ortopedsko pomagalo koji se koristi za imobilizaciju i podršku povređene ili oslabljene šake, ručnog zgloba i podlaktice. Obično je napravljen od čvrstih materijala poput plastike ili metala, a postavlja se oko ruke i podlaktice. Mitele ograničava pokrete šake i podlaktice kako bi se omogućilo oporavak nakon povrede, operacije ili drugih medicinskih stanja. Takođe može služiti za smanjenje bola i sprečavanje dodatnih povreda tokom procesa oporavka.",
+      "Mitela je ortopedsko pomagalo koji se koristi za imobilizaciju i podršku povređene ili oslabljene šake, ručnog zgloba i podlaktice. Obično je napravljen od čvrstih materijala poput plastike ili metala, a postavlja se oko ruke i podlaktice.",
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
