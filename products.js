@@ -44,7 +44,8 @@ const products = [
   {
     id: 6,
     title: "protect-abdominal-support-front",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/protect-abdominal-support-front.jpeg",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/protect-abdominal-support-front.jpeg",
     description:
       "Abdominalni pojas je ortopedsko pomagalo koji pruža podršku i stabilnost trbušnom ili grudnom delu tela. Koristi se radi ublažavanja bolova, poboljšanja držanja tela i olakšavanja svakodnevnih aktivnosti. Ovi uređaji mogu biti izrađeni od različitih materijala i oblika, prilagođeni individualnim potrebama korisnika kako bi im pružili optimalnu podršku i udobnost.",
     category: "pojasevi",
@@ -52,7 +53,7 @@ const products = [
   {
     id: 7,
     title: "HB-pojas-za-kičmu",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-pojas-za-kičmu.jpeg",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-pojas-za-kicmu.jpeg",
     description:
       "Elastični pojas za korekciju držanja je ortopedsko pomagalo koji se nosi oko tela radi poboljšanja držanja tela. Napravljen je od elastičnih materijala sa plastičnim ojačanjima i koristi se kako bi podržao kičmu i održavao pravilno držanje, smanjujući napetost i nelagodnost u leđima. Ovaj pojas podstiče pravilan položaj tela i pomaže u prevenciji lošeg držanja i problema sa leđima.",
     category: "pojasevi",
@@ -126,7 +127,8 @@ const products = [
   {
     id: 16,
     title: "genu-steznik-za-koleno",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/genu-steznik-za-koleno.jpeg",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/genu-steznik-za-koleno.jpeg",
     description:
       "Steznik za koleno je ortopedski uređaj koji se nosi oko kolena radi podrške, stabilizacije i zaštite. Napravljen je od elastičnih materijala koji pružaju čvrsto prijanjanje uz koleno. Koristi se za smanjenje bolova, ublažavanje upale, ograničavanje pokreta radi oporavka od povrede ili rehabilitacije, kao i za sprečavanje novih povreda tokom aktivnosti koje opterećuju koleno. Steznik za koleno je često korišćen kod povreda ligamenata, mišića ili hrskavice, kao i kod stanja kao što su artritis ili nestabilnost kolena.",
     category: "ortoze za koleno, zglob, stopalo",
@@ -134,7 +136,8 @@ const products = [
   {
     id: 17,
     title: "genumedi-steznik-kolena",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/genumedi-steznik-kolena.jpeg",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/genumedi-steznik-kolena.jpeg",
     description:
       "Genumedi steznik za koleno je ortopedsko pomagalo koje se koristi za podršku, stabilizaciju i zaštitu kolena. Namenjen je smanjenju bolova, olakšavanju kretanja i sprečavanju daljih povreda. Ovaj steznik se obično nosi tokom aktivnosti koje opterećuju koleno ili tokom oporavka od povrede.",
     category: "ortoze za koleno, zglob, stopalo",
@@ -142,7 +145,8 @@ const products = [
   {
     id: 18,
     title: "HB-5106-traka-za-koleno",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-5106-traka-za-koleno.jpeg",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/HB-5106-traka-za-koleno.jpeg",
     description:
       "Traka za koleno je ortopedsko pomagalo koje se koristi za podršku i stabilizaciju kolena. Obično se sastoji od elastične trake koja se nosi oko kolena radi smanjenja pritiska, ublažavanja bolova i poboljšanja stabilnosti zgloba. Ova traka pruža dodatnu podršku tokom aktivnosti koje opterećuju koleno, poput trčanja ili skakanja, te pomaže u održavanju pravilnog položaja zgloba.",
     category: "ortoze za koleno, zglob, stopalo",
@@ -150,7 +154,8 @@ const products = [
   {
     id: 19,
     title: "medi-classic-tutor-za-koleno",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/medi-classic-tutor-za-koleno.jpeg",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/medi-classic-tutor-za-koleno.jpeg",
     description:
       "Tutor ortoza za imobilizaciju kolena je ortopedsko pomagalo koje se koristi za stabilizaciju i ograničavanje pokreta kolena. Ova ortoza se obično sastoji od čvrste konstrukcije koja se postavlja oko kolena kako bi ga imobilizovala i pružila podršku tokom oporavka od povrede ili operacije. Glavna svrha tutor ortoze za imobilizaciju kolena je da smanji pokrete, olakša ozdravljenje i spreči dodatne povrede tokom perioda oporavka.",
     category: "ortoze za koleno, zglob, stopalo",
@@ -158,7 +163,8 @@ const products = [
   {
     id: 20,
     title: "steznik-za-ahilovu-tetivu",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-ahilovu-tetivu.jpeg",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/steznik-za-ahilovu-tetivu.jpeg",
     description:
       "Steznik za Ahilovu tetivu je ortopedsko pomagalo koje se koristi za podršku i stabilizaciju Ahilove tetive, koja se nalazi na zadnjoj strani potkolenice. Ovaj steznik obično obuhvata petu i donji deo potkolenice, pružajući kompresiju i podršku tetivi. Koristi se za smanjenje bola, olakšavanje pokreta i ubrzavanje procesa oporavka nakon povrede Ahilove tetive.",
     category: "ortoze za koleno, zglob, stopalo",
@@ -344,7 +350,8 @@ const products = [
   {
     id: 42,
     title: "HB-5324-ortoza-za-ruku",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-5324-ortoza-za-ruku.jpeg",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/HB-5324-ortoza-za-ruku.jpeg",
     description:
       "Ortoza za ručni zglob je ortopedsko pomagalo koje se koristi za podršku, stabilizaciju i zaštitu ručnog zgloba. Obično je napravljena od čvrstih materijala poput plastike ili metala, a postavlja se oko ručnog zgloba radi smanjenja pokreta i ublažavanja bolova. Ova ortoza pomaže u održavanju stabilnosti i pravilnog položaja zgloba tokom aktivnosti, što može biti posebno korisno kod povreda, preopterećenja ili stanja poput artritisa.",
     category: "ortoze za rame, lakat, ručni zglob",
@@ -352,7 +359,8 @@ const products = [
   {
     id: 43,
     title: "ortoza-za-humerus-humeral-fracture-brace",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/medi-humeral-fracture-brace.jpeg",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/medi-humeral-fracture-brace.jpeg",
     description:
       "Ortoza za humerus je ortopedsko pomagalo koje se koristi za podršku, stabilizaciju i zaštitu nadlaktične kosti (humerusa). Ova ortoza se obično postavlja oko nadlaktice i ramenog zgloba kako bi ograničila pokrete i pružila potporu tokom oporavka od povrede ili operacije na humerusu. Cilj ortoze za humerus je smanjenje bola, sprečavanje daljih povreda i olakšavanje procesa ozdravljenja.",
     category: "ortoze za rame, lakat, ručni zglob",
@@ -376,7 +384,8 @@ const products = [
   {
     id: 46,
     title: "Silikonski-ulošci-za-decu",
-    image_url: "/assets/images/ortopedski-ulosci-obuca/dečiji-silikonski-ulošci.png",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/dečiji-silikonski-ulošci.png",
     description:
       "Silikonski ulošci za decu su anatomski oblikovani ulošci od silikonskog materijala, namenjeni za udobnost i podršku stopalima. Pružaju podršku lukovima stopala, ublažavaju pritisak tokom hodanja i smanjuju umor stopala. Ulošci su lagani, fleksibilni i izdržljivi, čineći ih idealnim za svakodnevnu upotrebu. Korisni su za decu s problemima kao što su ravna stopala ili bolovi u stopalima.",
     category: "ulošci i obuća",
@@ -384,7 +393,8 @@ const products = [
   {
     id: 47,
     title: "Perforirani-petni-podmetač",
-    image_url: "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetac.png",
+    image_url:
+      "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetac.png",
     description:
       "Perforirani petni podmetači su lagani ulošci za obuću, obično od silikona ili gela, koji pružaju udobnost i podršku petama. Omogućavaju bolju cirkulaciju vazduha, sprečavajući znojenje stopala, i ublažavaju pritisak na petama. Idealni su za ljude koji imaju bolove u petama ili druge probleme sa stopalima.",
     category: "ulošci i obuća",
