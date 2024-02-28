@@ -74,11 +74,11 @@ const products = [
   },
   {
     id: 10,
-    title: "Ortoza-za-ručni-zgloba",
+    title: "Ortoza-za-ručni-zglob",
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
     description:
       "Ortoza za ručni zglob pruža podršku, stabilnost i imobilizaciju nakon povreda ili operacija radi bržeg oporavka.",
-    category: "ortoza za rame, lakat, ručni zglob",
+    category: "ortoze za rame, lakat, ručni zglob",
   },
   {
     id: 11,
@@ -86,7 +86,7 @@ const products = [
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-za-palac.png",
     description:
       "Ortoza za palac je ortopedsko pomagalo koje pruža podršku, stabilnost i imobilizaciju palca. Koristi se nakon povreda, operacija ili kod određenih medicinskih stanja kako bi se ograničila pokretljivost palca i olakšao proces ozdravljenja.",
-    category: "ortoza za rame, lakat, ručni zglob",
+    category: "ortoze za rame, lakat, ručni zglob",
   },
   {
     id: 12,
@@ -229,6 +229,7 @@ const products = [
     image_url: "/assets/images/ortoze-pojasevi-mideri/120.png",
     description:
       "Aktivni steznik za koleno pruža dinamičku podršku i stabilnost tokom aktivnosti. Namenjen je očuvanju optimalnog položaja kolena, smanjenju rizika od povreda i olakšavanju oporavka.",
+    category: "ortoze za koleno, zglob, stopalo",
   },
   {
     id: 29,
