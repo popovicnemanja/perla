@@ -31,6 +31,21 @@
   max-width: 40ch;
 }
 
+.hero__cta-wrapper {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.hero__cta {
+  padding: 1.4rem 2rem;
+  background-color: var(--clr-accent);
+  border-radius: 100vh;
+  transition: .3s all;
+}
+
+
+
 .hero__img--wrapper {
   max-width: 38.7rem;
   height: 47.1rem;
@@ -62,6 +77,17 @@
     .hero__img--wrapper {
       max-width: 48.5rem;
       height: 56.3rem;
+    }
+  }
+
+  @media (min-width: 991px) {
+    .hero__cta-wrapper {
+      transition: .3s all;
+    }
+    
+    .hero__cta:hover {
+      background-color: var(--clr-primary);
+      color: white;
     }
   }
 

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./hero.module.css";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -13,6 +14,10 @@ const Hero = () => {
                 Otkrijte svet udobnosti i brige o vašem zdravlju u našoj
                 prodavnici ortopedskih pomagala.
               </p>
+            </div>
+            <div className={`${styles["hero__cta-wrapper"]}`}>
+              <Link href="/kontakt" className={styles.hero__cta}>Kontakt</Link>
+              <Link href="/#products__list" className={styles.hero__cta}>Proizvodi</Link>
             </div>
           </div>
           <div className={`img__wrapper ${styles["hero__img--wrapper"]}`}>

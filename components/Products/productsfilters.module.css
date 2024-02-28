@@ -4,6 +4,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  z-index: 9999;
   text-align: left;
 }
 

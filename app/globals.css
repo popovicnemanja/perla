@@ -29,6 +29,7 @@ ol[role="list"] {
 /* Set core root defaults */
 html {
   font-size: 62.5%;
+  scroll-padding-top: 330px;
 }
 
 html:focus-within {
