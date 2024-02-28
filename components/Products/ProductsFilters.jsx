@@ -160,6 +160,16 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
               <li
                 role="listitem"
                 className={`${styles.filter__btn} ${styles.subFilter__btn} ${
+                  activeFilter === "okm sistem" ? `${styles["active"]}` : ""
+                }`}
+                data="okm sistem"
+                onClick={() => handleFilterClick("okm sistem")}
+              >
+                <span className={styles.filter__title}>OKM Sistem</span>
+              </li>
+              <li
+                role="listitem"
+                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
                   activeFilter === "mideri" ? `${styles["active"]}` : ""
                 }`}
                 data="mideri"
@@ -176,16 +186,6 @@ const ProductsFilters = ({ activeFilter, onFilterChange }) => {
                 onClick={() => handleFilterClick("pojasevi")}
               >
                 <span className={styles.filter__title}>Pojasevi</span>
-              </li>
-              <li
-                role="listitem"
-                className={`${styles.filter__btn} ${styles.subFilter__btn} ${
-                  activeFilter === "okm sistem" ? `${styles["active"]}` : ""
-                }`}
-                data="okm sistem"
-                onClick={() => handleFilterClick("okm sistem")}
-              >
-                <span className={styles.filter__title}>OKM Sistem</span>
               </li>
             </ul>
           </li>

@@ -259,64 +259,6 @@ const products = [
   },
   {
     id: 32,
-    title: "Steznik-za-grudni-koš",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
-    description:
-      "Steznik za grudni koš je medicinsko pomagalo dizajnirano da pruži podršku i stabilnost grudnom košu. Koristi se u terapeutske svrhe, poput smanjenja pokreta tokom oporavka nakon povreda ili operacija na grudnom području. Ovi steznici obično imaju prilagodljiv dizajn i čvrstu konstrukciju kako bi održali stabilnost i podršku tokom procesa oporavka. Važno je koristiti ih prema preporukama medicinskog stručnjaka radi optimalnih terapijskih rezultata.",
-    category: "mideri",
-  },
-  {
-    id: 33,
-    title: "lumbalni-mider",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/lumbalni-mider.png",
-    description:
-      "Lumbalni mider je ortopedsko pomagalo dizajnirano za pružanje podrške i stabilnosti u donjem delu leđa. Ovi pojasevi se obično nose oko struka i pružaju kompresiju kako bi smanjili opterećenje na lumbalnom delu kičme. Koriste se radi olakšavanja bolova, podrške pri rehabilitaciji ili održavanja pravilnog položaja kičme. Važno je koristiti lumbalni mider prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
-    category: "mideri",
-  },
-  {
-    id: 34,
-    title: "Postoperativni-mider",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/postoperativni-mider.png",
-    description:
-      "Postoperativni mider je ortopedsko pomagalo koje pruža podršku, kompresiju i stabilnost nakon operacije. Nosite ga oko trbuha ili leđa kako biste ublažili otok i održali potrebnu podršku tokom procesa oporavka. Važno je koristiti mider prema preporukama stručnjaka radi optimalnog oporavka.",
-    category: "mideri",
-  },
-  {
-    id: 35,
-    title: "torakolumbalni-mider",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/torakolumbalni-mider.png",
-    description:
-      "Torakolumbalni mider je ortopedsko pomagalo za podršku i stabilnost srednjeg i donjeg dela leđa. Nosite ga oko tela radi smanjenja bolova, olakšavanja rehabilitacije ili održavanja pravilnog položaja kičme. Važno je koristiti ga prema preporukama stručnjaka za optimalne terapijske rezultate.",
-    category: "mideri",
-  },
-  {
-    id: 36,
-    title: "trudnički-pojas",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/trudnički-pojas.png",
-    description:
-      "Trudnički pojas predstavlja ortopedski dodatak namenjen trudnicama za pružanje podrške tokom trudnoće. Izrađen od elastičnih materijala prilagodljivih rastućem stomaku, ovaj pojas ima zadatak ublažavanja pritiska na donjem delu leđa, pružanja potpore trbušnim mišićima i poboljšanja opšteg komfora. Njegova pravilna upotreba, prema preporukama stručnjaka, može značajno doprineti smanjenju nelagodnosti tokom trudničkih meseci.",
-    category: "pojasevi",
-  },
-  {
-    id: 37,
-    title: "protect-abdominal-support-front",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/protect-abdominal-support-front.jpeg",
-    description:
-      "Abdominalni pojas je ortopedsko pomagalo koji pruža podršku i stabilnost trbušnom ili grudnom delu tela. Koristi se radi ublažavanja bolova, poboljšanja držanja tela i olakšavanja svakodnevnih aktivnosti. Ovi uređaji mogu biti izrađeni od različitih materijala i oblika, prilagođeni individualnim potrebama korisnika kako bi im pružili optimalnu podršku i udobnost.",
-    category: "pojasevi",
-  },
-  {
-    id: 38,
-    title: "HB-pojas-za-kičmu",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-pojas-za-kicmu.jpeg",
-    description:
-      "Elastični pojas za korekciju držanja je ortopedsko pomagalo koji se nosi oko tela radi poboljšanja držanja tela. Napravljen je od elastičnih materijala sa plastičnim ojačanjima i koristi se kako bi podržao kičmu i održavao pravilno držanje, smanjujući napetost i nelagodnost u leđima. Ovaj pojas podstiče pravilan položaj tela i pomaže u prevenciji lošeg držanja i problema sa leđima.",
-    category: "pojasevi",
-  },
-  {
-    id: 39,
     title: "Traka-bandaža-za-skočni-zglob-406 ",
     image_url: "/assets/images/ortoze-pojasevi-mideri/406.png",
     description:
@@ -324,7 +266,7 @@ const products = [
     category: "ortoze za koleno, zglob, stopalo",
   },
   {
-    id: 40,
+    id: 33,
     title: "OKM-ortoza-podkoleno-nadkolena",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-podkoleno-nadkolena.jpeg",
@@ -333,7 +275,7 @@ const products = [
     category: "okm sistem",
   },
   {
-    id: 41,
+    id: 34,
     title: "OKM-LSO-mider",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-lso-mider.jpg",
@@ -342,7 +284,7 @@ const products = [
     category: "okm sistem",
   },
   {
-    id: 42,
+    id: 35,
     title: "OKM-ortoza-nadlaktice",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-nadlaktice.jpg",
@@ -351,7 +293,7 @@ const products = [
     category: "okm sistem",
   },
   {
-    id: 43,
+    id: 36,
     title: "OKM-ortoza-ručnog-zgloba",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-ručnog-zgloba.jpg",
@@ -360,13 +302,71 @@ const products = [
     category: "okm sistem",
   },
   {
-    id: 44,
+    id: 37,
     title: "OKM-TLSO-mider",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-tlso-mider.jpg",
     description:
       "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
     category: "okm sistem",
+  },
+  {
+    id: 38,
+    title: "Steznik-za-grudni-koš",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
+    description:
+      "Steznik za grudni koš je medicinsko pomagalo dizajnirano da pruži podršku i stabilnost grudnom košu. Koristi se u terapeutske svrhe, poput smanjenja pokreta tokom oporavka nakon povreda ili operacija na grudnom području. Ovi steznici obično imaju prilagodljiv dizajn i čvrstu konstrukciju kako bi održali stabilnost i podršku tokom procesa oporavka. Važno je koristiti ih prema preporukama medicinskog stručnjaka radi optimalnih terapijskih rezultata.",
+    category: "mideri",
+  },
+  {
+    id: 39,
+    title: "lumbalni-mider",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/lumbalni-mider.png",
+    description:
+      "Lumbalni mider je ortopedsko pomagalo dizajnirano za pružanje podrške i stabilnosti u donjem delu leđa. Ovi pojasevi se obično nose oko struka i pružaju kompresiju kako bi smanjili opterećenje na lumbalnom delu kičme. Koriste se radi olakšavanja bolova, podrške pri rehabilitaciji ili održavanja pravilnog položaja kičme. Važno je koristiti lumbalni mider prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
+    category: "mideri",
+  },
+  {
+    id: 40,
+    title: "Postoperativni-mider",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/postoperativni-mider.png",
+    description:
+      "Postoperativni mider je ortopedsko pomagalo koje pruža podršku, kompresiju i stabilnost nakon operacije. Nosite ga oko trbuha ili leđa kako biste ublažili otok i održali potrebnu podršku tokom procesa oporavka. Važno je koristiti mider prema preporukama stručnjaka radi optimalnog oporavka.",
+    category: "mideri",
+  },
+  {
+    id: 41,
+    title: "torakolumbalni-mider",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/torakolumbalni-mider.png",
+    description:
+      "Torakolumbalni mider je ortopedsko pomagalo za podršku i stabilnost srednjeg i donjeg dela leđa. Nosite ga oko tela radi smanjenja bolova, olakšavanja rehabilitacije ili održavanja pravilnog položaja kičme. Važno je koristiti ga prema preporukama stručnjaka za optimalne terapijske rezultate.",
+    category: "mideri",
+  },
+  {
+    id: 42,
+    title: "trudnički-pojas",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/trudnički-pojas.png",
+    description:
+      "Trudnički pojas predstavlja ortopedski dodatak namenjen trudnicama za pružanje podrške tokom trudnoće. Izrađen od elastičnih materijala prilagodljivih rastućem stomaku, ovaj pojas ima zadatak ublažavanja pritiska na donjem delu leđa, pružanja potpore trbušnim mišićima i poboljšanja opšteg komfora. Njegova pravilna upotreba, prema preporukama stručnjaka, može značajno doprineti smanjenju nelagodnosti tokom trudničkih meseci.",
+    category: "pojasevi",
+  },
+  {
+    id: 43,
+    title: "protect-abdominal-support-front",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/protect-abdominal-support-front.jpeg",
+    description:
+      "Abdominalni pojas je ortopedsko pomagalo koji pruža podršku i stabilnost trbušnom ili grudnom delu tela. Koristi se radi ublažavanja bolova, poboljšanja držanja tela i olakšavanja svakodnevnih aktivnosti. Ovi uređaji mogu biti izrađeni od različitih materijala i oblika, prilagođeni individualnim potrebama korisnika kako bi im pružili optimalnu podršku i udobnost.",
+    category: "pojasevi",
+  },
+  {
+    id: 44,
+    title: "HB-pojas-za-kičmu",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-pojas-za-kicmu.jpeg",
+    description:
+      "Elastični pojas za korekciju držanja je ortopedsko pomagalo koji se nosi oko tela radi poboljšanja držanja tela. Napravljen je od elastičnih materijala sa plastičnim ojačanjima i koristi se kako bi podržao kičmu i održavao pravilno držanje, smanjujući napetost i nelagodnost u leđima. Ovaj pojas podstiče pravilan položaj tela i pomaže u prevenciji lošeg držanja i problema sa leđima.",
+    category: "pojasevi",
   },
   {
     id: 45,
