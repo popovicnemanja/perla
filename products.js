@@ -15,7 +15,6 @@ const products = [
       "Ortoza za vrat je ortopedsko pomagalo koje pruža podršku vratnoj kičmi. Izrađena je od tvrdog materijala poput plastike ili metala, postavlja se oko vrata radi imobilizacije i stabilizacije. Koristi se nakon povreda vrata, u lečenju problema s vratnom kičmom ili nakon operacija kako bi ograničila pokrete i pružilo podršku tokom rehabilitacije. Važno je koristiti ortozu prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
     category: "ortoze za vrat i glavu",
   },
-
   {
     id: 3,
     title: "Kragna Filadelfija",
@@ -66,23 +65,6 @@ const products = [
   },
   {
     id: 9,
-    title: "Ortoza-za-ručni-zgloba",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
-    description:
-      "Ortoza za ručni zglob pruža podršku, stabilnost i imobilizaciju nakon povreda ili operacija radi bržeg oporavka.",
-    category: "ortoza za rame, lakat, ručni zglob",
-  },
-  {
-    id: 10,
-    title: "Ortoza-za-palac",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-za-palac.png",
-    description:
-      "Ortoza za palac je ortopedsko pomagalo koje pruža podršku, stabilnost i imobilizaciju palca. Koristi se nakon povreda, operacija ili kod određenih medicinskih stanja kako bi se ograničila pokretljivost palca i olakšao proces ozdravljenja.",
-    category: "ortoza za rame, lakat, ručni zglob",
-  },
-
-  {
-    id: 11,
     title: "Steznik-za-pravilno-držanje-ramena",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/steznik-za-pravilno-držanje-ramena.png",
@@ -90,7 +72,22 @@ const products = [
       "Ortoza za pravilno držanje ramena je ortopedsko pomagalo koje se koristi radi podrške i korekcije položaja ramena. Pomaže održavanju pravilnog držanja, smanjuje opterećenje na ramenima i vratu, te doprinosi očuvanju pravilne posturalne ravnoteže.",
     category: "ortoze za rame, lakat, ručni zglob",
   },
-
+  {
+    id: 10,
+    title: "Ortoza-za-ručni-zgloba",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
+    description:
+      "Ortoza za ručni zglob pruža podršku, stabilnost i imobilizaciju nakon povreda ili operacija radi bržeg oporavka.",
+    category: "ortoza za rame, lakat, ručni zglob",
+  },
+  {
+    id: 11,
+    title: "Ortoza-za-palac",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-za-palac.png",
+    description:
+      "Ortoza za palac je ortopedsko pomagalo koje pruža podršku, stabilnost i imobilizaciju palca. Koristi se nakon povreda, operacija ili kod određenih medicinskih stanja kako bi se ograničila pokretljivost palca i olakšao proces ozdravljenja.",
+    category: "ortoza za rame, lakat, ručni zglob",
+  },
   {
     id: 12,
     title: "Ortoza-za-teniski-lakat",
