@@ -32,68 +32,8 @@ const products = [
       "Meka kragna za vrat je lagano ortopedsko pomagalo izrađeno od mekih materijala poput pene ili pamuka. Namenjena je pružanju blage potpore i udobnosti vratu. Ova vrsta kragni često se koristi kod blažih bolova u vratu ili napetosti mišića. Nudi nežnu podršku i može se koristiti za ublažavanje nelagodnosti bez potrebe za potpunom imobilizacijom. Važno je koristiti meku kragnu prema preporukama stručnjaka radi postizanja najboljih rezultata.",
     category: "ortoze za vrat i glavu",
   },
-
   {
     id: 5,
-    title: "trudnički-pojas",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/trudnički-pojas.png",
-    description:
-      "Trudnički pojas predstavlja ortopedski dodatak namenjen trudnicama za pružanje podrške tokom trudnoće. Izrađen od elastičnih materijala prilagodljivih rastućem stomaku, ovaj pojas ima zadatak ublažavanja pritiska na donjem delu leđa, pružanja potpore trbušnim mišićima i poboljšanja opšteg komfora. Njegova pravilna upotreba, prema preporukama stručnjaka, može značajno doprineti smanjenju nelagodnosti tokom trudničkih meseci.",
-    category: "pojasevi",
-  },
-  {
-    id: 6,
-    title: "protect-abdominal-support-front",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/protect-abdominal-support-front.jpeg",
-    description:
-      "Abdominalni pojas je ortopedsko pomagalo koji pruža podršku i stabilnost trbušnom ili grudnom delu tela. Koristi se radi ublažavanja bolova, poboljšanja držanja tela i olakšavanja svakodnevnih aktivnosti. Ovi uređaji mogu biti izrađeni od različitih materijala i oblika, prilagođeni individualnim potrebama korisnika kako bi im pružili optimalnu podršku i udobnost.",
-    category: "pojasevi",
-  },
-  {
-    id: 7,
-    title: "HB-pojas-za-kičmu",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-pojas-za-kicmu.jpeg",
-    description:
-      "Elastični pojas za korekciju držanja je ortopedsko pomagalo koji se nosi oko tela radi poboljšanja držanja tela. Napravljen je od elastičnih materijala sa plastičnim ojačanjima i koristi se kako bi podržao kičmu i održavao pravilno držanje, smanjujući napetost i nelagodnost u leđima. Ovaj pojas podstiče pravilan položaj tela i pomaže u prevenciji lošeg držanja i problema sa leđima.",
-    category: "pojasevi",
-  },
-
-  {
-    id: 8,
-    title: "Steznik-za-grudni-koš",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
-    description:
-      "Steznik za grudni koš je medicinsko pomagalo dizajnirano da pruži podršku i stabilnost grudnom košu. Koristi se u terapeutske svrhe, poput smanjenja pokreta tokom oporavka nakon povreda ili operacija na grudnom području. Ovi steznici obično imaju prilagodljiv dizajn i čvrstu konstrukciju kako bi održali stabilnost i podršku tokom procesa oporavka. Važno je koristiti ih prema preporukama medicinskog stručnjaka radi optimalnih terapijskih rezultata.",
-    category: "mideri",
-  },
-  {
-    id: 9,
-    title: "lumbalni-mider",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/lumbalni-mider.png",
-    description:
-      "Lumbalni mider je ortopedsko pomagalo dizajnirano za pružanje podrške i stabilnosti u donjem delu leđa. Ovi pojasevi se obično nose oko struka i pružaju kompresiju kako bi smanjili opterećenje na lumbalnom delu kičme. Koriste se radi olakšavanja bolova, podrške pri rehabilitaciji ili održavanja pravilnog položaja kičme. Važno je koristiti lumbalni mider prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
-    category: "mideri",
-  },
-  {
-    id: 10,
-    title: "Postoperativni-mider",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/postoperativni-mider.png",
-    description:
-      "Postoperativni mider je ortopedsko pomagalo koje pruža podršku, kompresiju i stabilnost nakon operacije. Nosite ga oko trbuha ili leđa kako biste ublažili otok i održali potrebnu podršku tokom procesa oporavka. Važno je koristiti mider prema preporukama stručnjaka radi optimalnog oporavka.",
-    category: "mideri",
-  },
-  {
-    id: 11,
-    title: "torakolumbalni-mider",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/torakolumbalni-mider.png",
-    description:
-      "Torakolumbalni mider je ortopedsko pomagalo za podršku i stabilnost srednjeg i donjeg dela leđa. Nosite ga oko tela radi smanjenja bolova, olakšavanja rehabilitacije ili održavanja pravilnog položaja kičme. Važno je koristiti ga prema preporukama stručnjaka za optimalne terapijske rezultate.",
-    category: "mideri",
-  },
-  {
-    id: 12,
     title: "Ortoza-za-stabilizaciju-lumbalne-kičme-AO-62",
     image_url: "/assets/images/ortoze-pojasevi-mideri/AO-62.png",
     description:
@@ -101,7 +41,7 @@ const products = [
     category: "ortoze za kičmu",
   },
   {
-    id: 13,
+    id: 6,
     title: "Ortoza-za-stabilizaciju-lumbalne-kičme-AO-63",
     image_url: "/assets/images/ortoze-pojasevi-mideri/AO-63.png",
     description:
@@ -109,7 +49,7 @@ const products = [
     category: "ortoze za kičmu",
   },
   {
-    id: 14,
+    id: 7,
     title: "TLS-ortoza-za-stabilizaciju-kičme-A091A",
     image_url: "/assets/images/ortoze-pojasevi-mideri/AO-91A.png",
     description:
@@ -117,179 +57,7 @@ const products = [
     category: "ortoze za kičmu",
   },
   {
-    id: 15,
-    title: "longeta-za-koleno",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/longeta-za-koleno.png",
-    description:
-      "Longeta za koleno je ortopedsko pomagalo koje pruža podršku i imobilizaciju kolena. Nosite je oko kolena kako biste ograničili pokrete, smanjili opterećenje ili stabilizovali zglob tokom oporavka nakon povreda ili operacije. Longeta pomaže u ublažavanju bolova, podržava pravilan položaj kolena i olakšava proces rehabilitacije. Važno je koristiti longetu prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 16,
-    title: "genu-steznik-za-koleno",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/genu-steznik-za-koleno.jpeg",
-    description:
-      "Steznik za koleno je ortopedski uređaj koji se nosi oko kolena radi podrške, stabilizacije i zaštite. Napravljen je od elastičnih materijala koji pružaju čvrsto prijanjanje uz koleno. Koristi se za smanjenje bolova, ublažavanje upale, ograničavanje pokreta radi oporavka od povrede ili rehabilitacije, kao i za sprečavanje novih povreda tokom aktivnosti koje opterećuju koleno. Steznik za koleno je često korišćen kod povreda ligamenata, mišića ili hrskavice, kao i kod stanja kao što su artritis ili nestabilnost kolena.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 17,
-    title: "genumedi-steznik-kolena",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/genumedi-steznik-kolena.jpeg",
-    description:
-      "Genumedi steznik za koleno je ortopedsko pomagalo koje se koristi za podršku, stabilizaciju i zaštitu kolena. Namenjen je smanjenju bolova, olakšavanju kretanja i sprečavanju daljih povreda. Ovaj steznik se obično nosi tokom aktivnosti koje opterećuju koleno ili tokom oporavka od povrede.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 18,
-    title: "HB-5106-traka-za-koleno",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/HB-5106-traka-za-koleno.jpeg",
-    description:
-      "Traka za koleno je ortopedsko pomagalo koje se koristi za podršku i stabilizaciju kolena. Obično se sastoji od elastične trake koja se nosi oko kolena radi smanjenja pritiska, ublažavanja bolova i poboljšanja stabilnosti zgloba. Ova traka pruža dodatnu podršku tokom aktivnosti koje opterećuju koleno, poput trčanja ili skakanja, te pomaže u održavanju pravilnog položaja zgloba.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 19,
-    title: "medi-classic-tutor-za-koleno",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/medi-classic-tutor-za-koleno.jpeg",
-    description:
-      "Tutor ortoza za imobilizaciju kolena je ortopedsko pomagalo koje se koristi za stabilizaciju i ograničavanje pokreta kolena. Ova ortoza se obično sastoji od čvrste konstrukcije koja se postavlja oko kolena kako bi ga imobilizovala i pružila podršku tokom oporavka od povrede ili operacije. Glavna svrha tutor ortoze za imobilizaciju kolena je da smanji pokrete, olakša ozdravljenje i spreči dodatne povrede tokom perioda oporavka.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 20,
-    title: "steznik-za-ahilovu-tetivu",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/steznik-za-ahilovu-tetivu.jpeg",
-    description:
-      "Steznik za Ahilovu tetivu je ortopedsko pomagalo koje se koristi za podršku i stabilizaciju Ahilove tetive, koja se nalazi na zadnjoj strani potkolenice. Ovaj steznik obično obuhvata petu i donji deo potkolenice, pružajući kompresiju i podršku tetivi. Koristi se za smanjenje bola, olakšavanje pokreta i ubrzavanje procesa oporavka nakon povrede Ahilove tetive.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 21,
-    title: "Steznik-za-koleno-100",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/100.png",
-    description:
-      "Steznik za koleno od neoprena je ortopedsko pomagalo napravljen od specifičnog materijala - neoprena. Ovaj steznik pruža kompresiju i podršku kolenu, pomažući u stabilizaciji i održavanju toplote na tom području. Neoprenski materijal omogućava fleksibilnost, udobnost i zadržavanje toplote, što je posebno korisno za ublažavanje bola, smanjenje otoka i olakšavanje oporavka od povreda ili oštećenja kolena.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 22,
-    title: "Patelarna-traka-110A",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/110A.png",
-    description:
-      "Patelarna traka je ortopedska podrška za koleno, fokusirana na patelu. Pruža kompresiju i stabilnost, pomažući u ublažavanju bola i smanjenju pritiska na patelu. Često se koristi u sportu i rehabilitaciji.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 23,
-    title: "Aktivni-steznik-114U",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/114U.png",
-    description:
-      "Aktivni steznik je ortopedsko pomagalo za podršku tokom aktivnosti. Pruža dinamičku podršku i kompresiju, omogućavajući slobodno kretanje. Idealan je za sportske aktivnosti radi smanjenja rizika od povreda i poboljšanja performansi.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 24,
-    title: "Aktivni-steznik-116U",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/116U.png",
-    description:
-      "Aktivni steznik pruža podršku tokom pokreta. Nudi dinamičku kompresiju za stabilnost mišića i zglobova, čineći ga idealnim za sportske aktivnosti. Olakšava kretanje i smanjuje rizik od povreda.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 25,
-    title: "Aktivni-steznik-120",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/120.png",
-    description:
-      "Aktivni steznik za koleno pruža dinamičku podršku i stabilnost tokom aktivnosti. Namenjen je očuvanju optimalnog položaja kolena, smanjenju rizika od povreda i olakšavanju oporavka.",
-  },
-  {
-    id: 26,
-    title: "Noćna-ortoza-za-čukljeve",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/noćna-ortoza-za-čukljeve.png",
-    description:
-      "Noćna ortoza za čukljeve je posebno ortopedsko pomagalo za nošenje tokom spavanja, namenjeno korekciji ili olakšavanju problema s čukljevima. Pruža udobnost, podršku i pomaže u ispravljanju položaja palca tokom noći, doprinoseći postizanju bolje strukture stopala.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 27,
-    title: "Peronealna-ortoza",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/peronealna-ortoza.png",
-    description:
-      'Peronealna ortoza je plastično pomagalo namenjen podršci osobama sa "palim stopalom" uzrokovanom oštećenjem peronealnog nerva, često posledicom moždanog udara. Održava stopalo pod pravim uglom od 90 stepeni u odnosu na potkolenicu, sprečavajući nekontrolisano padanje stopala pri hodanju. Veličina ortoze se prilagođava veličini cipela korisnika i preporučuje se nošenje u čvršćoj i dubljoj obući.',
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-
-  {
-    id: 28,
-    title: "Ortoza-za-koleno-sa-podesivim-zglobovima",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/rehab-kolena.png",
-    description:
-      "Ortoza za koleno sa podesivim zglobovima pruža podršku i stabilnost uz mogućnost prilagođavanja pokreta prema potrebama. Pomaže u ograničavanju neprirodnih pokreta, podržava rehabilitaciju i smanjuje rizik od povreda koljena.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 29,
-    title: "Traka-bandaža-za-skočni-zglob-406 ",
-    image_url: "/assets/images/ortoze-pojasevi-mideri/406.png",
-    description:
-      "Bandaž traka za skočni zglob je ortopedska podrška koja se koristi za stabilizaciju i podršku skočnom zglobu. Ova traka pruža kompresiju i ograničava pokrete, pomažući u smanjenju otoka, ublažavanju bola i olakšavanju oporavka od povreda ili naprezanja skočnog zgloba. Namenjena je očuvanju stabilnosti i mobilnosti tokom aktivnosti.",
-    category: "ortoze za koleno, zglob, stopalo",
-  },
-  {
-    id: 30,
-    title: "OKM-ortoza-podkoleno-nadkolena",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-podkoleno-nadkolena.jpeg",
-    description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
-  },
-  {
-    id: 31,
-    title: "OKM-LSO-mider",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-lso-mider.jpg",
-    description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
-  },
-
-  {
-    id: 32,
-    title: "OKM-ortoza-nadlaktice",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-nadlaktice.jpg",
-    description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
-  },
-  {
-    id: 33,
-    title: "OKM-ortoza-ručnog-zgloba",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-ručnog-zgloba.jpg",
-    description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
-  },
-  {
-    id: 34,
-    title: "OKM-TLSO-mider",
-    image_url:
-      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-tlso-mider.jpg",
-    description:
-      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
-    category: "okm sistem",
-  },
-  {
-    id: 35,
+    id: 8,
     title: "Mitela",
     image_url: "/assets/images/ortoze-pojasevi-mideri/mitela.png",
     description:
@@ -297,7 +65,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 36,
+    id: 9,
     title: "Ortoza-za-ručni-zgloba",
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-ručnog-zgloba.png",
     description:
@@ -305,7 +73,7 @@ const products = [
     category: "ortoza za rame, lakat, ručni zglob",
   },
   {
-    id: 37,
+    id: 10,
     title: "Ortoza-za-palac",
     image_url: "/assets/images/ortoze-pojasevi-mideri/ortoza-za-palac.png",
     description:
@@ -314,7 +82,7 @@ const products = [
   },
 
   {
-    id: 38,
+    id: 11,
     title: "Steznik-za-pravilno-držanje-ramena",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/steznik-za-pravilno-držanje-ramena.png",
@@ -324,7 +92,7 @@ const products = [
   },
 
   {
-    id: 39,
+    id: 12,
     title: "Ortoza-za-teniski-lakat",
     image_url: "/assets/images/ortoze-pojasevi-mideri/308.png",
     description:
@@ -332,7 +100,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 40,
+    id: 13,
     title: "Steznik-za-ruku",
     image_url: "/assets/images/ortoze-pojasevi-mideri/steznik-za-ruku.png",
     description:
@@ -340,7 +108,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 41,
+    id: 14,
     title: "bandazer-za-palac",
     image_url: "/assets/images/ortoze-pojasevi-mideri/bandazer-za-palac.jpeg",
     description:
@@ -348,7 +116,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 42,
+    id: 15,
     title: "HB-5324-ortoza-za-ruku",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/HB-5324-ortoza-za-ruku.jpeg",
@@ -357,7 +125,7 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 43,
+    id: 16,
     title: "ortoza-za-humerus-humeral-fracture-brace",
     image_url:
       "/assets/images/ortoze-pojasevi-mideri/medi-humeral-fracture-brace.jpeg",
@@ -366,12 +134,241 @@ const products = [
     category: "ortoze za rame, lakat, ručni zglob",
   },
   {
-    id: 44,
+    id: 17,
     title: "HB-5410-mitela",
     image_url: "/assets/images/ortoze-pojasevi-mideri/HB-5410-mitela.jpeg",
     description:
       "Mitela je ortopedsko pomagalo koji se koristi za imobilizaciju i podršku povređene ili oslabljene šake, ručnog zgloba i podlaktice. Obično je napravljen od čvrstih materijala poput plastike ili metala, a postavlja se oko ruke i podlaktice.",
     category: "ortoze za rame, lakat, ručni zglob",
+  },
+  {
+    id: 18,
+    title: "longeta-za-koleno",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/longeta-za-koleno.png",
+    description:
+      "Longeta za koleno je ortopedsko pomagalo koje pruža podršku i imobilizaciju kolena. Nosite je oko kolena kako biste ograničili pokrete, smanjili opterećenje ili stabilizovali zglob tokom oporavka nakon povreda ili operacije. Longeta pomaže u ublažavanju bolova, podržava pravilan položaj kolena i olakšava proces rehabilitacije. Važno je koristiti longetu prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 19,
+    title: "genu-steznik-za-koleno",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/genu-steznik-za-koleno.jpeg",
+    description:
+      "Steznik za koleno je ortopedski uređaj koji se nosi oko kolena radi podrške, stabilizacije i zaštite. Napravljen je od elastičnih materijala koji pružaju čvrsto prijanjanje uz koleno. Koristi se za smanjenje bolova, ublažavanje upale, ograničavanje pokreta radi oporavka od povrede ili rehabilitacije, kao i za sprečavanje novih povreda tokom aktivnosti koje opterećuju koleno. Steznik za koleno je često korišćen kod povreda ligamenata, mišića ili hrskavice, kao i kod stanja kao što su artritis ili nestabilnost kolena.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 20,
+    title: "genumedi-steznik-kolena",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/genumedi-steznik-kolena.jpeg",
+    description:
+      "Genumedi steznik za koleno je ortopedsko pomagalo koje se koristi za podršku, stabilizaciju i zaštitu kolena. Namenjen je smanjenju bolova, olakšavanju kretanja i sprečavanju daljih povreda. Ovaj steznik se obično nosi tokom aktivnosti koje opterećuju koleno ili tokom oporavka od povrede.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 21,
+    title: "HB-5106-traka-za-koleno",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/HB-5106-traka-za-koleno.jpeg",
+    description:
+      "Traka za koleno je ortopedsko pomagalo koje se koristi za podršku i stabilizaciju kolena. Obično se sastoji od elastične trake koja se nosi oko kolena radi smanjenja pritiska, ublažavanja bolova i poboljšanja stabilnosti zgloba. Ova traka pruža dodatnu podršku tokom aktivnosti koje opterećuju koleno, poput trčanja ili skakanja, te pomaže u održavanju pravilnog položaja zgloba.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 22,
+    title: "medi-classic-tutor-za-koleno",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/medi-classic-tutor-za-koleno.jpeg",
+    description:
+      "Tutor ortoza za imobilizaciju kolena je ortopedsko pomagalo koje se koristi za stabilizaciju i ograničavanje pokreta kolena. Ova ortoza se obično sastoji od čvrste konstrukcije koja se postavlja oko kolena kako bi ga imobilizovala i pružila podršku tokom oporavka od povrede ili operacije. Glavna svrha tutor ortoze za imobilizaciju kolena je da smanji pokrete, olakša ozdravljenje i spreči dodatne povrede tokom perioda oporavka.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 23,
+    title: "steznik-za-ahilovu-tetivu",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/steznik-za-ahilovu-tetivu.jpeg",
+    description:
+      "Steznik za Ahilovu tetivu je ortopedsko pomagalo koje se koristi za podršku i stabilizaciju Ahilove tetive, koja se nalazi na zadnjoj strani potkolenice. Ovaj steznik obično obuhvata petu i donji deo potkolenice, pružajući kompresiju i podršku tetivi. Koristi se za smanjenje bola, olakšavanje pokreta i ubrzavanje procesa oporavka nakon povrede Ahilove tetive.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 24,
+    title: "Steznik-za-koleno-100",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/100.png",
+    description:
+      "Steznik za koleno od neoprena je ortopedsko pomagalo napravljen od specifičnog materijala - neoprena. Ovaj steznik pruža kompresiju i podršku kolenu, pomažući u stabilizaciji i održavanju toplote na tom području. Neoprenski materijal omogućava fleksibilnost, udobnost i zadržavanje toplote, što je posebno korisno za ublažavanje bola, smanjenje otoka i olakšavanje oporavka od povreda ili oštećenja kolena.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 25,
+    title: "Patelarna-traka-110A",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/110A.png",
+    description:
+      "Patelarna traka je ortopedska podrška za koleno, fokusirana na patelu. Pruža kompresiju i stabilnost, pomažući u ublažavanju bola i smanjenju pritiska na patelu. Često se koristi u sportu i rehabilitaciji.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 26,
+    title: "Aktivni-steznik-114U",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/114U.png",
+    description:
+      "Aktivni steznik je ortopedsko pomagalo za podršku tokom aktivnosti. Pruža dinamičku podršku i kompresiju, omogućavajući slobodno kretanje. Idealan je za sportske aktivnosti radi smanjenja rizika od povreda i poboljšanja performansi.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 27,
+    title: "Aktivni-steznik-116U",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/116U.png",
+    description:
+      "Aktivni steznik pruža podršku tokom pokreta. Nudi dinamičku kompresiju za stabilnost mišića i zglobova, čineći ga idealnim za sportske aktivnosti. Olakšava kretanje i smanjuje rizik od povreda.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 28,
+    title: "Aktivni-steznik-120",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/120.png",
+    description:
+      "Aktivni steznik za koleno pruža dinamičku podršku i stabilnost tokom aktivnosti. Namenjen je očuvanju optimalnog položaja kolena, smanjenju rizika od povreda i olakšavanju oporavka.",
+  },
+  {
+    id: 29,
+    title: "Noćna-ortoza-za-čukljeve",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/noćna-ortoza-za-čukljeve.png",
+    description:
+      "Noćna ortoza za čukljeve je posebno ortopedsko pomagalo za nošenje tokom spavanja, namenjeno korekciji ili olakšavanju problema s čukljevima. Pruža udobnost, podršku i pomaže u ispravljanju položaja palca tokom noći, doprinoseći postizanju bolje strukture stopala.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 30,
+    title: "Peronealna-ortoza",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/peronealna-ortoza.png",
+    description:
+      'Peronealna ortoza je plastično pomagalo namenjen podršci osobama sa "palim stopalom" uzrokovanom oštećenjem peronealnog nerva, često posledicom moždanog udara. Održava stopalo pod pravim uglom od 90 stepeni u odnosu na potkolenicu, sprečavajući nekontrolisano padanje stopala pri hodanju. Veličina ortoze se prilagođava veličini cipela korisnika i preporučuje se nošenje u čvršćoj i dubljoj obući.',
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+
+  {
+    id: 31,
+    title: "Ortoza-za-koleno-sa-podesivim-zglobovima",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/rehab-kolena.png",
+    description:
+      "Ortoza za koleno sa podesivim zglobovima pruža podršku i stabilnost uz mogućnost prilagođavanja pokreta prema potrebama. Pomaže u ograničavanju neprirodnih pokreta, podržava rehabilitaciju i smanjuje rizik od povreda koljena.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 32,
+    title: "Steznik-za-grudni-koš",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/steznik-za-grudni-koš.png",
+    description:
+      "Steznik za grudni koš je medicinsko pomagalo dizajnirano da pruži podršku i stabilnost grudnom košu. Koristi se u terapeutske svrhe, poput smanjenja pokreta tokom oporavka nakon povreda ili operacija na grudnom području. Ovi steznici obično imaju prilagodljiv dizajn i čvrstu konstrukciju kako bi održali stabilnost i podršku tokom procesa oporavka. Važno je koristiti ih prema preporukama medicinskog stručnjaka radi optimalnih terapijskih rezultata.",
+    category: "mideri",
+  },
+  {
+    id: 33,
+    title: "lumbalni-mider",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/lumbalni-mider.png",
+    description:
+      "Lumbalni mider je ortopedsko pomagalo dizajnirano za pružanje podrške i stabilnosti u donjem delu leđa. Ovi pojasevi se obično nose oko struka i pružaju kompresiju kako bi smanjili opterećenje na lumbalnom delu kičme. Koriste se radi olakšavanja bolova, podrške pri rehabilitaciji ili održavanja pravilnog položaja kičme. Važno je koristiti lumbalni mider prema preporukama stručnjaka za postizanje najboljih terapijskih rezultata.",
+    category: "mideri",
+  },
+  {
+    id: 34,
+    title: "Postoperativni-mider",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/postoperativni-mider.png",
+    description:
+      "Postoperativni mider je ortopedsko pomagalo koje pruža podršku, kompresiju i stabilnost nakon operacije. Nosite ga oko trbuha ili leđa kako biste ublažili otok i održali potrebnu podršku tokom procesa oporavka. Važno je koristiti mider prema preporukama stručnjaka radi optimalnog oporavka.",
+    category: "mideri",
+  },
+  {
+    id: 35,
+    title: "torakolumbalni-mider",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/torakolumbalni-mider.png",
+    description:
+      "Torakolumbalni mider je ortopedsko pomagalo za podršku i stabilnost srednjeg i donjeg dela leđa. Nosite ga oko tela radi smanjenja bolova, olakšavanja rehabilitacije ili održavanja pravilnog položaja kičme. Važno je koristiti ga prema preporukama stručnjaka za optimalne terapijske rezultate.",
+    category: "mideri",
+  },
+  {
+    id: 36,
+    title: "trudnički-pojas",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/trudnički-pojas.png",
+    description:
+      "Trudnički pojas predstavlja ortopedski dodatak namenjen trudnicama za pružanje podrške tokom trudnoće. Izrađen od elastičnih materijala prilagodljivih rastućem stomaku, ovaj pojas ima zadatak ublažavanja pritiska na donjem delu leđa, pružanja potpore trbušnim mišićima i poboljšanja opšteg komfora. Njegova pravilna upotreba, prema preporukama stručnjaka, može značajno doprineti smanjenju nelagodnosti tokom trudničkih meseci.",
+    category: "pojasevi",
+  },
+  {
+    id: 37,
+    title: "protect-abdominal-support-front",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/protect-abdominal-support-front.jpeg",
+    description:
+      "Abdominalni pojas je ortopedsko pomagalo koji pruža podršku i stabilnost trbušnom ili grudnom delu tela. Koristi se radi ublažavanja bolova, poboljšanja držanja tela i olakšavanja svakodnevnih aktivnosti. Ovi uređaji mogu biti izrađeni od različitih materijala i oblika, prilagođeni individualnim potrebama korisnika kako bi im pružili optimalnu podršku i udobnost.",
+    category: "pojasevi",
+  },
+  {
+    id: 38,
+    title: "HB-pojas-za-kičmu",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/HB-pojas-za-kicmu.jpeg",
+    description:
+      "Elastični pojas za korekciju držanja je ortopedsko pomagalo koji se nosi oko tela radi poboljšanja držanja tela. Napravljen je od elastičnih materijala sa plastičnim ojačanjima i koristi se kako bi podržao kičmu i održavao pravilno držanje, smanjujući napetost i nelagodnost u leđima. Ovaj pojas podstiče pravilan položaj tela i pomaže u prevenciji lošeg držanja i problema sa leđima.",
+    category: "pojasevi",
+  },
+  {
+    id: 39,
+    title: "Traka-bandaža-za-skočni-zglob-406 ",
+    image_url: "/assets/images/ortoze-pojasevi-mideri/406.png",
+    description:
+      "Bandaž traka za skočni zglob je ortopedska podrška koja se koristi za stabilizaciju i podršku skočnom zglobu. Ova traka pruža kompresiju i ograničava pokrete, pomažući u smanjenju otoka, ublažavanju bola i olakšavanju oporavka od povreda ili naprezanja skočnog zgloba. Namenjena je očuvanju stabilnosti i mobilnosti tokom aktivnosti.",
+    category: "ortoze za koleno, zglob, stopalo",
+  },
+  {
+    id: 40,
+    title: "OKM-ortoza-podkoleno-nadkolena",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-podkoleno-nadkolena.jpeg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
+  },
+  {
+    id: 41,
+    title: "OKM-LSO-mider",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-lso-mider.jpg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
+  },
+  {
+    id: 42,
+    title: "OKM-ortoza-nadlaktice",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-nadlaktice.jpg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
+  },
+  {
+    id: 43,
+    title: "OKM-ortoza-ručnog-zgloba",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-ortoza-ručnog-zgloba.jpg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
+  },
+  {
+    id: 44,
+    title: "OKM-TLSO-mider",
+    image_url:
+      "/assets/images/ortoze-pojasevi-mideri/okm-sistem/okm-tlso-mider.jpg",
+    description:
+      "OKM SISTEM je individualno prilagodljiv sistem za imobilizaciju koji se sastoji od 100% pamučne elastične tkanine i vrste poliuretanske pene. Omogućava preciznu kopiju dela tela koji se imobiliše. Prednosti sistema su brzina i lakoća aplikacije, a osnovna karakteristika je njegova mala težina.Potpuna je zamena za gips.",
+    category: "okm sistem",
   },
   {
     id: 45,
