@@ -403,7 +403,7 @@ const products = [
   },
   {
     id: 49,
-    title: "Silikonski-ulošci-za-obuću-806",
+    title: "Silikonski-ulošci-za-obuću",
     image_url: "/assets/images/ortopedski-ulosci-obuca/806.png",
     description:
       "Silikonski ulošci za obuću pružaju dodatnu udobnost i podršku stopalu. Izrađeni od mekanog silikonskog materijala, apsorbuju udarce i ublažavaju pritisak na stopalu, čineći hodanje ugodnijim. Namenjeni su poboljšanju udobnosti i smanjenju nelagodnosti pri nošenju obuće.",
