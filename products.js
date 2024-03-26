@@ -771,7 +771,7 @@ const products = [
   {
     id: 97,
     title: "štake-podpazušne",
-    image_url: "/assets/images/stake-hodalice/štake-podpazušne.png",
+    image_url: "/assets/images/stake-hodalice/štake-podpazusne.png",
     description:
       "Podpazušne štake su ortopedska pomagala koja pružaju podršku pri hodanju. Postavljaju se ispod pazuha, pružajući stabilnost i omogućavajući korisniku da ravnomerno rasporedi težinu tela. Ove štake su posebno dizajnirane za udobnost i koriste se kako bi se olakšalo kretanje osobama smanjene pokretljivosti ili onima koji se oporavljaju od povreda donjih ekstremiteta.",
     category: "hodalice, štake",
@@ -779,7 +779,7 @@ const products = [
   {
     id: 98,
     title: "štake-podpazušne-aluminijumske",
-    image_url: "/assets/images/stake-hodalice/podpazušne-aluminijumske-stake.jpeg",
+    image_url: "/assets/images/stake-hodalice/podpazusne-aluminijumske-stake.jpeg",
     description:
       "Podpazušne aluminijumske štake su ortopedska pomagala koja se koriste za podršku prilikom hodanja. Napravljene su od aluminijuma radi lakše manipulacije, a drške su obložene mekim materijalom radi udobnosti. Ova vrsta štaka ima naslone ispod pazuha radi stabilnosti i raspoređivanja težine tela, što omogućava korisniku da se lakše kreće i održava stabilnost dok hoda.",
     category: "hodalice, štake",
