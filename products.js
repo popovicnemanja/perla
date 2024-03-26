@@ -403,14 +403,14 @@ const products = [
   },
   {
     id: 49,
-    title: "Silikonski-ulošci-za-obuću",
+    title: "Silikonski-ulošci-za-obuću-806",
     image_url: "/assets/images/ortopedski-ulosci-obuca/806.png",
     description:
       "Silikonski ulošci za obuću pružaju dodatnu udobnost i podršku stopalu. Izrađeni od mekanog silikonskog materijala, apsorbuju udarce i ublažavaju pritisak na stopalu, čineći hodanje ugodnijim. Namenjeni su poboljšanju udobnosti i smanjenju nelagodnosti pri nošenju obuće.",
     category: "ulošci i obuća",
   },
   {
-    id: 49,
+    id: 50,
     title: "silikonski-ulosci-ANATOMIK",
     image_url: "/assets/images/ortopedski-ulosci-obuca/silikonski-ulosci-ANATOMIK.webp",
     description:
@@ -418,7 +418,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 50,
+    id: 51,
     title: "Silikonski-ulošci-za-decu",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/dečiji-silikonski-ulošci.png",
@@ -427,7 +427,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 51,
+    id: 52,
     title: "Petne-povišice",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/petne-povisice.jpeg",
@@ -436,7 +436,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 52,
+    id: 53,
     title: "Anatomski-silikonski-ulošci-za-odrasle",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/anatomski-silikonski-ulosci-za-odrasle.jpeg",
@@ -445,7 +445,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 53,
+    id: 54,
     title: "Ulošci-po-otisku-stopala",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/ulosci-po-otisku-stopala.jpeg",
@@ -454,7 +454,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 54,
+    id: 55,
     title: "Uzimanje-mere-stopala-u-peni",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/uzimanje-mere-u-peni.jpeg",
@@ -463,7 +463,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 55,
+    id: 56,
     title: "Igli-ulosci",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/igli-ulosci.png",
@@ -472,7 +472,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 56,
+    id: 57,
     title: "Perforirani-petni-podmetač",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/perforirani-petni-podmetac.png",
@@ -481,7 +481,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 57,
+    id: 58,
     title: "Petni-podmetači",
     image_url: "/assets/images/ortopedski-ulosci-obuca/petni-podmetaci.png",
     description:
@@ -489,7 +489,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 58,
+    id: 59,
     title: "Silikonski-ulošci-za-odrasle",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/silikonski-ulosci-za-odrasle.png",
@@ -498,7 +498,7 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 59,
+    id: 60,
     title: "Tročetvrtinski-ulošci",
     image_url:
       "/assets/images/ortopedski-ulosci-obuca/trocetvrtinski-ulosci.png",
@@ -507,175 +507,175 @@ const products = [
     category: "ulošci i obuća",
   },
   {
-    id: 60,
+    id: 61,
     title: "perika-Alexandra",
     image_url: "/assets/images/perike-i-turbani/perika-alexandra.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 61,
+    id: 62,
     title: "perika-Angelica",
     image_url: "/assets/images/perike-i-turbani/perika-angelica.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 62,
+    id: 63,
     title: "perika-April",
     image_url: "/assets/images/perike-i-turbani/perika-april.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 63,
+    id: 64,
     title: "perika-Arabella",
     image_url: "/assets/images/perike-i-turbani/perika-arabella.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 64,
+    id: 65,
     title: "perika-Catherina",
     image_url: "/assets/images/perike-i-turbani/perika-catherina.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 65,
+    id: 66,
     title: "perika-Christina",
     image_url: "/assets/images/perike-i-turbani/perika-christina.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 66,
+    id: 67,
     title: "perika-Claire-life",
     image_url: "/assets/images/perike-i-turbani/perika-claire-life.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 67,
+    id: 68,
     title: "perika-Evie",
     image_url: "/assets/images/perike-i-turbani/perika-evie.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 68,
+    id: 69,
     title: "perika-Gabi",
     image_url: "/assets/images/perike-i-turbani/perika-gabi.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 69,
+    id: 70,
     title: "perika-Honora",
     image_url: "/assets/images/perike-i-turbani/perika-honora.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 70,
+    id: 71,
     title: "perika-Jenifer",
     image_url: "/assets/images/perike-i-turbani/perika-jenifer.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 71,
+    id: 72,
     title: "perika-Megan",
     image_url: "/assets/images/perike-i-turbani/perika-megan.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 72,
+    id: 73,
     title: "perika-Montgomery",
     image_url: "/assets/images/perike-i-turbani/perika-montgomery.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 73,
+    id: 74,
     title: "perika-Poppy",
     image_url: "/assets/images/perike-i-turbani/perika-poppy.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 74,
+    id: 75,
     title: "perika-Sandra",
     image_url: "/assets/images/perike-i-turbani/perika-sandra.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 75,
+    id: 76,
     title: "perika-Sonya-Life",
     image_url: "/assets/images/perike-i-turbani/perika-sonya-life.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 76,
+    id: 77,
     title: "perika-Tamsin",
     image_url: "/assets/images/perike-i-turbani/perika-tamsin.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 77,
+    id: 78,
     title: "perika-tilly",
     image_url: "/assets/images/perike-i-turbani/perika-tilly.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 78,
+    id: 79,
     title: "perika-Tony-Life",
     image_url: "/assets/images/perike-i-turbani/perika-tony-life.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 79,
+    id: 80,
     title: "perika-Winter",
     image_url: "/assets/images/perike-i-turbani/perika-winter.png",
     description: "Medicinska perika",
     category: "perike i turbani",
   },
   {
-    id: 80,
+    id: 81,
     title: "Letnji-turban-ljubičasti",
     image_url: "/assets/images/perike-i-turbani/letnji-turban-ljubicasti.jpeg",
     description: "Letnji turban ljubičasti",
     category: "perike i turbani",
   },
   {
-    id: 81,
+    id: 82,
     title: "Letnji-turban-plavi",
     image_url: "/assets/images/perike-i-turbani/letnji-turban-plavi.jpeg",
     description: "Letnji turban plavi",
     category: "perike i turbani",
   },
   {
-    id: 82,
+    id: 83,
     title: "Turbani-1",
     image_url: "/assets/images/perike-i-turbani/turbani-1.jpeg",
     description: "Turbani",
     category: "perike i turbani",
   },
   {
-    id: 83,
+    id: 84,
     title: "Turbani-2",
     image_url: "/assets/images/perike-i-turbani/turbani-2.jpeg",
     description: "Turbani",
     category: "perike i turbani",
   },
   {
-    id: 84,
+    id: 85,
     title: "3223-elektromotorna-kolica",
     image_url: "/assets/images/kolica/3223-elektromotorna-kolica.png",
     description:
@@ -683,7 +683,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 85,
+    id: 86,
     title: "mehanička-kolica",
     image_url: "/assets/images/kolica/mehanička-kolica.png",
     description:
@@ -691,7 +691,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 86,
+    id: 87,
     title: "mehanička-kolica-gemini-blue",
     image_url: "/assets/images/kolica/mehanicka-kolica-gemini-blue.png",
     description:
@@ -699,7 +699,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 87,
+    id: 88,
     title: "mehanička-kolica-mobiak",
     image_url: "/assets/images/kolica/mehanicka-kolica-mobiak.jpeg",
     description:
@@ -707,7 +707,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 88,
+    id: 89,
     title: "1033-elektromotorna-kolica",
     image_url: "/assets/images/kolica/1033-elektromotorna-kolica.png",
     description:
@@ -715,7 +715,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 89,
+    id: 90,
     title: "kolica",
     image_url: "/assets/images/kolica/kolica.png",
     description:
@@ -723,7 +723,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 90,
+    id: 91,
     title: "aktivna-kolica",
     image_url: "/assets/images/kolica/laka-aktivna-kolica.png",
     description:
@@ -731,7 +731,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 91,
+    id: 92,
     title: "Aktivna-invalidska-kolica",
     image_url: "/assets/images/kolica/aktivna-invalidska-kolica.png",
     description:
@@ -739,7 +739,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 92,
+    id: 93,
     title: "dečija-kolica",
     image_url: "/assets/images/kolica/dečija-kolica.png",
     description:
@@ -747,7 +747,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 93,
+    id: 94,
     title: "dečija-kolica-PIPER",
     image_url: "/assets/images/kolica/decija-kolica-piper.jpeg",
     description:
@@ -755,7 +755,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 94,
+    id: 95,
     title: "dečija-kolica-korzino",
     image_url: "/assets/images/kolica/decija-kolica-corzino.jpeg",
     description:
@@ -763,7 +763,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 95,
+    id: 96,
     title: "dečija-kolica-rainbow",
     image_url: "/assets/images/kolica/decija-kolica-rainbow.png",
     description:
@@ -771,7 +771,7 @@ const products = [
     category: "kolica",
   },
   {
-    id: 96,
+    id: 97,
     title: "hodalica-podlaktna",
     image_url: "/assets/images/stake-hodalice/hodalica-podlaktna.png",
     description:
@@ -779,7 +779,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 97,
+    id: 98,
     title: "hodalica-sa-dva-točka",
     image_url: "/assets/images/stake-hodalice/hodalica-sa-dva-točka.png",
     description:
@@ -787,7 +787,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 98,
+    id: 99,
     title: "hodalica",
     image_url: "/assets/images/stake-hodalice/hodalica.png",
     description:
@@ -795,7 +795,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 99,
+    id: 100,
     title: "hodalica-sa-točkićima",
     image_url: "/assets/images/stake-hodalice/hodalica-sa-tockicima.jpeg",
     description:
@@ -803,7 +803,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 100,
+    id: 101,
     title: "štaka-podlakatna",
     image_url: "/assets/images/stake-hodalice/štaka-podlakatna.png",
     description:
@@ -811,7 +811,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 101,
+    id: 102,
     title: "štake-podlakatne",
     image_url: "/assets/images/stake-hodalice/podlakatne-stake.jpeg",
     description:
@@ -819,7 +819,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 102,
+    id: 103,
     title: "štake-podpazušne",
     image_url: "/assets/images/stake-hodalice/štake-podpazusne.png",
     description:
@@ -827,7 +827,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 103,
+    id: 104,
     title: "štake-podpazušne-aluminijumske",
     image_url: "/assets/images/stake-hodalice/podpazusne-aluminijumske-stake.jpeg",
     description:
@@ -835,7 +835,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 104,
+    id: 105,
     title: "štap-sklopivi",
     image_url: "/assets/images/stake-hodalice/štap-sklopivi.png",
     description:
@@ -843,7 +843,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 105,
+    id: 106,
     title: "štap-na-rasklapanje",
     image_url: "/assets/images/stake-hodalice/stap-na-rasklapanje.jpeg",
     description:
@@ -851,7 +851,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 106,
+    id: 107,
     title: "četvorožilni-štap",
     image_url: "/assets/images/stake-hodalice/cetvorozilni-stap.jpeg",
     description:
@@ -859,7 +859,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 107,
+    id: 108,
     title: "trožilni-štap",
     image_url: "/assets/images/stake-hodalice/trozilni-stap.jpeg",
     description:
@@ -867,7 +867,7 @@ const products = [
     category: "hodalice, štake",
   },
   {
-    id: 108,
+    id: 109,
     title: "Nastavak-za-WC-sa-poklopcem",
     image_url: "/assets/images/toaletni-program/nastavak-sa-poklopcem.png",
     description:
@@ -875,7 +875,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 109,
+    id: 110,
     title: "Nastavak-za-wc",
     image_url: "/assets/images/toaletni-program/nastavak-za-wc.png",
     description:
@@ -883,7 +883,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 110,
+    id: 111,
     title: "sedište-za-kadu-sa-naslonom",
     image_url:
       "/assets/images/toaletni-program/sedište-za-kadu-sa-naslonom.png",
@@ -892,7 +892,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 111,
+    id: 112,
     title: "Toaletna-kolica",
     image_url: "/assets/images/toaletni-program/toaletna-kolica.png",
     description:
@@ -900,7 +900,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 112,
+    id: 113,
     title: "Toaletna-stolica-sa-točkićima",
     image_url:
       "/assets/images/toaletni-program/toaletna-stolica-sa-točkićima.png",
@@ -909,7 +909,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 113,
+    id: 114,
     title: "Sedište-za-kadu",
     image_url: "/assets/images/toaletni-program/sedište-za-kadu.png",
     description:
@@ -917,7 +917,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 114,
+    id: 115,
     title: "Daska-za-kadu",
     image_url: "/assets/images/toaletni-program/daska-za-kadu.jpeg",
     description:
@@ -925,7 +925,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 115,
+    id: 116,
     title: "Stepenik-za-kadu",
     image_url: "/assets/images/toaletni-program/stepenik-za-kadu.jpeg",
     description:
@@ -933,7 +933,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 116,
+    id: 117,
     title: "Stolica-za-kadu",
     image_url: "/assets/images/toaletni-program/stolica-za-kadu.jpeg",
     description:
@@ -941,7 +941,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 117,
+    id: 118,
     title: "Stolica-za-tuš-kabinu-bez-naslona",
     image_url: "/assets/images/toaletni-program/stolica-za-tus-kabinu-bez-naslona.jpeg",
     description:
@@ -949,7 +949,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 118,
+    id: 119,
     title: "Stolica-za-tuš-kabinu",
     image_url: "/assets/images/toaletni-program/stolica-za-tus-kabinu.jpeg",
     description:
@@ -957,7 +957,7 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 119,
+    id: 120,
     title: "Sedište-za-kadu",
     image_url: "/assets/images/toaletni-program/sedište-za-kadu.png",
     description:
@@ -965,14 +965,14 @@ const products = [
     category: "toaletni program",
   },
   {
-    id: 120,
+    id: 121,
     title: "ritasb-2004",
     image_url: "/assets/images/grudnjaci-proteze-dojke/ritasb-2004.png",
     description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 121,
+    id: 122,
     title: "1151-nancy-sb-light-sand",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/1151-nancy-sb-light-sand.png",
@@ -980,21 +980,21 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 122,
+    id: 123,
     title: "2004-rita-sb-black",
     image_url: "/assets/images/grudnjaci-proteze-dojke/2004-rita-sb-black.png",
     description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 123,
+    id: 124,
     title: "2004-rita-sb-sand",
     image_url: "/assets/images/grudnjaci-proteze-dojke/2004-rita-sb-sand.png",
     description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 117,
+    id: 125,
     title: "2128-frances-sb-FC-black",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/2128-frances-sb-FC-black.png",
@@ -1002,7 +1002,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 124,
+    id: 126,
     title: "44480-1151-44807-44417-44024-nancy-SB",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/44480-1151-44807-44417-44024-nancy-SB.png",
@@ -1010,7 +1010,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 125,
+    id: 127,
     title: "44534-mara-sbp-off-white",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/44534-mara-sbp-off-white.png",
@@ -1018,7 +1018,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 126,
+    id: 128,
     title: "44801-tessa-sb-blush",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/44801-tessa-sb-blush.png",
@@ -1026,7 +1026,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 127,
+    id: 129,
     title: "frances-sb-2128-white",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/frances-sb-2128-white.png",
@@ -1034,14 +1034,14 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 128,
+    id: 130,
     title: "frances-sb-2128",
     image_url: "/assets/images/grudnjaci-proteze-dojke/frances-sb-2128.png",
     description: "Ortopedski grudnjak",
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 129,
+    id: 131,
     title: "isabel-sb-beli-ortopedski-grudnjak-za-karcinom-dojke",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/isabelsb-beli-ortopedski-grudnjak-za-karcinom-dojke.png",
@@ -1049,7 +1049,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 130,
+    id: 132,
     title: "Isabelsb-crni_ortopedski-grudnjak-za-karcinom-dojke",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/Isabelsb-crni_ortopedski-grudnjak-za-karcinom-dojke.png",
@@ -1057,7 +1057,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 131,
+    id: 133,
     title: "nancy-1151-lightnude",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/nancy-1151-lightnude.png",
@@ -1065,7 +1065,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 132,
+    id: 134,
     title: "nancy-sb-black-44870",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/nancy-sb-black-44870.png",
@@ -1073,7 +1073,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 133,
+    id: 135,
     title: "basic-proteza-dojke-amoena",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/basic-proteza-dojke-amoena.jpeg",
@@ -1081,7 +1081,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 134,
+    id: 136,
     title: "essential-2a-grudna-proteza-lagana-amoena",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/essential-2a-grudna-proteza-lagana-amoena1.jpeg",
@@ -1089,7 +1089,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 135,
+    id: 137,
     title: "lifestyle-balance-contact-umetci-za-grudi",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/lifestyle-balance-contact-umetci-za-grudi.jpeg",
@@ -1097,7 +1097,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 136,
+    id: 138,
     title: "lifestyle-contact-proteza-dojke-amoena",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/lifestyle-contact-proteza-dojke-amoena.jpeg",
@@ -1105,7 +1105,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 137,
+    id: 139,
     title: "lifestyle-natura-extra-light-proteza-dojke",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/lifestyle-natura-extra-light-proteza-dojke.jpeg",
@@ -1113,7 +1113,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 138,
+    id: 140,
     title: "proteza-dojke",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/proteza dojke.jpeg",
@@ -1121,7 +1121,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 139,
+    id: 141,
     title: "proteza-dojke-2",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/proteza-dojke-2.jpeg",
@@ -1129,7 +1129,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 140,
+    id: 142,
     title: "proteza-dojke-3",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/proteza-dojke-3.jpeg",
@@ -1137,7 +1137,7 @@ const products = [
     category: "proteze dojke i ortopedski grudnjaci",
   },
   {
-    id: 141,
+    id: 143,
     title: "standard-priform-proteza-dojke",
     image_url:
       "/assets/images/grudnjaci-proteze-dojke/standard-priform-proteza-dojke.jpeg",
