@@ -935,7 +935,7 @@ const products = [
   {
     id: 116,
     title: "Stolica-za-kadu",
-    image_url: "/assets/images/toaletni-program/Stolica-za-kadu.jpeg",
+    image_url: "/assets/images/toaletni-program/stolica-za-kadu.jpeg",
     description:
       "Stolica za kadu je vodootporna stolica koja omogućava udobno sedenje prilikom tuširanja ili kupanja. Dizajnirana je sa antiklizajućom površinom i čvrstom konstrukcijom za sigurnost i stabilnost. Idealan je pomoćni proizvod za starije osobe i osobe sa smanjenom pokretljivošću, olakšavajući im svakodnevnu higijenu u kadi.",
     category: "toaletni program",
